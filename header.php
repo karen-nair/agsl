@@ -152,7 +152,7 @@
         box-shadow: 0px 0px 10px #FDAC41;
         background-color: #d8910f;
     }
-    .tab-info, .tab-success, .tab-warning, .tab-blue {
+    .tab-info, .tab-success, .tab-warning, .tab-blue, .tab-blue-gradient {
        min-height: 40px;
        transform: skew(-10deg);
        color: white;
@@ -184,6 +184,10 @@
 
 
 
+}
+
+.tab-blue-gradient {
+    background-image: linear-gradient(to right, #2a3d56 , #000);
 }
 
 .last-wrapper {
