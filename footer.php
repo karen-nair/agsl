@@ -13,23 +13,31 @@
     <footer class="footer footer-static footer-light">
         <div class="row">
          <div class="col-3 text-center">
-            <img  src="app-assets/images/home/home-active.PNG" height="24" width="24">
-            <p class="grey-font">Home</p>
+            <a href="index.php">
+                <img  src="app-assets/images/home/home-active.PNG" height="24" width="24">
+                <p class="grey-font">Home</p>
+            </a>
           </div>
           <div class="col-3 text-center">
+             <a href="mynews.php">
             <img src="app-assets/images/home/news-active.PNG" height="24" width="24">
 
             <p class="grey-font">News</p>
+            </a>
           </div>
           <div class="col-3 text-center">
+            <a href="assets.php">
             <img src="app-assets/images/home/assets-active.PNG" height="24" width="24">
 
             <p class="grey-font">Assets</p>
+            </a>
           </div>
           <div class="col-3 text-center">
+            <a href="account.php">
             <img src="app-assets/images/home/account-active.PNG" height="24" width="24">
 
             <p class="grey-font">Account</p>
+            </a>
           </div>
       </div>
     </footer>
