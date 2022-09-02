@@ -37,222 +37,11 @@
 
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
     <!-- END: Custom CSS-->
 
-<style type="text/css">
-    @media screen and (min-width: 1200px) {
-    .content_wrapper {
-      width: 600px;
-      margin: 0 auto;
-    }
 
-     #navbar-mobile.navbar-collapse .navbar-nav .dropdown-menu
-    {
-        right: 60px !important;
-        
-    }
-    footer {
-
-        width: 50%;
-
-    }
-    .play-wrapper {
-        height: 500px;
-    background-position-y: center;
-    background-size: cover;
-    top: 50px;
-    margin: 0 auto;
-    }
-    .play-wrapper h1 {
-
-  top: 170px;
-
-}
-
-
-  }
-@media screen and (max-width: 1199px) {
-  .horizontal-menu .header-navbar.navbar-brand-center .navbar-header .navbar-brand .brand-logo .logo
-  {
-    height: 30px;
-    position: relative;
-    left: -480%;
-    top: -60%;
-    }
-
-     #navbar-mobile.navbar-collapse .navbar-nav .dropdown-menu
-    {
-        left: 260px !important;
-        
-    }
-
-    footer {
-        width: 100%;
-
-    }
-
-    .tab-info, .tab-success, .tab-warning {
-        width: 108px;
-       font-size: 10px;
-       left: -10px;
-
-
-    }
-    .play-wrapper {
-        height: 400px;
-        background-position-y:center;
-        background-size: cover;
-        top:50px;
-    }
-
-     .play-wrapper h1 {
-
-  top: 130px;
-
-}
-
-}
-
-  .horizontal-menu .header-navbar
-    {
-      background-color: transparent !important;
-    }
-
-    .horizontal-layout .header-navbar .navbar-container
-    {
-        padding:  0;
-    }
-    .dropdown-menu {
-     /*   left: 0;
-        right: 10px;*/
-        width: 100px !important;
-        min-width:  20px !important;
-    }
-
-
-    footer .grey-font {
-        font-size: 10px;
-        text-align: center;
-    }
-    .tab-success {
-        box-shadow: 0px 0px 10px #39DA8A; 
-        background-color: #7bba2d;
-    }
-    .tab-info {
-        box-shadow: 0px 0px 10px #00cfdd;
-        background-color: #5cc3cf;
-    }
-    .tab-blue {
-        background-color: #4d75a7;
-    }
-    .tab-warning {
-        box-shadow: 0px 0px 10px #FDAC41;
-        background-color: #d8910f;
-    }
-    .tab-info, .tab-success, .tab-warning, .tab-blue, .tab-blue-gradient {
-       min-height: 40px;
-       transform: skew(-10deg);
-       color: white;
-       border-radius: 10px;
-       padding: 0 10px;
-       position: relative;
-
-      line-height: 12px;
-      text-align: center;
-      border: 2px solid transparent;
-    }
-  span {
-     display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-
-.play-wrapper {
-
-  text-align: center;
-}
-.play-wrapper h1 {
-     display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-    position: relative;
-    color: white;
-    font-size: 20px;
-
-
-
-}
-
-.tab-blue-gradient {
-    background-image: linear-gradient(to right, #2a3d56 , #000);
-}
-
-.last-wrapper {
-        height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    margin: 0 auto;
-}
-
-.inner-line {
-    color:#4a4a4b;text-align: center;font-size: 10px;padding:30px 10px;
-
-}
-.outer-line {
-    box-shadow: 0px 0px 10px #17181b; 
-}
-
-.collapse-title{
-    color: #c2d7e8;
-}
-.grey-font {
-    color: #636467;
-}
-.white-font {
-    color: #fff;
-}
-.horizontal-menu .header-navbar{
-    border-bottom: none !important;
-}
-
-footer img {
-    width: 24px;
-    height: 24px;
-
-}
-footer img.active {
-        width: 40px;
-    height: 40px;
-    top: -8px;
-    position: relative;
-
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-}
-footer .white-font  {
-    top: -15px;
-    position: relative;
-    font-size: 10px;
-    text-transform: uppercase;
-}
-
-footer .grey-font {
-    text-transform: uppercase;
-
-}
-.footer-inner {
-
-    border-radius: 5px;
-    padding-bottom: 0;
-    padding-top: 10px;
-    height: 60px;
-    background-color: #25272b;
-}
-</style>
 </head>
 <!-- END: Head-->
 
@@ -260,52 +49,17 @@ footer .grey-font {
 
 <body style="background-image: url('app-assets/images/home/bg.PNG');background-size: cover;background-repeat: no-repeat;background-color: #0b0c10;" style="border: 2px solid blue;background-color: transparent !important;" class="horizontal-layout horizontal-menu navbar-static 2-columns   footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="2-columns">
 <div class="content_wrapper">
-    <!-- BEGIN: Header-->
-    <nav class="header-navbar navbar-expand-lg navbar navbar-with-menu navbar-static-top navbar-brand-center" style="background-image: url('app-assets/images/home/border.PNG');background-size: contain;background-position-y:20px;">
-        <div class="navbar-header">
-            <ul class="nav navbar-nav flex-row">
-                <li class="nav-item">
-                    <a class="navbar-brand" href="index.php">
-                 <div class="brand-logo"><img class="logo" src="app-assets/images/home/logo.PNG"></div>
-                      
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="navbar-wrapper">
-            <div class="navbar-container content">
-                <div class="navbar-collapse" id="navbar-mobile">
-                    <div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item mobile-menu mr-auto"><a class="nav-link nav-menu-main menu-toggle" href="javascript:void(0);"><img width="25" height="auto" src="app-assets/images/home/hppc.png"></a></li>
-                        </ul>
-                        
-                    </div>
-                    <ul class="nav navbar-nav float-right d-flex align-items-center">
-                        <li class="dropdown dropdown-language nav-item"><a class="dropdown-toggle nav-link" id="dropdown-flag" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-us"></i><span class="selected-language d-lg-inline d-none"></span></a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown-flag">
-                                <a class="dropdown-item" href="javascript:void(0);">
-                                    <i class="flag-icon flag-icon-us mr-50"></i>
-                                </a>
-                                <a class="dropdown-item" href="javascript:void(0);">
-                                    <i class="flag-icon flag-icon-fr mr-50"></i>
-                                </a>
-                                <a class="dropdown-item" href="javascript:void(0);">
-                                    <i class="flag-icon flag-icon-de mr-50"></i>
-                                </a>
-                                <a class="dropdown-item" href="javascript:void(0);">
-                                    <i class="flag-icon flag-icon-pt mr-50"></i>
-                                </a>
-                            </div>
-                        </li>
-                        
-                       
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- END: Header-->
+    
+   <?php 
+   if (isset($menu2)) {
+    include('nav-menu2.php');
+
+   } else {
+    include('nav-menu.php');
+
+   }
+   ?>
+
 </div>
     <div class="content_wrapper">
 

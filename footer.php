@@ -17,20 +17,20 @@
         <div class="row">
          <div class="col-3 text-center">
             <a href="index.php">
-                <img src="app-assets/images/home/<?php echo (isset($active)&& $active == 'home'? 'home-active':'home');?>.PNG" class="<?php echo (isset($active)&& $active == 'home'? 'active':'');?>">
+                <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'home'? 'home-active':'home');?>.PNG" class="<?php echo (isset($active)&& $active == 'home'? 'active':'');?>">
                 <p class="<?php echo (isset($active)&& $active == 'home'? 'white-font':'grey-font');?>">Home</p>
             </a>
           </div>
           <div class="col-3 text-center">
              <a href="mynews.php">
-            <img src="app-assets/images/home/<?php echo (isset($active)&& $active == 'news'? 'news-active':'news');?>.PNG"  class="<?php echo (isset($active)&& $active == 'news'? 'active':'');?>">
+            <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'news'? 'news-active':'news');?>.PNG"  class="<?php echo (isset($active)&& $active == 'news'? 'active':'');?>">
 
             <p class="<?php echo (isset($active)&& $active == 'news'? 'white-font':'grey-font');?>">News</p>
             </a>
           </div>
           <div class="col-3 text-center">
             <a href="assets.php">
-            <img src="app-assets/images/home/<?php echo (isset($active)&& $active == 'asset'? 'asset-2':'asset');?>.PNG" class="<?php echo (isset($active)&& $active == 'asset'? 'active':'');?>">
+            <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'asset'? 'asset-2':'asset');?>.PNG" class="<?php echo (isset($active)&& $active == 'asset'? 'active':'');?>">
 
             <p class="<?php echo (isset($active)&& $active == 'asset'? 'white-font':'grey-font');?>">Assets</p>
             </a>
@@ -38,7 +38,7 @@
           <div class="col-3 text-center">
             <a href="account.php">
                 
-            <img src="app-assets/images/home/<?php echo (isset($active)&& $active == 'account'? 'account-active':'account');?>.PNG" class="<?php echo (isset($active)&& $active == 'account'? 'active':'');?>">
+            <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'account'? 'account-active':'account');?>.PNG" class="<?php echo (isset($active)&& $active == 'account'? 'active':'');?>">
 
             <p class="<?php echo (isset($active)&& $active == 'account'? 'white-font':'grey-font');?>">Account</p>
             </a>

@@ -1,4 +1,7 @@
-<?php include('header.php');?>
+<?php 
+$active = 'account';
+include('header.php');
+?>
 
 <div class="row">
     <div class="col-12">
@@ -47,37 +50,55 @@
 
     </div>
 
-    <div class="row">
-      <div class="col-3 outer-line">
-        <div class="inner-line">My Downline</div>
-      </div>
-      <div class="col-3 outer-line">
-        <div class="inner-line">My Downline</div>
-      </div>
-      <div class="col-3 outer-line">
-        <div class="inner-line">My Downline</div>
-      </div>
-      <div class="col-3 outer-line">
-        <div class="inner-line">My Downline</div>
-      </div>
+   <div class="row">
+     <div class="col-12" style="margin-bottom: 100px;">
+        <div class="row">
+          <div class="col-3 outer-line text-center">
+            <img class="acc-ico" src="app-assets/images/home/account/people.PNG">
+            <div class="inner-line">My Downline</div>
+          </div>
+          <div class="col-3 outer-line text-center">
+            <img class="acc-ico" src="app-assets/images/home/account/dollar.PNG">
 
-    </div>
+            <div class="inner-line text-center">My Play</div>
+          </div>
+          <div class="col-3 outer-line">
+            <img class="acc-ico" src="app-assets/images/home/account/pencil.PNG">
 
-     <div class="row">
-      <div class="col-3 outer-line">
-        <div class="inner-line">My Downline</div>
-      </div>
-      <div class="col-3 outer-line">
-        <div class="inner-line">My Downline</div>
-      </div>
-      <div class="col-3 outer-line">
-        <div class="inner-line">My Downline</div>
-      </div>
-      <div class="col-3 outer-line">
-        <div class="inner-line">My Downline</div>
-      </div>
+            <div class="inner-line text-center">Edit Profile</div>
+          </div>
+          <div class="col-3 outer-line text-center">
+            <img class="acc-ico" src="app-assets/images/home/account/envelope.PNG">
 
-    </div>
+            <div class="inner-line text-center">Resend Verification</div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-3 outer-line text-center">
+            <img class="acc-ico" src="app-assets/images/home/account/padlock.PNG">
+            <div class="inner-line">Change Password</div>
+          </div>
+          <div class="col-3 outer-line text-center">
+            <img class="acc-ico" src="app-assets/images/home/account/dollar.PNG">
+
+            <div class="inner-line text-center">My Play</div>
+          </div>
+          <div class="col-3 outer-line">
+            <img class="acc-ico" src="app-assets/images/home/account/pencil.PNG">
+
+            <div class="inner-line text-center">Edit Profile</div>
+          </div>
+          <div class="col-3 outer-line text-center">
+            <img class="acc-ico" src="app-assets/images/home/account/envelope.PNG">
+
+            <div class="inner-line">Resend Verification</div>
+          </div>
+
+        </div>
+     </div>
+   </div>
 
 
 
