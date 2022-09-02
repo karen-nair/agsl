@@ -226,7 +226,6 @@ footer .grey-font {
 }
 
 /*********ACCOUNT*********************************************/
-
 .swal2-popup.swal2-modal.swal2-show {
     background-color: black;
     box-shadow: 0px 0px 10px #fdac41;
@@ -292,4 +291,13 @@ h2#swal2-title {
 
 .outer-line {
     box-shadow: 0px 10px 20px #17181b; 
+}
+
+/*****MY PLAY*************************************************/
+
+.play-time {
+    top: 15px;
+    position: relative;
+    color:#575758;
+    font-size: 11px;
 }
