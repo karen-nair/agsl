@@ -11,9 +11,27 @@
     <!-- BEGIN: Footer-->
     <div class="content_wrapper">
     <footer class="footer footer-static footer-light">
-        <p class="clearfix mb-0"><span class="float-left d-inline-block">2021 &copy; Karen</span><span class="float-right d-sm-inline-block d-none">Crafted with<i class="bx bxs-heart pink mx-50 font-small-3"></i>by<a class="text-uppercase" href="https://1.envato.market/Karen_portfolio" target="_blank">Karen</a></span>
-            <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="bx bx-up-arrow-alt"></i></button>
-        </p>
+        <div class="row">
+         <div class="col-3 text-center">
+            <img  src="app-assets/images/home/home-active.PNG" height="24" width="24">
+            <p class="grey-font">Home</p>
+          </div>
+          <div class="col-3 text-center">
+            <img src="app-assets/images/home/news-active.PNG" height="24" width="24">
+
+            <p class="grey-font">News</p>
+          </div>
+          <div class="col-3 text-center">
+            <img src="app-assets/images/home/assets-active.PNG" height="24" width="24">
+
+            <p class="grey-font">Assets</p>
+          </div>
+          <div class="col-3 text-center">
+            <img src="app-assets/images/home/account-active.PNG" height="24" width="24">
+
+            <p class="grey-font">Account</p>
+          </div>
+      </div>
     </footer>
 </div>
     <!-- END: Footer-->

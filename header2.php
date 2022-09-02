@@ -137,6 +137,10 @@
         border-radius: 5px;
 
     }
+    footer .grey-font {
+        font-size: 10px;
+        text-align: center;
+    }
     .tab-success {
         box-shadow: 0px 0px 10px #39DA8A; 
         background-color: #7bba2d;
