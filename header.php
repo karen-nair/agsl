@@ -129,14 +129,7 @@
         min-width:  20px !important;
     }
 
-    footer {
 
-        position: absolute;
-        bottom: 0;
-        background-color: #25272b;
-        border-radius: 5px;
-
-    }
     footer .grey-font {
         font-size: 10px;
         text-align: center;
@@ -219,6 +212,46 @@
 .white-font {
     color: #fff;
 }
+.horizontal-menu .header-navbar{
+    border-bottom: none !important;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+
+}
+footer img.active {
+        width: 40px;
+    height: 40px;
+    top: -8px;
+    position: relative;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+footer .white-font  {
+    top: -15px;
+    position: relative;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+footer .grey-font {
+    text-transform: uppercase;
+
+}
+.footer-inner {
+
+    border-radius: 5px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    height: 60px;
+    background-color: #25272b;
+}
 </style>
 </head>
 <!-- END: Head-->
@@ -232,7 +265,7 @@
         <div class="navbar-header">
             <ul class="nav navbar-nav flex-row">
                 <li class="nav-item">
-                    <a class="navbar-brand" href="html/ltr/horizontal-menu-template/index.html">
+                    <a class="navbar-brand" href="index.php">
                  <div class="brand-logo"><img class="logo" src="app-assets/images/home/logo.PNG"></div>
                       
                     </a>
