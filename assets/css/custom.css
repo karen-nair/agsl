@@ -1,38 +1,8 @@
-    @media screen and (min-width: 1200px) {
-    .content_wrapper {
-      width: 600px;
-      margin: 0 auto;
-    }
 
-     #navbar-mobile.navbar-collapse .navbar-nav .dropdown-menu
-    {
-        right: 60px !important;
-        
-    }
-    footer {
-
-        width: 50%;
-
-    }
-    .play-wrapper {
-        height: 500px;
-    background-position-y: center;
-    background-size: cover;
-    top: 50px;
-    margin: 0 auto;
-    }
-    .play-wrapper h1 {
-
-  top: 170px;
-
-}
-
-
-  }
 @media screen and (max-width: 1199px) {
   .horizontal-menu .header-navbar.navbar-brand-center .navbar-header .navbar-brand .brand-logo .logo
   {
-    height: 30px;
+    height: 24px;
     position: relative;
     left: -480%;
     top: -60%;
@@ -44,10 +14,6 @@
         
     }
 
-    footer {
-        width: 100%;
-
-    }
 
     .tab-info, .tab-success, .tab-warning {
         width: 108px;
@@ -88,10 +54,7 @@
     }
 
 
-    footer .grey-font {
-        font-size: 10px;
-        text-align: center;
-    }
+ 
     .tab-success {
         box-shadow: 0px 0px 10px #39DA8A; 
         background-color: #7bba2d;
@@ -153,13 +116,8 @@
     margin: 0 auto;
 }
 
-.inner-line {
-    color:#4a4a4b;text-align: center;font-size: 10px;padding:30px 10px;
 
-}
-.outer-line {
-    box-shadow: 0px 0px 10px #17181b; 
-}
+
 
 .collapse-title{
     color: #c2d7e8;
@@ -174,44 +132,7 @@
     border-bottom: none !important;
 }
 
-footer img {
-    width: 24px;
-    height: 24px;
 
-}
-footer img.active {
-        width: 40px;
-    height: 40px;
-    top: -8px;
-    position: relative;
-
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    background-color: #101116;
-
-}
-footer .white-font  {
-    top: -15px;
-    position: relative;
-    font-size: 10px;
-    text-transform: uppercase;
-}
-
-footer .grey-font {
-    text-transform: uppercase;
-
-}
-.footer-inner {
-
-    border-radius: 5px;
-    padding-bottom: 0;
-    padding-top: 10px;
-    height: 60px;
-    background-color: #25272b;
-}
 
 .header-title {
     font-size: 20px;
@@ -224,4 +145,151 @@ footer .grey-font {
   width: 40px;
     top: 30px;
     position: relative;
+}
+
+/*******GENERAL***********************************************/
+@media screen and (min-width: 1200px) {
+    .content_wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    #navbar-mobile.navbar-collapse .navbar-nav .dropdown-menu
+    {
+        right: 60px !important;
+    }
+
+    .play-wrapper {
+        height: 500px;
+        background-position-y: center;
+        background-size: cover;
+        top: 50px;
+        margin: 0 auto;
+    }
+    .play-wrapper h1 {
+        top: 170px;
+    }
+}
+/******FOOTER*************************************************/
+footer {
+    bottom: 0;
+    background-color: #101116;
+}
+
+footer .footer-inner {
+    border-radius: 10px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    height: 60px;
+    background-color: #25272b;
+    width: 100%;
+
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+}
+
+footer img.active {
+    width: 40px;
+    height: 40px;
+    top: -8px;
+    position: relative;
+}
+
+footer .white-font  {
+    top: -15px;
+    position: relative;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+footer .grey-font {
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+}
+
+/*mobile*/
+@media screen and (max-width: 1199px) {
+    footer {
+        width: 100%;
+    }
+}
+
+/*desktop*/
+@media screen and (min-width: 1200px) {
+    footer {
+        width: 100%;
+    }
+}
+
+/*********ACCOUNT*********************************************/
+
+.swal2-popup.swal2-modal.swal2-show {
+    background-color: black;
+    box-shadow: 0px 0px 10px #fdac41;
+}
+
+.tab-blue, .tab-red, .tab-green {
+    width: 100px;
+    min-height: 40px;
+    transform: skew(-10deg);
+    color: white;
+    border-radius: 10px;
+    padding: 0 10px;
+    position: relative;
+    line-height: 12px;
+    text-align: center;
+    border: 2px solid transparent;
+}
+.tab-blue {
+   background-color: #4d75a7;
+}
+
+.tab-green {
+   background-color: #8ee327;
+}
+.tab-blue:hover {
+    color: #fff;
+}
+.tab-red {
+  background-color: #FF5B5C;
+}
+.account-info-icon {
+    color: #fdac41;
+    
+}
+.account-info-icon .bxs-error {
+    font-size: 40px;
+}
+h2#swal2-title {
+    color: #fff;
+    font-size: 16px;
+}
+.swal2-styled.swal2-confirm {
+   background-color: #8ee327 !important;
+
+}
+
+.wallet-text {
+    color:#4a4a4b;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.2;
+}
+.avatar {
+    background-color: transparent !important;
+    box-shadow: 0px 0px 10px #1c1e28;
+}
+.inner-line {
+    color:#4a4a4b;
+    text-align: center;
+    font-size: 10px;
+    padding:30px 0;
+}
+
+.outer-line {
+    box-shadow: 0px 10px 20px #17181b; 
 }

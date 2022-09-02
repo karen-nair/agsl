@@ -35,6 +35,10 @@
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/dashboard-analytics.css">
     <!-- END: Page CSS-->
 
+     <!-- BEGIN: Sweet CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/sweetalert2.min.css">
+
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
