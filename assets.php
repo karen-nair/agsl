@@ -1,35 +1,33 @@
-<?php include('header.php');?>
-
+<?php 
+$active = 'asset';
+include('header.php');
+?>
 <div class="row">
     <div class="col-12">
         <div class="col-xl-12 col-md-6 col-12 user-profile-card">
            
                
                 <div class="text-center">
-                    <p style="color:#4a4a4b;text-align: center;font-size: 16px;"><i>GP -Game Point</i></p>
+                    <p class="asset-info"><i>GP -Game Point</i></p>
 
-                    <h1 style="color:#fff;"><img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">7533.00</h1>
+                    <h1 style="color:#fff;"><img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">7533.00&nbsp;<img class="img-fluid" src="app-assets/images/home/eye.PNG" height="24" width="24"></h1>
                    
                     <!-- <p class="px-1">Jelly beans halvah cake chocolate gummies.</p> -->
                     <div class="d-flex justify-content-around mb-1">
                         <div class="card-icons d-flex flex-column">
                             <div class="row">
-                              <div class="col-12">
-                                <div class="tab-blue">
-        <span>Deposit</span></div>
-                              </div>
-                              
+                                 <div class="col-12 text-center tab-blue">
+                                    <span class="unskewed">Deposit</span>
+                                 </div>
                             </div>
                             
                         </div>
                        
                         <div class="card-icons d-flex flex-column">
                            <div class="row">
-                              <div class="col-12">
-                                <div class="tab-blue">
-        <span>Withdrawal</span></div>
-                              </div>
-                              
+                               <div class="col-12 text-center tab-blue">
+                                    <span class="unskewed">Withdrawal</span>
+                                 </div>
                             </div>
                            
                         </div>
@@ -61,87 +59,108 @@
 
     </div>
      <div class="row">
-    <div class="col-12">
-                          <div class="collapsible">
-                        <div class="collapse-header">
-                            <div id="headingCollapse1" class="card-header" data-toggle="collapse" role="button" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                                <span class="collapse-title">
-                                    1000.00
-                                </span>
-                            </div>
-                            <div id="collapse1" role="tabpanel" aria-labelledby="headingCollapse1" class="collapse">
-                                <div class="card-body">
-                                    <div class="row">
-                                      <div class="col-3">
-                                        Rejected
-                                      </div>
-                                       <div class="col-9 text-right">
-                                        17-08-2022 7:54pm
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="collapse-header">
-                            <div id="headingCollapse2" class="card-header" data-toggle="collapse" role="button" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                <span class="collapse-title">
-                                    1000.00
-                                </span>
-                            </div>
-                            <div id="collapse2" role="tabpanel" aria-labelledby="headingCollapse2" class="collapse">
-                                <div class="card-body">
-                                    <div class="row">
-                                      <div class="col-3">
-                                        Rejected
-                                      </div>
-                                        <div class="col-9 text-right">
-                                        17-08-2022 7:54pm
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="collapse-header">
-                            <div id="headingCollapse3" class="card-header" data-toggle="collapse" role="button" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                <span class="collapse-title">
-                                    1000.00
-                                </span>
-                            </div>
-                            <div id="collapse3" role="tabpanel" aria-labelledby="headingCollapse3" class="collapse">
-                                <div class="card-body">
-                                     <div class="row">
-                                      <div class="col-3">
-                                        Rejected
-                                      </div>
-                                        <div class="col-9 text-right">
-                                        17-08-2022 7:54pm
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="collapse-header">
-                            <div id="headingCollapse4" class="card-header" data-toggle="collapse" role="button" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                <span class="collapse-title">
-                                   1000.00
-                                </span>
-                            </div>
-                            <div id="collapse4" role="tabpanel" aria-labelledby="headingCollapse4" class="collapse">
-                                <div class="card-body">
-                                     <div class="row">
-                                      <div class="col-3">
-                                        Rejected
-                                      </div>
-                                        <div class="col-9 text-right">
-                                        17-08-2022 7:54pm
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div class="col-12 asset-collapse">
+        <div class="collapsible">
+        <div class="collapse-header py-1">
+        <div id="headingCollapse1" class="card-header" data-toggle="collapse" role="button" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+            <div class="row">
+                <div class="col-10">
+                    <span class="asset-money">1000.00</span>
+                </div>
+                <div class="col-2 text-right">
+                    <img class="img-fluid" src="app-assets/images/home/eye.PNG" height="24" width="24">
+                </div>
+            </div>
+        </div>
+        <div id="collapse1" role="tabpanel" aria-labelledby="headingCollapse1" class="collapse">
+            <div class="card-body">
+                <div class="row">
+                  <div class="col-3">
+                    <span class="asset-status">Rejected</span>
+                  </div>
+                   <div class="col-9 text-right">
+                    17-08-2022 7:54pm
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--second-->
+        <div class="collapse-header py-1">
+        <div id="headingCollapse2" class="card-header" data-toggle="collapse" role="button" data-target="#collapse2" aria-expanded="false" aria-controls="collapse1">
+            <div class="row">
+                <div class="col-10">
+                    <span class="asset-money">1000.00</span>
+                </div>
+                <div class="col-2 text-right">
+                    <img class="img-fluid" src="app-assets/images/home/eye.PNG" height="24" width="24">
+                </div>
+            </div>
+        </div>
+        <div id="collapse2" role="tabpanel" aria-labelledby="headingCollapse2" class="collapse">
+            <div class="card-body">
+                <div class="row">
+                  <div class="col-3">
+                    <span class="asset-status">Rejected</span>
+                  </div>
+                   <div class="col-9 text-right">
+                    17-08-2022 7:54pm
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--third-->
+        <div class="collapse-header py-1">
+        <div id="headingCollapse3" class="card-header" data-toggle="collapse" role="button" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            <div class="row">
+                <div class="col-10">
+                    <span class="asset-money">1000.00</span>
+                </div>
+                <div class="col-2 text-right">
+                    <img class="img-fluid" src="app-assets/images/home/eye.PNG" height="24" width="24">
+                </div>
+            </div>
+        </div>
+        <div id="collapse3" role="tabpanel" aria-labelledby="headingCollapse3" class="collapse">
+            <div class="card-body">
+                <div class="row">
+                  <div class="col-3">
+                    <span class="asset-status">Rejected</span>
+                  </div>
+                   <div class="col-9 text-right">
+                    17-08-2022 7:54pm
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="collapse-header py-1">
+        <div id="headingCollapse4" class="card-header" data-toggle="collapse" role="button" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            <div class="row">
+                <div class="col-10">
+                    <span class="asset-money">1000.00</span>
+                </div>
+                <div class="col-2 text-right">
+                    <img class="img-fluid" src="app-assets/images/home/eye.PNG" height="24" width="24">
+                </div>
+            </div>
+        </div>
+        <div id="collapse4" role="tabpanel" aria-labelledby="headingCollapse4" class="collapse">
+            <div class="card-body">
+                <div class="row">
+                  <div class="col-3">
+                    <span class="asset-status">Rejected</span>
+                  </div>
+                   <div class="col-9 text-right">
+                    17-08-2022 7:54pm
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
       </div>
-      
 
     </div>
 

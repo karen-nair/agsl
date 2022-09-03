@@ -22,7 +22,7 @@
             </a>
           </div>
           <div class="col-3 text-center">
-             <a href="mynews.php">
+             <a href="news.php">
             <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'news'? 'news-active':'news');?>.PNG"  class="<?php echo (isset($active)&& $active == 'news'? 'active':'');?>">
 
             <p class="<?php echo (isset($active)&& $active == 'news'? 'white-font':'grey-font');?>">News</p>
@@ -71,9 +71,22 @@
     <script src="app-assets/js/scripts/footer.js"></script>
     <!-- END: Theme JS-->
 
+    <script src="app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
+    <script src="app-assets/vendors/js/extensions/polyfill.min.js"></script>
+
     <!-- BEGIN: Page JS-->
     <script src="app-assets/js/scripts/pages/dashboard-analytics.js"></script>
     <!-- END: Page JS-->
+
+    <script src="app-assets/js/scripts/extensions/sweet-alerts.js"></script>
+
+
+    <script src="app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js"></script>
+    <script src="app-assets/vendors/js/tables/datatable/dataTables.bootstrap4.min.js"></script>
+    <script src="app-assets/vendors/js/tables/datatable/dataTables.buttons.min.js"></script>
+
+    <script src="app-assets/js/scripts/datatables/datatable.js"></script>
+
 
 </body>
 <!-- END: Body-->

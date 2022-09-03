@@ -1,6 +1,6 @@
 <?php 
 $title = "Edit Profile";
-include('header2.php');
+include('header.php');
 ?>
 
      <div class="row">
@@ -28,11 +28,12 @@ include('header2.php');
       </div>
 
       <div class="row">
-         <div class="col-8 text-center" style="margin: 0 auto;">
-            <div class="tab-blue">
-                <span>Update</span>
-            </div>
+         <div class="col-3"></div>
+         <div class="col-6 text-center tab-blue">
+                <span class="unskewed">Update</span>
           </div>
+         <div class="col-3"></div>
+
       </div>
 
 

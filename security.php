@@ -1,6 +1,6 @@
 <?php 
 $title = "Change Security Password";
-include('header2.php');
+include('header.php');
 ?>
 
      <div class="row">
@@ -22,12 +22,13 @@ include('header2.php');
       </div>
 
 
-      <div class="row">
-         <div class="col-10 text-center" style="margin: 0 auto;">
-            <div class="tab-blue">
-                <span>Change Security Password</span>
-            </div>
+       <div class="row">
+        
+         <div class="col-8 text-center tab-blue" style="margin: 0 auto;">
+                <span class="unskewed">Change Security Password</span>
           </div>
+        
+
       </div>
 
 

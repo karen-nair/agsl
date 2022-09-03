@@ -39,6 +39,10 @@
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/animate/animate.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/sweetalert2.min.css">
 
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/buttons.bootstrap4.min.css">
+
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
@@ -55,7 +59,7 @@
 <div class="content_wrapper">
     
    <?php 
-   if (isset($menu2)) {
+   if (isset($title)) {
     include('nav-menu2.php');
 
    } else {

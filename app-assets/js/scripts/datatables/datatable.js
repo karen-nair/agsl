@@ -14,7 +14,23 @@ $(document).ready(function() {
     *       js of zero configuration        *
     ****************************************/
 
-    $('.zero-configuration').DataTable();
+    $('.zero-configuration').DataTable({
+        "displayLength": 5,
+        "searching": false,
+        "info": false,
+        "lengthChange": false,
+        "drawCallback": function( settings ) {
+         $(".zero-configuration thead").remove();
+         $(".zero-configuration tfoot").remove();
+
+     },
+     language: {
+        'paginate': {
+          'previous': '<img width="20" src="app-assets/images/home/prev.PNG">',
+          'next': '<img width="20" src="app-assets/images/home/next.PNG">'
+        }
+      }
+    });
 
     /********************************************
      *        js of Order by the grouping        *

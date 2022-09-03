@@ -1,5 +1,7 @@
-<?php include('header.php');?>
-
+<?php 
+$active = 'home';
+include('header.php');
+?>
 <div class="row">
     <div class="col-4">
       <div class="tab-success">

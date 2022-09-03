@@ -9,7 +9,26 @@
                 <div class="navbar-collapse" id="navbar-mobile">
                     <div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
                         <ul class="nav navbar-nav">
-                            <li class="nav-item mobile-menu mr-auto"><a class="nav-link nav-menu-main menu-toggle" href="javascript:void(0);"><img width="20" src="app-assets/images/home/line.PNG">&nbsp;<span class="header-title"><?php echo $title;?></span></a></li>
+                            <li class="nav-item mobile-menu mr-auto"><a class="nav-link nav-menu-main menu-toggle" href="javascript:void(0);" onclick="history.back()"><img width="20" src="app-assets/images/home/line.PNG">&nbsp;<span class="header-title"><?php echo $title;?></span></a></li>
+                            <?php
+                            if (isset($dropdown)) {
+                                ?>
+                                <li class="nav-item mobile-menu mr-auto">
+                                    
+                                    <div class="dropdown">
+                                        <button type="button" class="btn btn dropdown-toggle dropdown-toggle-split hashies-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent"><i style="color: #c2d7e8;">TRX&nbsp;&nbsp;</i></button>
+                                        
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="javascript:void(0);">Option 1</a>
+                                            <a class="dropdown-item" href="javascript:void(0);">Option 2</a>
+                                            <a class="dropdown-item" href="javascript:void(0);">Option 3</a>
+                                        </div>
+                                    </div>
+                                
+                                </li>
+                                <?php
+                            }
+                            ?>
                         </ul>
                         
                     </div>

@@ -67,7 +67,7 @@ include('header.php');
      <div class="col-12">
         <div class="row">
           <div class="col-3 outer-line text-center">
-            <a href="/downline.php">
+            <a href="mydownline.php">
               <img class="acc-ico" src="app-assets/images/home/account/people.PNG">
               <div class="inner-line">My Downline</div>
             </a>
