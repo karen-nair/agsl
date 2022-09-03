@@ -60,7 +60,7 @@ include('header.php');
                         <div class="col-8"></div>
                           <div class="col-3 text-right">
                             <div class="tab-blue">
-                                <span>PLAY</span><br/>
+                                <span class="unskewed">PLAY</span><br/>
                                 <img src="app-assets/images/home/next.PNG" width="12"></div>
                          
                          </div>

@@ -248,7 +248,7 @@ footer .grey-font {
     box-shadow: 0px 0px 10px #fdac41;
 }
 
-.tab-blue, .tab-red, .tab-green {
+.tab-blue, .tab-red, .tab-green, .tab-orange {
     width: 100px;
     min-height: 40px;
     transform: skew(-10deg);
@@ -272,6 +272,9 @@ footer .grey-font {
 }
 .tab-red {
   background-color: #FF5B5C;
+}
+.tab-orange {
+    background-color: #d8910e;
 }
 .account-info-icon {
     color: #fdac41;
@@ -433,3 +436,70 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     position: relative;
     top: -13px;
 }
+/*****GAME***************************/
+
+/*desktop*/
+@media screen and (max-width: 1199px) {
+    .game-menu {
+        width: 200px !important;
+    }
+    .my-assets {
+        color: #5d6772;
+        font-size: 16px
+    }
+    .asset-gp {
+        width: 32px;
+    }
+    .game-money {
+        font-size: 20px;
+    }
+
+    .game-bg-green {
+        width: 135px;
+    }
+
+    .game-bg-yellow {
+        width: 150px;
+        right: 10px;
+        position: relative;
+    }
+}
+
+/*desktop*/
+@media screen and (min-width: 1200px) {
+    .game-menu {
+        width: 200px !important;
+    }
+    .my-assets {
+        color: #5d6772;
+        font-size: 24px
+    }
+    .asset-gp {
+        width: 36px;
+    }
+
+   .game-bg-green {
+        width: 200px;
+    }
+
+    .game-bg-yellow {
+        width: 220px;
+        right: 10px;
+        position: relative;
+    }
+}
+
+.play-button-green {
+    top: -80px;
+    width: 90px;
+    margin: 0 auto;
+    left: 5px;
+}
+
+.play-button-yellow {
+    top: -85px;
+    width: 90px;
+    margin: 0 auto;
+}
+
+
