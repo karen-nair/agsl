@@ -20,8 +20,8 @@ $(document).ready(function() {
         "info": false,
         "lengthChange": false,
         "drawCallback": function( settings ) {
-         $(".zero-configuration thead").remove();
-         $(".zero-configuration tfoot").remove();
+         // $(".zero-configuration thead").remove();
+         // $(".zero-configuration tfoot").remove();
 
      },
      language: {

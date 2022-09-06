@@ -55,21 +55,11 @@
 
 <!-- BEGIN: Body-->
 
-<body style="background-image: url('app-assets/images/home/bg.PNG');background-size: cover;background-repeat: no-repeat;background-color: #0b0c10;" style="border: 2px solid blue;background-color: transparent !important;" class="horizontal-layout horizontal-menu navbar-static 2-columns   footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="2-columns">
+<body style="background-image: url('app-assets/images/home/bg.PNG');background-size: cover;background-repeat: no-repeat;background-color: #0b0c10;" class="horizontal-layout horizontal-menu navbar-static 2-columns   footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="2-columns">
 <div class="content_wrapper">
     
-   <?php 
-   if (isset($title)) {
-    include('nav-menu2.php');
 
-   } else {
-    include('nav-menu.php');
 
-   }
-   ?>
-
-</div>
-    <div class="content_wrapper">
 
     <!-- BEGIN: Content-->
 
@@ -78,4 +68,24 @@
         <div class="content-wrapper">
             <div class="content-header row">
             </div>
-           <div class="content-body">
+            <div class="content-body">
+                 <div class="row">
+                    <div class="col-12 header" style="border:1px solid yellow;">
+                        
+                    
+                   <?php 
+                   if (isset($title)) {
+                    include('nav-menu2.php');
+
+                   } else {
+                    include('nav-menu.php');
+
+                   }
+                   ?>
+                   </div>
+
+
+                </div>
+
+
+<div class="app-container">

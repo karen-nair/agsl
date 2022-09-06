@@ -2,6 +2,7 @@
 $active = 'news';
 include('header.php');
 ?>
+
      <div class="row">
          <div class="col-12">
             <h1 class="news-title">Look out for malicious website!</h1>

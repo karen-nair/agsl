@@ -2,7 +2,7 @@
 $title = 'My Play';
 include('header.php');
 ?>
-    <table class="table zero-configuration">
+    <table class="table zero-configuration py-2">
         <thead>
             <tr>
                 <th>Name</th>

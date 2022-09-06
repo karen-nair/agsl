@@ -1,5 +1,5 @@
 <?php 
-$title = "Deposit";
+$title = "My Downline";
 include('header.php');
 ?>
 
@@ -10,8 +10,8 @@ include('header.php');
           </div>
       </div>
    <div class="row">
-      <div class="col-6 py-2">
-         <span class="text-white">https://agsl.games/register/test9</span>
+      <div class="col-12 py-2">
+         <span class="text-white"><input class="trans-input" type="text" name="" value="https://agsl.games/register/test9"></span>
 
       </div>
    </div>

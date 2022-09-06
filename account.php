@@ -23,10 +23,10 @@ include('header.php');
                         <div class="card-icons d-flex flex-column">
                             <div class="row">
                               <div class="col-6">
-                                <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                <img class="img-fluid icon-gp" src="app-assets/images/home/gp.PNG">
                               </div>
                               <div class="col-6" style="left: -30px;">
-                                <span style="color:#e8c661;">7533.00</span>
+                                <span class="dollar-text" style="color:#e8c661;">7533.00</span>
                               </div>
                             </div>
 
@@ -40,10 +40,10 @@ include('header.php');
                         <div class="card-icons d-flex flex-column">
                            <div class="row">
                               <div class="col-6">
-                                <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                <img class="img-fluid icon-gp" src="app-assets/images/home/gp.PNG">
                               </div>
                               <div class="col-6" style="left: -30px;">
-                                <span style="color:#fff;">1285.00</span>
+                                <span class="dollar-text" style="color:#fff;">1285.00</span>
                               </div>
                             </div>
                             <div class="row">
@@ -67,59 +67,139 @@ include('header.php');
      <div class="col-12">
         <div class="row">
           <div class="col-3 outer-line text-center">
-            <a href="mydownline.php">
-              <img class="acc-ico" src="app-assets/images/home/account/people.PNG">
-              <div class="inner-line">My Downline</div>
-            </a>
+            <div class="row">
+              <div class="col-12 acc-ico-wrapper">
+                <img class="acc-ico" src="app-assets/images/home/account/people.PNG">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <a href="mydownline.php">
+                
+                  <p class="inner-line">My Downline</p>
+                </a>
+              </div>
+            </div>
+            
           </div>
           <div class="col-3 outer-line text-center">
-            <a href="myplay.php">
-              <img class="acc-ico" src="app-assets/images/home/account/dollar.PNG">
-              <div class="inner-line text-center">My Play</div>
-            </a>
+            <div class="row">
+              <div class="col-12 acc-ico-wrapper">
+                <img class="acc-ico" src="app-assets/images/home/account/dollar.PNG">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <a href="myplay.php">
+                
+                  <p class="inner-line">My Play</p>
+                </a>
+              </div>
+            </div>
           </div>
           <div class="col-3 outer-line text-center">
-            <a href="edit.php">
-              <img class="acc-ico" src="app-assets/images/home/account/pencil.PNG">
-              <div class="inner-line text-center">Edit Profile</div>
-            </a>
+            <div class="row">
+              <div class="col-12 acc-ico-wrapper">
+                <img class="acc-ico" src="app-assets/images/home/account/pencil.PNG">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <a href="edit.php">
+                
+                  <p class="inner-line">Edit Profile</p>
+                </a>
+              </div>
+            </div>
           </div>
           <div class="col-3 outer-line text-center">
-            <a href="security.php">
-              <img class="acc-ico" src="app-assets/images/home/account/envelope.PNG">
-              <div class="inner-line text-center">Resend Verification</div>
-            </a>
+           <div class="row">
+              <div class="col-12 acc-ico-wrapper">
+                <img class="acc-ico" src="app-assets/images/home/account/envelope.PNG">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <a href="security.php">
+                
+                  <p class="inner-line">Resend Verification</p>
+                </a>
+              </div>
+            </div>
           </div>
+
+          <div class="col-3 outer-line text-center">
+            <div class="row">
+              <div class="col-12 acc-ico-wrapper">
+                <img class="acc-ico" src="app-assets/images/home/account/padlock.PNG">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <a href="change.php">
+                  <p class="inner-line">Change Password</p>
+               </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 outer-line text-center">
+            <div class="row">
+              <div class="col-12 acc-ico-wrapper">
+                <img class="acc-ico" src="app-assets/images/home/account/dollar.PNG">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <a href="myplay.php">
+                
+                  <p class="inner-line">My Play</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 outer-line text-center">
+            <div class="row">
+              <div class="col-12 acc-ico-wrapper">
+                <img class="acc-ico" src="app-assets/images/home/account/pencil.PNG">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <a href="edit.php">
+                
+                  <p class="inner-line">Edit Profile</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 outer-line text-center">
+            <div class="row">
+              <div class="col-12 acc-ico-wrapper">
+                <img class="acc-ico" src="app-assets/images/home/account/envelope.PNG">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <a href="security.php">
+                
+                  <p class="inner-line">Resend Verification</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
 
         </div>
 
-        <div class="row">
-          <div class="col-3 outer-line text-center">
-            <a href="change.php">
-              <img class="acc-ico" src="app-assets/images/home/account/padlock.PNG">
-              <div class="inner-line">Change Password</div>
-            </a>
-          </div>
-          <div class="col-3 outer-line text-center">
-            <a href="myplay.php">
-              <img class="acc-ico" src="app-assets/images/home/account/dollar.PNG">
-              <div class="inner-line text-center">My Play</div>
-            </a>
-          </div>
-          <div class="col-3 outer-line text-center">
-            <a href="edit.php">
-              <img class="acc-ico" src="app-assets/images/home/account/pencil.PNG">
-              <div class="inner-line text-center">Edit Profile</div>
-            </a>
-          </div>
-          <div class="col-3 outer-line text-center">
-            <a href="security.php">
-              <img class="acc-ico" src="app-assets/images/home/account/envelope.PNG">
-              <div class="inner-line">Resend Verification</div>
-            </a>
-          </div>
 
-        </div>
      </div>
    </div>
 
