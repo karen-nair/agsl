@@ -235,7 +235,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 /******FOOTER************************************************/
 
 .footer {
-    position: relative;
+    position: fixed;
     background: transparent;
     width: 100%;
     margin: 0 auto;
@@ -364,9 +364,18 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     line-height: 12px;
     text-align: center;
     background-color: rgb(124, 214, 81);
-    box-shadow: 0px 0px 10px #d8910e;
+    box-shadow: 0px 0px 10px #39DA8A;
     padding: 10px;
 
+}
+
+.important {
+    box-shadow: inset 0px 0px 40px 5px rgb(233 141 32 / 39%);
+    border-radius: 15px;
+    position: relative;
+    top: 10px;
+    border: 3px solid rgb(241, 172, 98, 0.3);
+    /*opacity: 0.53;*/
 }
 
 .tab-blue, .tab-red, .tab-green, .tab-orange {
