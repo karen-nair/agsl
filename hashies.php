@@ -4,7 +4,7 @@ $dropdown = true;
 include('header.php');
 ?>
 <div class="row">
-    <div class="col-12">
+    <div class="col-12 hashies-wrapper">
         <div class="col-xl-12 col-md-6 col-12 user-profile-card">
            
                
@@ -12,8 +12,8 @@ include('header.php');
                     
                     
                     <div class="row">
-                        <div class="col-12 text-center">
-                            <h3 style="color:#e8c661;"><img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">7928.00  <span style="color:#4a4a4b;text-align: center;font-size: 10px;">test 9</span></h3>
+                        <div class="col-12 text-center hashies-timer-top">
+                            <h3><img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">7928.00  <span style="color:#4a4a4b;text-align: center;font-size: 10px;">test 9</span></h3>
                         </div>
 
                         
@@ -26,23 +26,23 @@ include('header.php');
                     <p style="text-align: center;"><span style="color: #5e6770;">00000000029358deee026eedle21f15d 590bd1885a6cc8e294a0b0742454e3</span></p>
 
                    
-                    <div class="d-flex justify-content-around mb-1">
+                    <div class="d-flex justify-content-around mb-1 hashies-timer">
                         <div class="card-icons d-flex flex-column">
                             <div class="row">
                               <div class="col-12">
-                                <h2 style="color: #fff;">00:12</h2>
-                                <span style="color: #464448;">Rounds Ends In</span>
+                                <h2 class="hashies-time">00:12</h2>
+                                <span class="hashies-text">Rounds Ends In</span>
                               </div>
                               
                             </div>
                             
                         </div>
-                       
+                       <span class="divider">|</span>
                         <div class="card-icons d-flex flex-column">
                            <div class="row">
                               <div class="col-12">
-                                  <h2 style="color: #fff;">00:42</h2>
-                                  <span style="color: #464448;">Next Round In</span>
+                                  <h2 class="hashies-time">00:42</h2>
+                                  <span class="hashies-text">Next Round In</span>
 
                               </div>
                               
@@ -57,9 +57,11 @@ include('header.php');
                     <p style="text-align: center;"><span style="color: #bacede;">Hashies Block</span> <span style="color:#fff;font-size: 24px;">434217</span></p>
 
                      <div class="row">
-                        <div class="col-8"></div>
+                        <div class="col-8">
+                             <span class="text-white"><input class="trans-input" type="text" name="" value="ksmdk"></span>
+                        </div>
                           <div class="col-3 text-right">
-                            <div class="tab-blue">
+                            <div class="tab-submit-yellow">
                                 <span class="unskewed">PLAY</span><br/>
                                 <img src="app-assets/images/home/next.PNG" width="12"></div>
                          
@@ -79,272 +81,570 @@ include('header.php');
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Position</th>
 
             </tr>
         </thead>
         <tbody>
-          <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">   
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">200.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+                 <tr class="py-2">
+            <td>
+                <div class="row button_right_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_right.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
-          </tr>
-            <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">200.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_right.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
-          </tr>
-            <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">300.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
-
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
           </tr>
           <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">1000.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+            <td>
+                <div class="row button_right_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_right.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_right.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
-          </tr>
-            <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">600.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
-          </tr>
-          <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">400.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
-
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
-          </tr>
-            <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">100.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
-
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_right.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
           </tr>
           <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">400.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+            <td>
+                <div class="row button_right_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_right.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
           </tr>
           <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">400.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+            <td>
+                <div class="row button_x_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_x.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
           </tr>
           <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">400.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+            <td>
+                <div class="row button_right_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_right.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
           </tr>
           <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">400.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+            <td>
+                <div class="row button_x_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_x.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
           </tr>
           <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">300.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+            <td>
+                <div class="row button_right_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_right.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_right.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
           </tr>
           <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">500.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+            <td>
+                <div class="row button_right_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_right.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
           </tr>
           <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">200.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+            <td>
+                <div class="row button_x_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_x.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_right.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
           </tr>
           <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">1400.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+            <td>
+                <div class="row button_x_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_x.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
           </tr>
           <tr class="py-2">
-                <td>
-                    <span style="color: #575758;">Hashies/EOS</span>
-                    <h3 style="color:#fff;">
-                       
-                        <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
-                        <span style="font-size: 36px;">800.</span><span style="font-size: 20px;">00</span></h3>
-                        <span style="color: #575758;">Hashies Block: </span>
-                        <span style="color:#fff;">#434217</span>
-                </td>
+            <td>
+                <div class="row button_right_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_right.png" width="104">
+                            </div>
+                        </div>
 
-                 <td class="text-right">
-                    <img class="img-fluid action_button" src="app-assets/images/home/button_x.PNG" width="124">
-                        <span class="play-time">11-08-2022 7:89pm</span>
-                </td>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
+          </tr>
+          <tr class="py-2">
+            <td>
+                <div class="row button_x_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_x.png" width="104">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
+          </tr>
+          <tr class="py-2">
+            <td>
+                <div class="row button_right_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_right.png" width="104">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
+          </tr>
+          <tr class="py-2">
+            <td>
+                <div class="row button_x_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_x.png" width="104">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
+          </tr>
+          <tr class="py-2">
+            <td>
+                <div class="row button_right_bg">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 style="color:#fff;">   
+                                    <img class="img-fluid" src="app-assets/images/home/gp.PNG" height="24" width="24">
+                                    <span style="font-size: 36px;">160.</span><span style="font-size: 20px;">00</span></h3>
+                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="playing">Playing Block: </span>
+                                <span class="figure">#434217</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 text-right">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid action_button" src="app-assets/images/home/button_right.png" width="104">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="play-time">11-08-2022 7:89 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                
+
           </tr>
                                                
             </tbody>
             <tfoot>
                 <tr>
                     <th>Name</th>
-                    <th>Position</th>
                 </tr>
             </tfoot>
         </table>

@@ -586,6 +586,67 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     position: relative;
     top: 15px;
 }
+.hashies-timer {
+    color: white !important;
+    border: none !important;
+    width: 100% !important;
+    outline: none !important;
+    background-color: transparent;
+    -moz-box-shadow: inset 0 0 5px 5px #888;
+    -webkit-box-shadow: inset 0 0 5px 5px#888;
+    box-shadow: inset 0 0 1px 1px #25272b;
+    height: 15px;
+    background-color: transparent;
+    height: 80px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.hashies-timer-top {
+    color: white !important;
+    border: none !important;
+    width: 100% !important;
+    outline: none !important;
+    background-color: transparent;
+    -moz-box-shadow: inset 0 0 5px 5px #888;
+    -webkit-box-shadow: inset 0 0 5px 5px#888;
+    box-shadow: inset 0 0 1px 1px #25272b;
+    height: auto !important;
+    background-color: transparent;
+    height: 80px;
+    border-radius: 10px;
+    padding-left: 10px;
+    bottom: 10px;
+}
+
+.divider {
+    background-color: rgb(77, 117, 167);
+    opacity: 0.302;
+    position: relative;
+    width: 2px;
+    height: 30px;
+    z-index: 111;
+    top: 10px;
+}
+
+.hashies-timer-top h3 {
+    color:#e8c661;
+    position: relative;
+    top: 5px;
+}
+.hashies-time {
+    color: #fff;
+    position: relative;
+    top: 10px;
+}
+
+.hashies-text {
+    color: #464448;
+}
+.hashies-wrapper {
+    position: relative;
+    top: 50px;
+}
 
 /********NEWS**********************************************/
 
