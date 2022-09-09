@@ -747,6 +747,28 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     position: relative;
     top: -13px;
 }
+
+.login-wrapper {
+    background-image: url(../../app-assets/images/home/login-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.pwd{
+    position: relative;
+}
+.p-viewer {
+    z-index: 9999;
+    position: absolute;
+    top: 30%;
+    right: 10px;
+}
+
+.fa-eye {
+    color: #000;
+}
+
 /*****GAME***************************/
 
 /*mobile*/
