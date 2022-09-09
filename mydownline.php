@@ -5,19 +5,19 @@ include('header.php');
 
      <div class="row">
          <div class="col-12 py-1">
-           <img class="img-fluid" src="app-assets/images/home/globe.PNG">
+           <img class="img-fluid" src="app-assets/images/home/account/downline-bg.png">
 
           </div>
       </div>
    <div class="row">
-      <div class="col-12 py-2">
+      <div class="col-12 py-2 text-center">
          <span class="text-white"><input class="trans-input" type="text" name="" value="https://agsl.games/register/test9"></span>
 
       </div>
    </div>
 
      <div class="row">
-         <div class="col-6 text-center tab-blue" style="margin: 0 auto;">
+         <div class="col-6 text-center tab-submit-yellow" style="margin: 0 auto;">
                 <span class="unskewed">Copy</span>
           </div>
       </div>
