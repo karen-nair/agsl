@@ -5,38 +5,33 @@ include('header.php');
 
      <div class="row">
          <div class="col-12 py-1">
-            <p class="grey-font">Current Security Password</p>
-            <input class="trans-input" type="text" name="">
+          
+            <input class="trans-input" type="text" name="" placeholder="Current Security Password">
 
           </div>
       </div>
 
       <div class="row">
          <div class="col-12 py-1">
-            <p class="grey-font">New Security Password</p>
-            <input class="trans-input" type="text" name="">
+            
+            <input class="trans-input" type="text" name="" placeholder="New Security Password">
 
           </div>
       </div>
 
       <div class="row">
          <div class="col-12 py-1">
-            <p class="grey-font">Confirm New Security Password</p>
-            <input class="trans-input" type="text" name="">
+      
+            <input class="trans-input" type="text" name="" placeholder="Confirm New Security Password">
 
           </div>
       </div>
 
 
        <div class="row">
-        
-         <div class="col-8 text-center tab-blue" style="margin: 0 auto;">
-                <span class="unskewed">Change Security Password</span>
-            <input class="trans-input" type="text" name="">
-
+         <div class="col-6 text-center tab-submit-green" style="margin: 0 auto;">
+                <span class="unskewed" style="position: relative;top: -2px;">Change Security Password</span>
           </div>
-        
-
       </div>
 
 

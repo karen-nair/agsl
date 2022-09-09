@@ -675,18 +675,33 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 /********NEWS**********************************************/
 
 /*desktop*/
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 600px) {
     .news-title {
         color: #fff;
         font-size: 20px;
+        padding-top: 20px;
+    }
+    .news-wrapper {
+        background-image: url(../../app-assets/images/home/news-bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-height: 200px;
+        padding: 20px;
     }
 }
 
 /*desktop*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 601px) {
     .news-title {
         color: #fff;
         font-size: 30px;
+    }
+    .news-wrapper {
+        background-image: url(../../app-assets/images/home/news-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 200px;
+        padding: 20px;
     }
 }
 
@@ -695,9 +710,10 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     font-size: 12px;
 }
 .news-body {
-    color: #c2d7e8;
-    line-height: 1.6;
+    line-height: 1.8;
+    color: rgb(194, 215, 232);
 }
+
 
 /********ASSET******************************************/
 
