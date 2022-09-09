@@ -6,7 +6,7 @@ include('header.php');
 <div class="row py-2">
     <div class="col-4" style="border:1px solid yellow;">
       <div class="tab-success" style="width:100%">
-        <span class="unskewed">Look out for !</span><br/><br/>
+        <span class="unskewed">Look out for2 !</span><br/><br/>
        <img src="app-assets/images/home/next.PNG" width="12" style="position: relative;top: -10px;">
      </div>
     </div>
