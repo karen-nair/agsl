@@ -16,17 +16,19 @@ include('header.php');
                     <div class="d-flex justify-content-around mb-1">
                         <div class="card-icons d-flex flex-column">
                             <div class="row">
-                                 <div class="col-12 text-center tab-blue">
-                                    <span class="unskewed">Deposit</span>
+                                 <div class="col-12 text-center tab-submit-green">
+                                    <span class="unskewed" style="top:-2px">Deposit</span>
                                  </div>
+
+
                             </div>
                             
                         </div>
                        
                         <div class="card-icons d-flex flex-column">
                            <div class="row">
-                               <div class="col-12 text-center tab-blue">
-                                    <span class="unskewed">Withdrawal</span>
+                               <div class="col-12 text-center tab-submit-yellow">
+                                    <span class="unskewed" style="top:8px">Withdrawal</span>
                                  </div>
                             </div>
                            
@@ -79,7 +81,8 @@ include('header.php');
                     <span class="asset-status">Rejected</span>
                   </div>
                    <div class="col-9 text-right">
-                    17-08-2022 7:54pm
+ 
+                    <span style=" color: rgba(194, 215, 232, 0.302);">17-08-2022 7:54pm</span>
                   </div>
                 </div>
             </div>
@@ -104,7 +107,8 @@ include('header.php');
                     <span class="asset-status">Rejected</span>
                   </div>
                    <div class="col-9 text-right">
-                    17-08-2022 7:54pm
+                    <span style=" color: rgba(194, 215, 232, 0.302);">17-08-2022 7:54pm</span>
+
                   </div>
                 </div>
             </div>
@@ -129,7 +133,8 @@ include('header.php');
                     <span class="asset-status">Rejected</span>
                   </div>
                    <div class="col-9 text-right">
-                    17-08-2022 7:54pm
+                     <span style=" color: rgba(194, 215, 232, 0.302);">17-08-2022 7:54pm</span>
+
                   </div>
                 </div>
             </div>
@@ -153,7 +158,8 @@ include('header.php');
                     <span class="asset-status">Rejected</span>
                   </div>
                    <div class="col-9 text-right">
-                    17-08-2022 7:54pm
+                     <span style=" color: rgba(194, 215, 232, 0.302);">17-08-2022 7:54pm</span>
+
                   </div>
                 </div>
             </div>

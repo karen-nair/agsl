@@ -737,6 +737,22 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     left: -20px;
     position: relative;
 }
+.collapse-header {
+    color: white !important;
+    border: none !important;
+    width: 100% !important;
+    outline: none !important;
+    background-color: transparent;
+    -moz-box-shadow: inset 0 0 5px 5px #888;
+    -webkit-box-shadow: inset 0 0 5px 5px#888;
+    box-shadow: inset 0 0 1px 1px #25272b;
+    height: 15px;
+    background-color: transparent;
+    height: 80px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
 
 /***LOGIN*****************************/
 .welcome{
