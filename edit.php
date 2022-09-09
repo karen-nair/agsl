@@ -5,39 +5,30 @@ include('header.php');
 
      <div class="row">
          <div class="col-12 py-1">
-            <p class="grey-font">Username</p>
-            <input class="trans-input" type="text" name="">
+            
+            <input class="trans-input" type="text" name="" placeholder="Username">
           </div>
       </div>
 
       <div class="row">
          <div class="col-12 py-1">
-            <p class="grey-font">Name</p>
-            <input class="trans-input" type="text" name="">
+            
+            <input class="trans-input" type="text" name="" placeholder="Name">
           </div>
       </div>
 
       <div class="row">
          <div class="col-12 py-1">
-            <p class="grey-font">Wallet Address</p>
-            <input class="trans-input" type="text" name="">
+            <i style="color:rgba(194, 215, 232, 0.302);">Wallet Address</i>
+        
+            <input class="trans-input" type="text" name="" placeholder="Security Password" style="top: 5px;position: relative;">
           </div>
       </div>
 
       <div class="row">
-         <div class="col-12 py-1">
-            <p class="grey-font">Security Password</p>
-            <input class="trans-input" type="text" name="">
+         <div class="col-6 text-center tab-submit-green" style="margin: 0 auto;">
+                <span class="unskewed" style="position: relative;top: -2px;">Update</span>
           </div>
-      </div>
-
-      <div class="row">
-         <div class="col-3"></div>
-         <div class="col-6 text-center tab-blue">
-                <span class="unskewed">Update</span>
-          </div>
-         <div class="col-3"></div>
-
       </div>
 
 
