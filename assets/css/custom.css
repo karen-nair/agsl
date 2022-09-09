@@ -149,6 +149,19 @@
         top: 170px;
     }
 
+    .body-wrapper {
+        position:relative;
+        top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+
+.body-wrapper {
+        position:relative;
+        /*top: 50px;*/
+    }
 }
 
 span.unskewed {
@@ -235,7 +248,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 /******FOOTER************************************************/
 
 .footer {
-    position: fixed;
+    position: relative;
     background: transparent;
     width: 100%;
     margin: 0 auto;

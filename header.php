@@ -70,7 +70,7 @@
             </div>
             <div class="content-body">
                  <div class="row">
-                    <div class="col-12 header" style="border:1px solid yellow;">
+                    <div class="col-12 header">
                         
                     
                    <?php 
@@ -88,4 +88,4 @@
                 </div>
 
 
-<div class="app-container">
+<div class="app-container body-wrapper">

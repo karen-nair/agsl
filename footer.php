@@ -1,23 +1,23 @@
             </div>
             <div class="row">
-                <div class="col-12 footer  py-2" style="border:1px solid yellow;">
+                <div class="col-12 footer  py-2" >
                     
                     <div class="app-container footer-inner">
                         <div class="row">
-                            <div class="col-3 text-center" style="border:1px solid yellow;">
+                            <div class="col-3 text-center" >
                                 <a href="index.php">
                                     <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'home'? 'home-active':'home');?>.PNG" class="<?php echo (isset($active)&& $active == 'home'? 'active':'');?>">
                                     <p class="<?php echo (isset($active)&& $active == 'home'? 'white-font':'grey-font');?>">Home</p>
                                 </a>
                             </div>
-                             <div class="col-3 text-center" style="border:1px solid yellow;">
+                             <div class="col-3 text-center" >
                                <a href="news.php">
                                 <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'news'? 'news-active':'news');?>.PNG"  class="<?php echo (isset($active)&& $active == 'news'? 'active':'');?>">
 
                                 <p class="<?php echo (isset($active)&& $active == 'news'? 'white-font':'grey-font');?>">News</p>
                                 </a>
                             </div>
-                            <div class="col-3 text-center" style="border:1px solid yellow;">
+                            <div class="col-3 text-center" >
                                 <a href="assets.php">
                                 <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'asset'? 'asset-2':'asset');?>.PNG" class="<?php echo (isset($active)&& $active == 'asset'? 'active':'');?>">
 
@@ -25,7 +25,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-3 text-center" style="border:1px solid yellow;">
+                            <div class="col-3 text-center" >
                                 <a href="account.php">
                                 <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'account'? 'account-active':'account');?>.PNG" class="<?php echo (isset($active)&& $active == 'account'? 'active':'');?>">
 

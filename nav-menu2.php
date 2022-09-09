@@ -1,6 +1,6 @@
 <div class="app-container"> 
     <div class="row">
-        <div class="col-8 text-left" style="border:1px solid yellow;">
+        <div class="col-8 text-left">
 
             <a  href="javascript:void(0);" onclick="history.back()"><img width="20" src="app-assets/images/home/line.PNG">&nbsp;<span class="header-title"><?php echo (isset($title)? $title:'');?></span></a>
             <?php
@@ -23,7 +23,7 @@
                 ?>
         </div>
          
-         <div class="col-4 text-right" style="border:1px solid yellow;">
+         <div class="col-4 text-right">
             one
         </div>
 
