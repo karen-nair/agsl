@@ -19,7 +19,7 @@
                             </div>
                             <div class="col-3 text-center" >
                                 <a href="assets.php">
-                                <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'asset'? 'asset-2':'asset');?>.png" class="<?php echo (isset($active)&& $active == 'asset'? 'active':'');?>">
+                                <img src="app-assets/images/home/footer/<?php echo (isset($active)&& $active == 'asset'? 'asset-active':'asset');?>.png" class="<?php echo (isset($active)&& $active == 'asset'? 'active':'');?>">
 
                                 <p class="<?php echo (isset($active)&& $active == 'asset'? 'white-font':'grey-font');?>">Assets</p>
                                 </a>

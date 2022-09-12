@@ -315,8 +315,8 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 
 .footer img.active {
     /*width: 50px;*/
-    top: -0.1px;
-    position: relative;
+    /*top: -0.1px;*/
+    /*position: relative;*/
     /*max-width: 50px;*/
 }
 
@@ -326,7 +326,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     font-size: 10px;
     text-transform: uppercase;
     position: relative;
-        /*top: -12px;*/
+    top: 10px;
 }
 
 .footer .grey-font {
