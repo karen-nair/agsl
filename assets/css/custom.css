@@ -248,7 +248,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 /******FOOTER************************************************/
 
 .footer {
-    position: absolute;
+    position: fixed;
     background: transparent;
     width: 100%;
     margin: 0 auto;
@@ -698,7 +698,7 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         background-image: url(../../app-assets/images/home/news-bg.png);
         background-size: contain;
         background-repeat: no-repeat;
-        min-height: 200px;
+        /*min-height: 200px;*/
         padding: 20px;
     }
 }
@@ -713,8 +713,8 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         background-image: url(../../app-assets/images/home/news-bg.png);
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 200px;
-        padding: 20px;
+        /*min-height: 200px;*/
+        padding: 10% 3%;
     }
 }
 
