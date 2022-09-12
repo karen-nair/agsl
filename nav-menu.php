@@ -6,7 +6,7 @@
 
         </div>
          <div class="col-4 text-center">
-            <img class="img-fluid agsl-logo" src="app-assets/images/home/logo.png">
+            <a href="index.php"><img class="img-fluid agsl-logo" src="app-assets/images/home/logo.png"></a>
 
         </div>
          <div class="col-4 text-right">

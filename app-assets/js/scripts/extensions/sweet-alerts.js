@@ -19,8 +19,8 @@ $(document).ready(function () {
       confirmButtonColor: '#8ee327',
       cancelButtonColor: '#d33',
       confirmButtonText: 'OK',
-      confirmButtonClass: 'btn tab-blue',
-      cancelButtonClass: 'btn tab-red ml-1',
+      confirmButtonClass: 'btn tab-submit-yellow',
+      cancelButtonClass: 'btn tab-submit-green ml-1',
       buttonsStyling: false,
     }).then(function (result) {
       if (result.value) {
