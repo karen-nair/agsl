@@ -70,7 +70,7 @@
             </div>
             <div class="content-body">
                  <div class="row">
-                    <div class="col-12  fixed-top">
+                    <div class="col-12  fixed-top" style="z-index: 1000;">
                         
                     
                    <?php 

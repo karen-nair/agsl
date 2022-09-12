@@ -150,8 +150,10 @@
     }
 
     .body-wrapper {
-        position:relative;
-        top: 100px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20%;
     }
 
     .agsl-logo {
@@ -171,8 +173,10 @@
 @media screen and (max-width: 1199px) {
 
     .body-wrapper {
-            position:relative;
-            height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20%;
     }
     .agsl-logo {
         width: 52px;

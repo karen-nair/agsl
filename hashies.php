@@ -60,12 +60,18 @@ include('header.php');
                         <div class="col-8">
                              <span class="text-white"><input class="trans-input" type="text" name="" value="ksmdk"></span>
                         </div>
+                        
                           <div class="col-3 text-right">
-                            <div class="tab-submit-yellow">
-                                <span class="unskewed">PLAY</span><br/>
+                            <a href="myplay.php">
+                                <div class="tab-submit-yellow">
+                                    
+                                        <span class="unskewed">PLAY</span><br/>
+                                    
                                 <img src="app-assets/images/home/next.png" width="12"></div>
-                         
+                            
+                           </a>
                          </div>
+                       
                      </div>
 
                 </div>

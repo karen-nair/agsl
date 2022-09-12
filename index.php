@@ -3,7 +3,7 @@ $active = 'home';
 include('header.php');
 ?>
 
-<div class="row py-2">
+<div class="row">
     <div class="col-4">
       <div class="tab-success" style="width:100%">
         <span class="unskewed">Inspiration</span><br/><br/>
@@ -63,7 +63,7 @@ include('header.php');
     </div>
   </div>
 <!--content-->
-<div class="row py-2">
+<div class="row">
     <div class="col-6 text-center">
      <img src="app-assets/images/home/green-game-zone.png" style="object-fit:contain;
     left: -8%;
@@ -86,7 +86,7 @@ include('header.php');
 </div>
 
 
-<div class="row py-2">
+<div class="row">
     <div class="col-12 last-wrapper" data-aos="fade-left" data-aos-delay="100">
       <img src="app-assets/images/home/strategic.png">
     </div>
