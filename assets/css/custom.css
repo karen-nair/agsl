@@ -905,6 +905,20 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
   margin: 0 auto;
   padding: 3px;
 }
+
+
+.tron {
+   background: -webkit-linear-gradient(#d8910f, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eos {
+   background: -webkit-linear-gradient(#7bba2d, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /*mobile*/
 @media screen and (max-width: 1199px) {
 
@@ -918,6 +932,38 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         position: relative;
     }
 
+}
+@media screen and (max-width: 400px) {
+    .eos, .tron {
+         font-size: 1.2rem;
+         top: 50%;
+         position: relative;
+         right: -30%;
+         font-weight: bolder;
+    }
+
+    .play3-btn {
+        width: 100%;
+        left: 20%;
+        position: relative;
+        top: 10%;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    .eos, .tron {
+         font-size: 2.2rem;
+         top: 30%;
+         position: relative;
+         right: -30%;
+         font-weight: bolder;
+    }
+
+    .play3-btn {
+        width: 100%;
+        left: 20%;
+        position: relative;
+    }
 }
 
 
@@ -934,21 +980,18 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         position: relative;
     }
 
-    .play-btn {
-        width: 250px;
-        left: -90px;
+     .play3-btn {
+        width: 100%;
+        left: 20%;
         position: relative;
-        z-index: 900;
-        top: 100px;
     }
 
-    .play-btn-text {
-        position: relative;
-        top: -60px;
-        z-index: 1000;
-        font-size: 36px;
-        color: white;
-        left: -5px;
+    .eos, .tron {
+         font-size: 2.2rem;
+         top: 30%;
+         position: relative;
+         right: -70%;
+         font-weight: bolder;
     }
     
 }
