@@ -154,13 +154,35 @@
         top: 100px;
     }
 
+    .agsl-logo {
+        width: 82px;
+        top: 30%;
+        position: relative;
+    }
+
+     .hppc {
+        width: 25%;
+        top: 30%;
+        position: relative;
+    }
+
 }
 
 @media screen and (max-width: 1199px) {
 
-.body-wrapper {
-        position:relative;
-        height: 100vh;
+    .body-wrapper {
+            position:relative;
+            height: 100vh;
+    }
+    .agsl-logo {
+        width: 52px;
+        top: 30%;
+        position: relative;
+    }
+    .hppc {
+        width: 30%;
+        top: 30%;
+        position: relative;
     }
 }
 

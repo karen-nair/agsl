@@ -70,7 +70,7 @@
             </div>
             <div class="content-body">
                  <div class="row">
-                    <div class="col-12 header">
+                    <div class="col-12  fixed-top">
                         
                     
                    <?php 
