@@ -3,7 +3,7 @@ $active = 'home';
 include('header.php');
 ?>
 
-<div class="row">
+<div class="row home-nav">
     <div class="col-4">
       <div class="tab-success" style="width:100%">
         <span class="unskewed">Inspiration</span><br/><br/>
@@ -27,10 +27,15 @@ include('header.php');
 
 </div>
 
-  <div class="row">
-    <div class="col-12" style="position: absolute;
-    top: 28%;
-    left: -0.5%;z-index: 99;">
+<div class="row py-2">
+  <div class="col-12 text-center">
+       <img src="app-assets/images/home/game-menu.png" style="width:50%">
+    
+  </div>
+</div>
+
+  <div class="row" style="position:relative;top: -30px;">
+    <div class="col-12 play-wrapper">
       <div id="outer-div">
         <div id="inner-div">
           
@@ -46,6 +51,7 @@ include('header.php');
              <div class="col-6">
               <a href="hashies.php">
                 <img src="app-assets/images/home/play-btn.png" class="play3-btn">
+                <h1 class="play3-btn-text">PLAY <br/>NOW</h1>
               </a>
              </div>
             
@@ -66,27 +72,23 @@ include('header.php');
 <div class="row">
     <div class="col-6 text-center">
      <img src="app-assets/images/home/green-game-zone.png" style="object-fit:contain;
-    left: -8%;
-    top: 0;
-    width: 140%;
-    height: auto;position: relative;">
-
+      left: -8%;
+      top: 0;
+      width: 140%;
+      height: auto;position: relative;">
     </div>
-    
-     
-  
 
     <div class="col-6 text-center">
      <img src="app-assets/images/home/yellow-game-zone.png" style="object-fit:contain;position: relative;
-    left: -30%;
-    top: 0;
-    width: 140%;
-    height: auto;">
+      left: -30%;
+      top: 0;
+      width: 140%;
+      height: auto;">
     </div>
 </div>
 
 
-<div class="row">
+<div class="row py-2">
     <div class="col-12 last-wrapper" data-aos="fade-left" data-aos-delay="100">
       <img src="app-assets/images/home/strategic.png">
     </div>

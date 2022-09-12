@@ -29,11 +29,6 @@
         top:50px;
     }
 
-     .play-wrapper h1 {
-
-  top: 130px;
-
-}
 
 }
 
@@ -184,7 +179,7 @@
         position: relative;
     }
     .hppc {
-        width: 30%;
+        width: 20%;
         top: 30%;
         position: relative;
     }
@@ -727,7 +722,7 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     }
     .news-wrapper {
         background-image: url(../../app-assets/images/home/news-bg.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         /*min-height: 200px;*/
         padding: 20px;
@@ -914,6 +909,7 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 }
 
 
+
 .last-wrapper,.left-wrapper,  .right-wrapper {
     position: relative;
     padding-top: 56.25%; /* 16:9 Aspect Ratio */
@@ -926,6 +922,10 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     width: 100%;
     height: auto;
 }
+.last-wrapper img {
+    top: -30%;
+}
+
 #outer-div {
   width: 100%;
   text-align: center;
@@ -963,7 +963,22 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         position: relative;
     }
 
+    .play-wrapper {
+        position: absolute;
+        top: 110px;
+        left: -0.5%;z-index: 99;
+    }
+
+    .play-wrapper h1 {
+        top: -36%;
+        left: 20%;
+    }
+
 }
+
+
+
+
 @media screen and (max-width: 400px) {
     .eos, .tron {
          font-size: 1.2rem;
@@ -978,6 +993,11 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         left: 20%;
         position: relative;
         top: 10%;
+    }
+    .play-wrapper {
+        position: absolute;
+        top: 120px;
+        left: -0.5%;z-index: 99;
     }
 }
 
@@ -995,9 +1015,44 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         left: 20%;
         position: relative;
     }
+    .play-wrapper {
+        position: absolute;
+        top: 140px;
+        left: -0.5%;z-index: 99;
+    }
 }
 
+@media screen and (min-width: 500px) {
+    .play-wrapper {
+        position: absolute;
+        top: 200px;
+        left: -0.5%;z-index: 99;
+    }
+    .play-wrapper h1 {
+        top: -46%;
+        left: 20%;
+        font-size: 30px;
+    }
 
+}
+
+@media screen and (min-width: 700px) {
+    .play-wrapper {
+        position: absolute;
+        top: 240px;
+        left: -0.5%;z-index: 99;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .play-wrapper {
+        position: absolute;
+        top: 80px;
+        left: -0.5%;z-index: 99;
+    }
+
+}
 /*desktop*/
 @media screen and (min-width: 1200px) {
 
@@ -1025,4 +1080,10 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
          font-weight: bolder;
     }
     
+}
+
+.home-nav {
+    top: 30px;
+    position: relative;
+    padding-bottom: 30px;
 }
