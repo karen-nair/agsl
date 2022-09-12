@@ -6,13 +6,13 @@ include('header.php');
 <div class="row py-2">
     <div class="col-4">
       <div class="tab-success" style="width:100%">
-        <span class="unskewed">Look out for2 !</span><br/><br/>
+        <span class="unskewed">Inspiration</span><br/><br/>
        <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -10px;">
      </div>
     </div>
     <div class="col-4">
       <div class="tab-info" style="width:100%">
-        <span class="unskewed">Look out for !</span><br/><br/>
+        <span class="unskewed">Excellent</span><br/><br/>
        <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -10px;">
      </div>
     </div>
@@ -20,7 +20,7 @@ include('header.php');
     <div class="col-4">
     
       <div class="tab-warning" style="width:100%">
-        <span class="unskewed">Look out for !</span><br/><br/>
+        <span class="unskewed">FAQ</span><br/><br/>
        <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -10px;">
      </div>
     </div>

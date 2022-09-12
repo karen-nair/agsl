@@ -160,7 +160,7 @@
 
 .body-wrapper {
         position:relative;
-        /*top: 50px;*/
+        height: 100vh;
     }
 }
 
@@ -248,7 +248,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 /******FOOTER************************************************/
 
 .footer {
-    position: relative;
+    position: absolute;
     background: transparent;
     width: 100%;
     margin: 0 auto;
