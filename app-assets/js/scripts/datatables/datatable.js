@@ -26,8 +26,8 @@ $(document).ready(function() {
      },
      language: {
         'paginate': {
-          'previous': '<img width="20" src="app-assets/images/home/prev.PNG">',
-          'next': '<img width="20" src="app-assets/images/home/next.PNG">'
+          'previous': '<img width="20" src="app-assets/images/home/prev.png">',
+          'next': '<img width="20" src="app-assets/images/home/next.png">'
         }
       }
     });
