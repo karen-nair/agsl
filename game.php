@@ -26,10 +26,11 @@ include('header.php');
 
           <img src="app-assets/images/home/green-bg2.png" class="game-bg-green">
 
-
+          <a href="hashies.php">
             <div class="tab-success play-button-green">
                 <span class="unskewed">PLAY</span><br/><br/>
                 <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+            </a>
          
         
     </div>
@@ -37,10 +38,11 @@ include('header.php');
 
             <img src="app-assets/images/home/yellow-bg2.png" class="game-bg-yellow">
 
-
+            <a href="hashies.php">
             <div class="tab-warning play-button-yellow">
                 <span class="unskewed">PLAY</span><br/><br/>
                 <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+            </a>
          
         
     </div>
@@ -53,10 +55,11 @@ include('header.php');
 
           <img src="app-assets/images/home/green-bg2.png" class="game-bg-green">
 
-
+          <a href="hashies.php">
             <div class="tab-success play-button-green">
                 <span class="unskewed">PLAY</span><br/><br/>
                 <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+            </a>
          
         
     </div>
@@ -64,10 +67,11 @@ include('header.php');
 
             <img src="app-assets/images/home/yellow-bg2.png" class="game-bg-yellow">
 
-
+            <a href="hashies.php">
             <div class="tab-warning play-button-yellow">
                 <span class="unskewed">PLAY</span><br/><br/>
                 <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+            </a>
          
         
     </div>
@@ -79,10 +83,11 @@ include('header.php');
 
           <img src="app-assets/images/home/green-bg2.png" class="game-bg-green">
 
-
+          <a href="hashies.php">
             <div class="tab-success play-button-green">
                 <span class="unskewed">PLAY</span><br/><br/>
                 <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+            </a>
          
         
     </div>
@@ -90,10 +95,11 @@ include('header.php');
 
             <img src="app-assets/images/home/yellow-bg2.png" class="game-bg-yellow">
 
-
-            <div class="tab-warning play-button-yellow">
-                <span class="unskewed">PLAY</span><br/><br/>
-                <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+            <a href="hashies.php">
+                <div class="tab-warning play-button-yellow">
+                    <span class="unskewed">PLAY</span><br/><br/>
+                    <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+            </a>
          
         
     </div>
@@ -105,10 +111,11 @@ include('header.php');
 
           <img src="app-assets/images/home/green-bg2.png" class="game-bg-green">
 
-
+          <a href="hashies.php">
             <div class="tab-success play-button-green">
                 <span class="unskewed">PLAY</span><br/><br/>
                 <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+            </a>
          
         
     </div>
@@ -116,10 +123,11 @@ include('header.php');
 
             <img src="app-assets/images/home/yellow-bg2.png" class="game-bg-yellow">
 
-
+            <a href="hashies.php">
             <div class="tab-warning play-button-yellow">
                 <span class="unskewed">PLAY</span><br/><br/>
                 <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+            </a>
          
         
     </div>

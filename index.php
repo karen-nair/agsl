@@ -36,17 +36,27 @@ include('header.php');
           
 
            <div class="row">
+            
              <div class="col-2 text-right">
-              <span class="eos">EOS</span>         
+              <a href="game.php">
+              <span class="eos">EOS</span> 
+               </a>        
              </div>
-
+          
              <div class="col-6">
-              <img src="app-assets/images/home/play-btn.png" class="play3-btn">
+              <a href="hashies.php">
+                <img src="app-assets/images/home/play-btn.png" class="play3-btn">
+              </a>
              </div>
+            
+
              <div class="col-2 text-left">
+              <a href="game.php">
                <span class="tron">TRON</span>
+               </a>
              </div>
            </div>
+         
 
        </div>
       </div>
