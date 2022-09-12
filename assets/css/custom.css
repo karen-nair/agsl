@@ -283,7 +283,8 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     bottom: 0;
     /*padding: 0 0 0 0;*/
     overflow: hidden;
-    z-index: 2;
+    z-index: 1000;
+    background-image: linear-gradient(180deg, transparent, black);
 }
 
 .header {
