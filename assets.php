@@ -17,7 +17,8 @@ include('header.php');
                         <div class="card-icons d-flex flex-column">
                             <div class="row">
                                  <div class="col-12 text-center tab-submit-green">
-                                    <span class="unskewed" style="top:-2px">Deposit</span>
+                                    
+                                    <a href="deposit.php"><span class="unskewed" style="top:-2px;color: #fff;">Deposit</span></a>
                                  </div>
 
 
@@ -28,7 +29,9 @@ include('header.php');
                         <div class="card-icons d-flex flex-column">
                            <div class="row">
                                <div class="col-12 text-center tab-submit-yellow">
-                                    <span class="unskewed" style="top:8px">Withdrawal</span>
+                                 <a href="withdrawal.php">
+                                    <span class="unskewed" style="top:8px;color: #fff;">Withdrawal</span>
+                                </a>
                                  </div>
                             </div>
                            
