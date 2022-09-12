@@ -10,11 +10,11 @@ include('header.php');
            
                 <div class="text-center mx-auto pt-3">
                     <div class="avatar bg-rgba-primary p-50">
-                        <img class="img-fluid" src="app-assets/images/home/account/parrot.PNG" alt="img placeholder" height="134" width="134">
+                        <img class="img-fluid" src="app-assets/images/home/account/parrot.png" alt="img placeholder" height="134" width="134">
 
 
                     </div>
-                    <img class="img-fluid" style="cursor: pointer;" src="app-assets/images/home/account/info.PNG" height="24" width="24" id="confirm-text">
+                    <img class="img-fluid" style="cursor: pointer;" src="app-assets/images/home/account/info.png" height="24" width="24" id="confirm-text">
                 </div>
                 <div class="text-center">
                     <h4 style="color:#fff;">test9</h4>
@@ -23,7 +23,7 @@ include('header.php');
                         <div class="card-icons d-flex flex-column">
                             <div class="row">
                               <div class="col-6">
-                                <img class="img-fluid icon-gp" src="app-assets/images/home/gp.PNG">
+                                <img class="img-fluid icon-gp" src="app-assets/images/home/gp.png">
                               </div>
                               <div class="col-6" style="left: -30px;">
                                 <span class="dollar-text" style="color:#e8c661;">7533.00</span>
@@ -40,7 +40,7 @@ include('header.php');
                         <div class="card-icons d-flex flex-column">
                            <div class="row">
                               <div class="col-6">
-                                <img class="img-fluid icon-gp" src="app-assets/images/home/gp.PNG">
+                                <img class="img-fluid icon-gp" src="app-assets/images/home/gp.png">
                               </div>
                               <div class="col-6" style="left: -30px;">
                                 <span class="dollar-text" style="color:#fff;">1285.00</span>
@@ -70,7 +70,7 @@ include('header.php');
           <a href="mydownline.php">
             <div class="row">
               <div class="col-12 acc-ico-wrapper">
-                <img class="acc-ico" src="app-assets/images/home/account/people.PNG">
+                <img class="acc-ico" src="app-assets/images/home/account/people.png">
               </div>
             </div>
 
@@ -87,7 +87,7 @@ include('header.php');
           <div class="col-3 outer-line text-center py-2">
             <div class="row">
               <div class="col-12 acc-ico-wrapper">
-                <img class="acc-ico" src="app-assets/images/home/account/dollar.PNG">
+                <img class="acc-ico" src="app-assets/images/home/account/dollar.png">
               </div>
             </div>
 
@@ -103,7 +103,7 @@ include('header.php');
           <div class="col-3 outer-line text-center py-2">
             <div class="row">
               <div class="col-12 acc-ico-wrapper">
-                <img class="acc-ico" src="app-assets/images/home/account/pencil.PNG">
+                <img class="acc-ico" src="app-assets/images/home/account/pencil.png">
               </div>
             </div>
 
@@ -119,7 +119,7 @@ include('header.php');
           <div class="col-3 outer-line text-center py-2">
            <div class="row">
               <div class="col-12 acc-ico-wrapper">
-                <img class="acc-ico" src="app-assets/images/home/account/envelope.PNG">
+                <img class="acc-ico" src="app-assets/images/home/account/envelope.png">
               </div>
             </div>
 
@@ -136,7 +136,7 @@ include('header.php');
           <div class="col-3 outer-line text-center py-2">
             <div class="row">
               <div class="col-12 acc-ico-wrapper">
-                <img class="acc-ico" src="app-assets/images/home/account/padlock.PNG">
+                <img class="acc-ico" src="app-assets/images/home/account/padlock.png">
               </div>
             </div>
 
@@ -151,7 +151,7 @@ include('header.php');
           <div class="col-3 outer-line text-center py-2">
             <div class="row">
               <div class="col-12 acc-ico-wrapper">
-                <img class="acc-ico" src="app-assets/images/home/account/dollar.PNG">
+                <img class="acc-ico" src="app-assets/images/home/account/dollar.png">
               </div>
             </div>
 
@@ -167,7 +167,7 @@ include('header.php');
           <div class="col-3 outer-line text-center py-2">
             <div class="row">
               <div class="col-12 acc-ico-wrapper">
-                <img class="acc-ico" src="app-assets/images/home/account/pencil.PNG">
+                <img class="acc-ico" src="app-assets/images/home/account/pencil.png">
               </div>
             </div>
 
@@ -183,7 +183,7 @@ include('header.php');
           <div class="col-3 outer-line text-center py-2">
             <div class="row">
               <div class="col-12 acc-ico-wrapper">
-                <img class="acc-ico" src="app-assets/images/home/account/envelope.PNG">
+                <img class="acc-ico" src="app-assets/images/home/account/envelope.png">
               </div>
             </div>
 

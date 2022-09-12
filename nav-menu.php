@@ -5,7 +5,7 @@
             one
         </div>
          <div class="col-4">
-            <img class="img-fluid" src="app-assets/images/home/logo.PNG">
+            <img class="img-fluid" src="app-assets/images/home/logo.png">
 
         </div>
          <div class="col-4">

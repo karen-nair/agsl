@@ -55,7 +55,7 @@
 
 <!-- BEGIN: Body-->
 
-<body style="background-image: url('app-assets/images/home/bg.PNG');background-size: cover;background-repeat: no-repeat;background-color: #0b0c10;" class="horizontal-layout horizontal-menu navbar-static 2-columns   footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="2-columns">
+<body style="background-image: url('app-assets/images/home/bg.png');background-size: cover;background-repeat: no-repeat;background-color: #0b0c10;" class="horizontal-layout horizontal-menu navbar-static 2-columns   footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="2-columns">
 <div class="content_wrapper">
     
 

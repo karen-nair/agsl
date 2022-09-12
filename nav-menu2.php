@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-8 text-left">
 
-            <a  href="javascript:void(0);" onclick="history.back()"><img width="20" src="app-assets/images/home/line.PNG">&nbsp;<span class="header-title"><?php echo (isset($title)? $title:'');?></span></a>
+            <a  href="javascript:void(0);" onclick="history.back()"><img width="20" src="app-assets/images/home/line.png">&nbsp;<span class="header-title"><?php echo (isset($title)? $title:'');?></span></a>
             <?php
                 if (isset($dropdown)) {
                     ?>

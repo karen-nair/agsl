@@ -7,13 +7,13 @@ include('header.php');
     <div class="col-4">
       <div class="tab-success" style="width:100%">
         <span class="unskewed">Look out for2 !</span><br/><br/>
-       <img src="app-assets/images/home/next.PNG" width="12" style="position: relative;top: -10px;">
+       <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -10px;">
      </div>
     </div>
     <div class="col-4">
       <div class="tab-info" style="width:100%">
         <span class="unskewed">Look out for !</span><br/><br/>
-       <img src="app-assets/images/home/next.PNG" width="12" style="position: relative;top: -10px;">
+       <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -10px;">
      </div>
     </div>
 
@@ -21,7 +21,7 @@ include('header.php');
     
       <div class="tab-warning" style="width:100%">
         <span class="unskewed">Look out for !</span><br/><br/>
-       <img src="app-assets/images/home/next.PNG" width="12" style="position: relative;top: -10px;">
+       <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -10px;">
      </div>
     </div>
 
@@ -41,7 +41,7 @@ include('header.php');
              </div>
 
              <div class="col-6">
-              <img src="app-assets/images/home/play-btn.PNG" class="play3-btn">
+              <img src="app-assets/images/home/play-btn.png" class="play3-btn">
              </div>
              <div class="col-2 text-left">
                <span class="tron">TRON</span>
@@ -78,7 +78,7 @@ include('header.php');
 
 <div class="row py-2">
     <div class="col-12 last-wrapper" data-aos="fade-left" data-aos-delay="100">
-      <img src="app-assets/images/home/strategic.PNG">
+      <img src="app-assets/images/home/strategic.png">
     </div>
 </div>
 

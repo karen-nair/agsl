@@ -22,7 +22,7 @@
             <div class="pwd">
                <input class="trans-input" type="text" name="" placeholder="Password">
                <span class="p-viewer">
-                  <img class="img-fluid" src="app-assets/images/home/eye.PNG" height="24" width="24">
+                  <img class="img-fluid" src="app-assets/images/home/eye.png" height="24" width="24">
                </span>
             </div>
 
@@ -39,7 +39,7 @@
 
           </div>
           <div class="col-5 text-right">
-            <img class="img-fluid" src="app-assets/images/home/captcha2.PNG" width="106" height="106">
+            <img class="img-fluid" src="app-assets/images/home/captcha2.png" width="106" height="106">
 
           </div>
       </div>
