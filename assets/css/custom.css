@@ -643,7 +643,7 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 /*********HASHIES****************************************/
 .hashies-toggle {
     position: relative;
-    top: 15px;
+    top: 10px;
 }
 .hashies-timer {
     color: white !important;
