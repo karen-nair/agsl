@@ -56,8 +56,7 @@
 <!-- BEGIN: Body-->
 
 <body style="background-image: url('app-assets/images/home/bg.png');background-size: cover;background-repeat: no-repeat;background-color: #0b0c10;" class="horizontal-layout horizontal-menu navbar-static 2-columns   footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="2-columns">
-<div class="content_wrapper">
-    
+   
 
 
 
@@ -66,11 +65,9 @@
     <div class="app-content content">
         <div class="content-overlay"></div>
         <div class="content-wrapper">
-            <div class="content-header row">
-            </div>
             <div class="content-body">
                  <div class="row">
-                    <div class="col-12  fixed-top" style="z-index: 1000;">
+                    <div class="col-12" style="z-index: 1000;">
                         
                     
                    <?php 
