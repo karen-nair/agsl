@@ -275,12 +275,16 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 }
 
 html .navbar-static .app-content .content-wrapper {
-    padding: 0 !important;
+    /*padding: 0 !important;*/
 }
 
-/*.header-navbar.fixed-top {
-    background-color: #000 !important;
-}*/
+.header-navbar.fixed-top {
+    background-color: transparent !important;
+}
+.header-navbar.fixed-top.scrolled {
+  background-color: #0b0c10 !important;
+  transition: background-color 200ms linear;
+}
 
 .card {
     background-color: transparent !important;

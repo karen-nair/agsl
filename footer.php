@@ -82,6 +82,14 @@
     <script src="app-assets/js/scripts/datatables/datatable.js"></script>
 
 
+    <script type="text/javascript">
+        $(function () {
+          $(document).scroll(function () {
+            var $nav = $(".header-navbar.fixed-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+          });
+        });
+    </script>
 </body>
 <!-- END: Body-->
 
