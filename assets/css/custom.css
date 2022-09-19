@@ -976,6 +976,17 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         background-image: url(../../app-assets/images/home/yellow-game-zone.png);
         background-size: contain;
     }
+        .green-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-size: contain;
+
+    }
+
+    .yellow-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-size: contain;
+
+    }
     .play-card .eos, .play-card .tron {
         font-size: 2.4rem;
         top: 20%;
@@ -991,6 +1002,17 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     .yellow-active-bg {
         background-image: url(../../app-assets/images/home/yellow-game-zone.png);
         background-size: contain;
+    }
+    .green-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-size: contain;
+
+    }
+
+    .yellow-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-size: contain;
+
     }
     .play-card .eos, .play-card .tron {
         font-size: 2.4rem;
