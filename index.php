@@ -31,15 +31,15 @@ include('header.php');
   </div>
 </div>
 
-<div class="card">
-  <div class="card-body">
+
 <div class="row">
   <div class="col-12 text-center">
        <img src="app-assets/images/home/game-menu.png" style="width:50%">
     
   </div>
 </div>
-
+<div class="card">
+  <div class="card-body">
   <div class="row" style="position:relative;top: -30px;">
     <div class="col-12 play-wrapper">
       <div id="outer-div">
