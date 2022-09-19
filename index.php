@@ -48,7 +48,7 @@ include('header.php');
 
            <div class="row">
             
-             <div class="col-2 text-right">
+             <div class="col-3 text-right">
               <a href="game.php">
               <span class="eos">EOS</span> 
                </a>        
@@ -62,7 +62,7 @@ include('header.php');
              </div>
             
 
-             <div class="col-2 text-left">
+             <div class="col-3 text-left">
               <a href="game.php">
                <span class="tron">TRON</span>
                </a>

@@ -1038,7 +1038,7 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 
     .play-wrapper h1 {
         top: -36%;
-        left: 20%;
+        /*left: 20%;*/
     }
 
 }
@@ -1048,57 +1048,68 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 
 @media screen and (max-width: 400px) {
     .eos, .tron {
-         font-size: 1.2rem;
-         top: 50%;
+         font-size: 0.9rem;
+         top: 35%;
          position: relative;
-         right: -30%;
+         /*right: -30%;*/
          font-weight: bolder;
     }
 
     .play3-btn {
         width: 100%;
-        left: 20%;
+        /*left: 20%;*/
         position: relative;
         top: 10%;
     }
     .play-wrapper {
         position: absolute;
-        top: 120px;
-        left: -0.5%;z-index: 99;
+        top: 50px;
+        left: -0.5%;
+        z-index: 99;
+    }
+    .play-wrapper h1 {
+        font-size: 16px;
     }
 }
 
 @media screen and (min-width: 401px) {
     .eos, .tron {
-         font-size: 2.2rem;
+         font-size: 1.2rem;
          top: 30%;
          position: relative;
-         right: -30%;
+         /*right: -30%;*/
          font-weight: bolder;
     }
 
     .play3-btn {
         width: 100%;
-        left: 20%;
+        /*left: 20%;*/
         position: relative;
     }
     .play-wrapper {
         position: absolute;
-        top: 140px;
+        top: 70px;
         left: -0.5%;z-index: 99;
+    }
+    .play-wrapper h1 {
+        top: -46%;
+        /* left: 20%; */
     }
 }
 
 @media screen and (min-width: 500px) {
     .play-wrapper {
         position: absolute;
-        top: 200px;
+        top: 120px;
         left: -0.5%;z-index: 99;
     }
     .play-wrapper h1 {
-        top: -46%;
-        left: 20%;
+        top: -48%;
+        /*left: 20%;*/
         font-size: 30px;
+    }
+    .eos, .tron {
+        font-size: 1.8rem;
     }
 
 }
@@ -1106,8 +1117,9 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 @media screen and (min-width: 700px) {
     .play-wrapper {
         position: absolute;
-        top: 240px;
-        left: -0.5%;z-index: 99;
+        top: 150px;
+        left: -0.5%;
+        z-index: 99;
     }
 
 }
@@ -1135,7 +1147,7 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 
      .play3-btn {
         width: 100%;
-        left: 20%;
+        /*left: 20%;*/
         position: relative;
     }
 
@@ -1143,7 +1155,7 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
          font-size: 2.2rem;
          top: 30%;
          position: relative;
-         right: -70%;
+         /*right: -70%;*/
          font-weight: bolder;
     }
     
