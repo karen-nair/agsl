@@ -6,16 +6,20 @@ include('header.php');
    <div class="card-body">
      <div class="row">
          <div class="col-12 py-1">
-          
-            <input class="trans-input" type="text" name="" placeholder="Current Security Password">
+
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="" placeholder="Current Security Password">
+            </div>
 
           </div>
       </div>
 
       <div class="row">
          <div class="col-12 py-1">
-            
-            <input class="trans-input" type="text" name="" placeholder="New Security Password">
+
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="" placeholder="New Security Password">
+            </div>
 
           </div>
       </div>
@@ -23,15 +27,20 @@ include('header.php');
       <div class="row">
          <div class="col-12 py-1">
       
-            <input class="trans-input" type="text" name="" placeholder="Confirm New Security Password">
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="" placeholder="Confirm New Security Password">
+            </div>
 
           </div>
       </div>
 
 
-       <div class="row">
-         <div class="col-6 text-center tab-submit-green" style="margin: 0 auto;">
-                <span class="unskewed" style="position: relative;top: -2px;">Change Security Password</span>
+       <div class="row py-2">
+         <div class="col-md-10 text-center green-yellow-btn-wrapper">
+            <div class="tab-submit-green">
+                <span class="unskewed">Change Security Password</span>
+               
+            </div>
           </div>
       </div>
 

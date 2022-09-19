@@ -8,8 +8,10 @@ include('header.php');
 
      <div class="row">
          <div class="col-12 py-1">
-            
-            <input class="trans-input" type="text" name="" placeholder="USDT Amount">
+
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="" placeholder="USDT Amount">
+            </div>
 
           </div>
       </div>
@@ -17,22 +19,29 @@ include('header.php');
       <div class="row">
          <div class="col-12 py-1">
             
-            <input class="trans-input" type="text" name="" placeholder="USDT Wallet Address (TRC-20)">
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="" placeholder="USDT Wallet Address (TRC-20)">
+            </div>
 
           </div>
       </div>
 
       <div class="row">
          <div class="col-12 py-1">
-
-            <input class="trans-input" type="text" name="" placeholder="Security Password">
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="" placeholder="Security Password">
+            </div>
 
           </div>
       </div>
 
-      <div class="row">
-         <div class="col-6 text-center tab-submit-green" style="margin: 0 auto;">
-                <span class="unskewed" style="position: relative;top: -2px;">Submit</span>
+
+      <div class="row py-2">
+         <div class="col-md-10 text-center green-yellow-btn-wrapper">
+            <div class="tab-submit-green">
+                <span class="unskewed">Submit</span>
+               
+            </div>
           </div>
       </div>
 

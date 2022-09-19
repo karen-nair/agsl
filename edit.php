@@ -6,32 +6,44 @@ include('header.php');
    <div class="card-body">
      <div class="row">
          <div class="col-12 py-1">
-            
-            <input class="trans-input" type="text" name="" placeholder="Username">
+
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="" placeholder="Username">
+            </div>
           </div>
       </div>
 
       <div class="row">
          <div class="col-12 py-1">
             
-            <input class="trans-input" type="text" name="" placeholder="Name">
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="" placeholder="Name">
+            </div>
           </div>
       </div>
 
-      <div class="row">
-         <div class="col-12 py-1">
-            <i style="color:rgba(194, 215, 232, 0.302);">Wallet Address</i>
-        
-            <input class="trans-input" type="text" name="" placeholder="Security Password" style="top: 5px;position: relative;">
+      <div class="row  py-2">
+         <div class="col-12">
+            <i style="color:rgba(194, 215, 232, 0.302);position: relative;bottom: 10px;">Wallet Address</i>
+      
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="" placeholder="Security Password">
+            </div>
           </div>
       </div>
 
-      <div class="row">
-         <div class="col-6 text-center tab-submit-green" style="margin: 0 auto;">
-                <span class="unskewed" style="position: relative;top: -2px;">Update</span>
+      
+
+       <div class="row py-2">
+         <div class="col-md-10 text-center green-yellow-btn-wrapper">
+            <div class="tab-submit-green">
+                <span class="unskewed">Update</span>
+               
+            </div>
           </div>
       </div>
-</div>
+
+   </div>
 </div>
 
 

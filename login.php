@@ -10,8 +10,10 @@
 
      <div class="row py-1">
          <div class="col-12">
-           
-            <input class="trans-input" type="text" name="" placeholder="Username">
+
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="" placeholder="Username">
+            </div>
 
           </div>
       </div>
@@ -21,7 +23,9 @@
            
             
             <div class="pwd">
-               <input class="trans-input" type="text" name="" placeholder="Password">
+             <div class="wrapper"> 
+                  <input class="trans-input" type="text" name="" placeholder="Password">
+               </div>
                <span class="p-viewer">
                   <img class="img-fluid" src="app-assets/images/home/eye.png" height="24" width="24">
                </span>
@@ -36,29 +40,42 @@
       
       <div class="row py-1">
          <div class="col-7">
-            <input class="trans-input" type="text" name="">
+            <div class="wrapper"> 
+               <input class="trans-input" type="text" name="">
+            </div>
 
           </div>
           <div class="col-5 text-right">
-            <img class="img-fluid" src="app-assets/images/home/captcha2.png" width="106" height="106">
+            <img class="img-fluid" src="app-assets/images/home/captcha2.png">
 
           </div>
+          <div class="col-12">
+             <p class="grey-font">Forgot Password?</p>
+          </div>
       </div>
-      <p class="grey-font">Forgot Password?</p>
+      
+
 
 
       <div class="row py-2">
-         <div class="col-6 text-center tab-submit-green" style="margin: 0 auto;">
-                <span class="unskewed" style="position: relative;top: -2px;">Login</span>
+         <div class="col-md-10 text-center green-yellow-btn-wrapper">
+            <div class="tab-submit-green">
+                <span class="unskewed">Login</span>
+               
+            </div>
           </div>
       </div>
 
       <div class="row py-2">
-         <div class="col-6 text-center tab-submit-yellow" style="margin: 0 auto;">
-                <span class="unskewed" style="position: relative;top: -2px;">Register Account</span>
+         <div class="col-md-10 text-center green-yellow-btn-wrapper">
+            <div class="tab-submit-yellow">
+                <span class="unskewed">Register Account</span>
+               
+            </div>
           </div>
       </div>
-</div>
+
+   </div>
 </div>
 
 
