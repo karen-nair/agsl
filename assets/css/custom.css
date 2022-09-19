@@ -855,6 +855,15 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     margin-bottom: 5px;
 }
 
+button#dropdownMenuButton3 {
+    border: none;
+}
+.nav.nav-tabs {
+    border-bottom: none;
+}
+.btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show > .btn-outline-light.dropdown-toggle{
+    background: none;
+}
 /***LOGIN*****************************/
 .welcome{
     color: #315c23;
