@@ -462,7 +462,7 @@ html .navbar-static .app-content .content-wrapper {
 
 .tab-submit-yellow {
     width: 100%;
-    transform: skew(-10deg);
+    /*transform: skew(-10deg);*/
     color: white;
     /* border-radius: 10px; */
     position: relative;
@@ -476,9 +476,25 @@ html .navbar-static .app-content .content-wrapper {
 
 }
 
+.tab-submit-blue {
+    width: 100%;
+    /*transform: skew(-10deg);*/
+    color: white;
+    /* border-radius: 10px; */
+    position: relative;
+    line-height: 12px;
+    text-align: center;
+    padding: 2em;
+    /* min-height: 40px; */
+    background-image: url(../../app-assets/images/home/blue-btn.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
 .tab-submit-green {
     width: 100%;
-    transform: skew(-10deg);
+    /*transform: skew(-10deg);*/
     color: white;
     /* border-radius: 10px; */
     position: relative;
@@ -1225,6 +1241,9 @@ button#dropdownMenuButton3 {
     left: 10%;
 }
 
+.play-card .tab-submit-yellow, .play-card .tab-submit-green {
+    padding: 1em;
+}
 
 /*****HOME******************************************/
 
@@ -1502,4 +1521,49 @@ button#dropdownMenuButton3 {
     top: 30px;
     position: relative;
     padding-bottom: 30px;
+}
+
+
+.home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
+    background-size: 100% 50%;
+    padding: 2.5em !important;
+    width: 100%;
+    color: white;
+    position: relative;
+    line-height: 12px;
+    text-align: center;
+    padding: 2em;
+    background-repeat: no-repeat;
+}
+.home .tab-submit-yellow {
+    background-image: url(../../app-assets/images/home/home-yellow-btn.png);
+
+}
+
+.home .tab-submit-blue {
+    background-image: url(../../app-assets/images/home/home-blue-btn.png);
+
+}
+
+.home .tab-submit-green {
+    background-image: url(../../app-assets/images/home/home-green-btn.png);
+
+}
+
+.home .unskewed {
+    position: relative;
+    top: -25px;
+}
+
+@media screen and (max-width: 600px) {
+   .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
+    padding: 1.5em !important;
+   }
+
+   .home .unskewed {
+    position: relative;
+        top: -15px !important;
+        font-size: 0.5em;
+    }
+
 }

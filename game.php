@@ -30,9 +30,15 @@ include('header.php');
         <span class="eos">EOS</span>
        </a>
       <a href="hashies.php">
-        <div class="tab-success play-button-green">
-            <span class="unskewed">PLAY</span><br/><br/>
-            <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+        
+        <div class="row py-2">
+                 <div class="col-md-10 text-center green-yellow-btn-wrapper">
+                    <div class="tab-submit-green">
+                        <span class="unskewed">PLAY</span><br/><br/>
+                        <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;">
+                    </div>
+                  </div>
+              </div>
         </a>
     </div>
 
@@ -41,9 +47,14 @@ include('header.php');
            <span class="tron">TRON</span>
         </a>
         <a href="hashies.php">
-                <div class="tab-warning play-button-yellow">
-                    <span class="unskewed">PLAY</span><br/><br/>
-                    <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+             <div class="row py-2">
+                 <div class="col-md-10 text-center green-yellow-btn-wrapper">
+                    <div class="tab-submit-yellow">
+                        <span class="unskewed">PLAY</span><br/><br/>
+                        <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;">
+                    </div>
+                  </div>
+              </div>
             </a>
     </div>
    
@@ -56,10 +67,17 @@ include('header.php');
         <span class="eos">EOS</span>
        </a>
       <a href="hashies.php">
-        <div class="tab-success play-button-green">
-            <span class="unskewed">PLAY</span><br/><br/>
-            <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
-        </a>
+        
+
+          <div class="row py-2">
+             <div class="col-md-10 text-center green-yellow-btn-wrapper">
+                <div class="tab-submit-green">
+                    <span class="unskewed">PLAY</span><br/><br/>
+                    <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;">
+                </div>
+              </div>
+          </div>
+           </a>
     </div>
 
      <div class="col-6 text-center yellow-active-bg">
@@ -67,9 +85,15 @@ include('header.php');
            <span class="tron">TRON</span>
         </a>
         <a href="hashies.php">
-                <div class="tab-warning play-button-yellow">
-                    <span class="unskewed">PLAY</span><br/><br/>
-                    <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+
+              <div class="row py-2">
+                 <div class="col-md-10 text-center green-yellow-btn-wrapper">
+                    <div class="tab-submit-yellow">
+                        <span class="unskewed">PLAY</span><br/><br/>
+                        <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;">
+                    </div>
+                  </div>
+              </div>
             </a>
     </div>
    

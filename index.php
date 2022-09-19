@@ -4,32 +4,27 @@ include('header.php');
 ?>
 
 <div class="card">
-  <div class="card-body">
-    <div class="row py-2">
-      <div class="col-4">
-        <div class="tab-success">
-          <span class="unskewed">Inspiration</span><br/><br/>
-         <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -10px;">
-       </div>
-      </div>
-      <div class="col-4">
-        <div class="tab-info">
-          <span class="unskewed">Excellent</span><br/><br/>
-         <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -10px;">
-       </div>
-      </div>
+  <div class="card-body home">
 
-      <div class="col-4">
-      
-        <div class="tab-warning">
-          <span class="unskewed">FAQ</span><br/><br/>
-         <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -10px;">
-       </div>
-      </div>
+        <div class="row">
+            <div class="col-4 tab-submit-green">
+                <span class="unskewed">Inspiration</span>
+               
+            </div>
 
+            <div class="col-4 tab-submit-blue">
+                <span class="unskewed">Excellent</span>
+               
+            </div>
+
+   
+           <div class="col-4 tab-submit-yellow">
+                  <span class="unskewed">FAQ</span>  
+            </div>
+        </div>
+        
+    </div>
   </div>
-  </div>
-</div>
 
 
 <div class="row">
