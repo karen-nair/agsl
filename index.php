@@ -40,7 +40,7 @@ include('header.php');
 </div>
 <div class="card">
   <div class="card-body">
-  <div class="row" style="position:relative;top: -30px;">
+  <div class="row" >
     <div class="col-12 play-wrapper">
       <div id="outer-div">
         <div id="inner-div">

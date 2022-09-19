@@ -22,138 +22,168 @@ include('header.php');
     </div>
 </div>
 
-<!--one pair-->
 
-  <div class="row" style="position:relative;top: -30px;">
-    <div class="col-12 play-wrapper">
-      <div id="outer-div">
-        <div id="inner-div">
-          
-
-           <div class="row">
-            
-             <div class="col-6 text-right">
-              <a href="game.php">
-              <span class="eos">EOS</span> 
-               </a>        
-             </div>
-          
-            
-             <div class="col-6 text-left">
-              <a href="game.php">
-               <span class="tron">TRON</span>
-               </a>
-             </div>
-           </div>
-         
-
-       </div>
-      </div>
-    </div>
-  </div>
 <!--content-->
-<div class="row">
-    <div class="col-6 text-center">
-     <img src="app-assets/images/home/green-game-zone.png" style="object-fit:contain;
-      left: -8%;
-      top: 0;
-      width: 140%;
-      height: auto;position: relative;">
+<div class="row play-card">
+    <div class="col-6 text-center green-active-bg">
+       <a href="game.php">
+        <span class="eos">EOS</span>
+       </a>
+      <a href="hashies.php">
+        <div class="tab-success play-button-green">
+            <span class="unskewed">PLAY</span><br/><br/>
+            <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+        </a>
     </div>
 
-    <div class="col-6 text-center">
-     <img src="app-assets/images/home/yellow-game-zone.png" style="object-fit:contain;position: relative;
-      left: -30%;
-      top: 0;
-      width: 140%;
-      height: auto;">
-    </div>
-</div>
-
-
-<!--one pair-->
-<div class="row">
-    <div class="col-6 text-center">
-
-          <img src="app-assets/images/home/game-grey-1.png" class="game-bg-green">
-
-          <a href="hashies.php">
-            <div class="tab-success play-button-green">
-                <span class="unskewed">PLAY</span><br/><br/>
-                <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
-            </a>
-         
-        
-    </div>
-     <div class="col-6 text-center">
-
-            <img src="app-assets/images/home/game-grey.png" class="game-bg-yellow">
-
-            <a href="hashies.php">
-            <div class="tab-warning play-button-yellow">
-                <span class="unskewed">PLAY</span><br/><br/>
-                <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
-            </a>
-         
-        
-    </div>
-</div>
-
-<!--one pair-->
-<div class="row">
-    <div class="col-6 text-center">
-
-          <img src="app-assets/images/home/game-grey-1.png" class="game-bg-green">
-
-          <a href="hashies.php">
-            <div class="tab-success play-button-green">
-                <span class="unskewed">PLAY</span><br/><br/>
-                <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
-            </a>
-         
-        
-    </div>
-     <div class="col-6 text-center">
-
-            <img src="app-assets/images/home/game-grey.png" class="game-bg-yellow">
-
-            <a href="hashies.php">
+     <div class="col-6 text-center yellow-active-bg">
+        <a href="game.php">
+           <span class="tron">TRON</span>
+        </a>
+        <a href="hashies.php">
                 <div class="tab-warning play-button-yellow">
                     <span class="unskewed">PLAY</span><br/><br/>
                     <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
             </a>
-         
-        
     </div>
+   
 </div>
 
-<!--one pair-->
-<div class="row">
+<!--content-->
+<div class="row play-card">
+    <div class="col-6 text-center green-active-bg">
+       <a href="game.php">
+        <span class="eos">EOS</span>
+       </a>
+      <a href="hashies.php">
+        <div class="tab-success play-button-green">
+            <span class="unskewed">PLAY</span><br/><br/>
+            <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+        </a>
+    </div>
+
+     <div class="col-6 text-center yellow-active-bg">
+        <a href="game.php">
+           <span class="tron">TRON</span>
+        </a>
+        <a href="hashies.php">
+                <div class="tab-warning play-button-yellow">
+                    <span class="unskewed">PLAY</span><br/><br/>
+                    <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
+            </a>
+    </div>
+   
+</div>
+
+<!--content-->
+<div class="row play-card">
     <div class="col-6 text-center">
+        <div class="green-inactive-bg">
+            
+       <a href="game.php">
+        <span class="more">MORE</span>
+       </a>
+        </div>
 
-          <img src="app-assets/images/home/game-grey-1.png" class="game-bg-green">
-
-          <a href="hashies.php">
-            <div class="tab-success play-button-green">
-                <span class="unskewed">PLAY</span><br/><br/>
-                <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
-            </a>
-         
-        
+      
     </div>
+
      <div class="col-6 text-center">
+        <div class="yellow-inactive-bg">
+            
+        <a href="game.php">
+           <span class="more">MORE</span>
+        </a>
+        </div>
 
-            <img src="app-assets/images/home/game-grey.png" class="game-bg-yellow">
-
-            <a href="hashies.php">
-            <div class="tab-warning play-button-yellow">
-                <span class="unskewed">PLAY</span><br/><br/>
-                <img src="app-assets/images/home/next.png" width="12" style="top: -10px;position: relative;"></div>
-            </a>
-         
-        
+       
     </div>
+   
 </div>
+
+<!--content-->
+<div class="row play-card">
+    <div class="col-6 text-center">
+        <div class="green-inactive-bg">
+            
+       <a href="game.php">
+        <span class="more">MORE</span>
+       </a>
+        </div>
+
+      
+    </div>
+
+     <div class="col-6 text-center">
+        <div class="yellow-inactive-bg">
+            
+        <a href="game.php">
+           <span class="more">MORE</span>
+        </a>
+        </div>
+        
+       
+    </div>
+   
+</div>
+
+<!--content-->
+<div class="row play-card">
+    <div class="col-6 text-center">
+        <div class="green-inactive-bg">
+            
+       <a href="game.php">
+        <span class="more">MORE</span>
+       </a>
+        </div>
+
+      
+    </div>
+
+     <div class="col-6 text-center">
+        <div class="yellow-inactive-bg">
+            
+        <a href="game.php">
+           <span class="more">MORE</span>
+        </a>
+        </div>
+        
+       
+    </div>
+   
+</div>
+
+<!--content-->
+<div class="row play-card">
+    <div class="col-6 text-center">
+        <div class="green-inactive-bg">
+            
+       <a href="game.php">
+        <span class="more">MORE</span>
+       </a>
+        </div>
+
+      
+    </div>
+
+     <div class="col-6 text-center">
+        <div class="yellow-inactive-bg">
+            
+        <a href="game.php">
+           <span class="more">MORE</span>
+        </a>
+        </div>
+        
+       
+    </div>
+   
+</div>
+
+
+
+
+
+
 
 </div>
 </div>

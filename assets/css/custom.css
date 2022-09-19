@@ -888,6 +888,189 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 
 /*****GAME***************************/
 
+.green-active-bg {
+    background-image: url(app-assets/images/home/green-game-zone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.yellow-active-bg {
+    background-image: url(app-assets/images/home/yellow-game-zone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.green-inactive-bg {
+    background-image: url(app-assets/images/home/game-grey-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.yellow-inactive-bg {
+    background-image: url(app-assets/images/home/game-grey.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+@media screen and (max-width: 400px) {
+   .green-active-bg {
+        background-image: url(../../app-assets/images/home/green-game-zone.png);
+        background-size: contain;
+    }
+
+    .yellow-active-bg {
+        background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+        background-size: contain;
+    }
+
+    .green-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-size: contain;
+    }
+
+    .yellow-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-size: contain;
+    }
+
+    .play-card .eos, .play-card .tron {
+        font-size: 1.2rem;
+        top: -60%;
+    }
+     .play-card .more {
+         font-size: 1.2rem;
+        top: -60%;
+    }
+
+
+    .play-card .play-button-yellow {
+        top: 5px;
+        width: 80% !important;
+        margin: 0 auto;
+        left: 5%;
+    }
+
+    .play-card .play-button-green {
+        top: 5px;
+        width: 80% !important;
+        margin: 0 auto;
+        right: 5%;
+    }
+}
+
+@media screen and (min-width: 401px) {
+  .green-active-bg {
+        background-image: url(../../app-assets/images/home/green-game-zone.png);
+        background-size: contain;
+    }
+
+    .yellow-active-bg {
+        background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+        background-size: contain;
+    }
+    .play-card .eos, .play-card .tron {
+        font-size: 2.4rem;
+        top: 20%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+ .green-active-bg {
+        background-image: url(../../app-assets/images/home/green-game-zone.png);
+        background-size: contain;
+    }
+
+    .yellow-active-bg {
+        background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+        background-size: contain;
+    }
+    .play-card .eos, .play-card .tron {
+        font-size: 2.4rem;
+        top: 20%;
+    }
+
+    .play-card .play-button-yellow {
+        top: 75px;
+        width: 80% !important;
+        margin: 0 auto;
+        left: 0;
+    }
+
+    .play-card .play-button-green {
+        top: 75px;
+        width: 80% !important;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .play-card .more {
+        font-size: 2.4rem;
+        top: 20%;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+   .green-active-bg {
+        background-image: url(../../app-assets/images/home/green-game-zone.png);
+        background-size: contain;
+        padding-top: 20em;
+        padding-bottom: 20em;
+    }
+
+    .yellow-active-bg {
+        background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+        background-size: contain;
+        padding-top: 20em;
+        padding-bottom: 20em;
+    }
+
+    .green-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-size: contain;
+        padding-top: 20em;
+        padding-bottom: 20em;
+    }
+
+    .yellow-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-size: contain;
+        padding-top: 20em;
+        padding-bottom: 20em;
+    }
+    .play-card .eos, .play-card .tron {
+        font-size: 2.4rem;
+        top: 20%;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+ .green-active-bg {
+        background-image: url(../../app-assets/images/home/green-game-zone.png);
+        background-size: contain;
+    }
+
+    .yellow-active-bg {
+        background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+        background-size: contain;
+    }
+    .play-card .eos, .play-card .tron {
+        font-size: 2.4rem;
+        top: 20%;
+    }
+
+}
+
+
 /*mobile*/
 @media screen and (max-width: 1199px) {
     .game-menu {
@@ -913,6 +1096,7 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         right: 10px;
         position: relative;
     }
+     
 }
 
 /*desktop*/
@@ -937,20 +1121,29 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         right: 10px;
         position: relative;
     }
+
+    
+    .play-card .eos, .play-card .tron {
+        font-size: 2.4rem;
+        top: 20%;
+    }
 }
 
 .play-button-green {
-    top: -80px;
-    width: 90px;
+    top: 45px;
+    width: 50% !important;
     margin: 0 auto;
-    left: 5px;
+    right: 10%;
+
 }
 
 .play-button-yellow {
-    top: -85px;
-    width: 90px;
+    top: 45px;
+    width: 50% !important;
     margin: 0 auto;
+    left: 10%;
 }
+
 
 /*****HOME******************************************/
 
@@ -1004,7 +1197,11 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
   padding: 3px;
 }
 
-
+.more {
+     background: -webkit-linear-gradient(#fff, #000);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
 .tron {
    background: -webkit-linear-gradient(#d8910f, #333);
   -webkit-background-clip: text;
