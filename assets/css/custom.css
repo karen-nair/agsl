@@ -512,12 +512,28 @@ h2#swal2-title {
     box-shadow: 0px 0px 10px #1c1e28;
 }
 
-
 .outer-line {
 
-    background-image: url(../../app-assets/images/home/account/account-bg.png);
-    background-size: cover;
+        background-image: url(../../app-assets/images/home/account/account-bg.png);
+        background-size: cover;
 }
+
+@media screen and (max-width: 539px) {
+    .outer-line {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .outer-line {
+        padding-top: 3.0rem !important;
+        padding-bottom: 3.0rem !important;
+
+    }
+}
+
 
 
 .button_x_bg {
@@ -969,11 +985,11 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 }
 .last-wrapper img {
     top: -30%;
-    width: 600px;
+    width: 100%;
     position: relative;
 }
 .account-wrapper {
-    padding-bottom: 30%;
+    padding-bottom: 20%;
     position: relative;
 }
 

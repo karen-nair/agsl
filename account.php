@@ -66,7 +66,7 @@ include('header.php');
     <div class="row">
      <div class="col-12 account-wrapper">
         <div class="row">
-          <div class="col-3 outer-line text-center py-2">
+          <div class="col-3 outer-line text-center">
             <a href="mydownline.php">
             <div class="row">
               <div class="col-12 acc-ico-wrapper">
@@ -84,7 +84,7 @@ include('header.php');
             </div>
           </a>
           </div>
-          <div class="col-3 outer-line text-center py-2">
+          <div class="col-3 outer-line text-center">
             <a href="myplay.php">
               <div class="row">
                 <div class="col-12 acc-ico-wrapper">
@@ -101,7 +101,7 @@ include('header.php');
               </div>
             </a>
           </div>
-          <div class="col-3 outer-line text-center py-2">
+          <div class="col-3 outer-line text-center">
             <a href="edit.php">
               <div class="row">
                 <div class="col-12 acc-ico-wrapper">
@@ -118,7 +118,7 @@ include('header.php');
               </div>
             </a>
           </div>
-          <div class="col-3 outer-line text-center py-2">
+          <div class="col-3 outer-line text-center">
             <a href="security.php">
              <div class="row">
                 <div class="col-12 acc-ico-wrapper">
@@ -134,7 +134,7 @@ include('header.php');
             </a>
           </div>
 
-          <div class="col-3 outer-line text-center py-2">
+          <div class="col-3 outer-line text-center">
             <a href="change.php">
               <div class="row">
                 <div class="col-12 acc-ico-wrapper">
@@ -151,7 +151,7 @@ include('header.php');
               </div>
             </a>
           </div>
-          <div class="col-3 outer-line text-center py-2">
+          <div class="col-3 outer-line text-center">
             <a href="myplay.php">
               <div class="row">
                 <div class="col-12 acc-ico-wrapper">
@@ -168,7 +168,7 @@ include('header.php');
               </div>
             </a>
           </div>
-          <div class="col-3 outer-line text-center py-2">
+          <div class="col-3 outer-line text-center">
             <a href="edit.php">
               <div class="row">
                 <div class="col-12 acc-ico-wrapper">
@@ -183,7 +183,7 @@ include('header.php');
               </div>
             </a>
           </div>
-          <div class="col-3 outer-line text-center py-2">
+          <div class="col-3 outer-line text-center">
             <a href="security.php">
               <div class="row">
                 <div class="col-12 acc-ico-wrapper">
