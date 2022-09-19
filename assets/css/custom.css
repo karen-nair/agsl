@@ -23,7 +23,7 @@
 
     }
     .play-wrapper {
-        height: 400px;
+        /*height: 400px;*/
         background-position-y:center;
         background-size: cover;
         top:50px;
@@ -1267,11 +1267,17 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 
 @media screen and (max-width: 400px) {
     .eos, .tron {
-         font-size: 0.9rem;
-         top: 35%;
+         font-size: 1.2rem;
+         top: -60%;
          position: relative;
          /*right: -30%;*/
          font-weight: bolder;
+    }
+    .eos {
+        right: 20%;
+    }
+    .tron {
+        left: 20%;
     }
 
     .play3-btn {
@@ -1282,24 +1288,31 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     }
     .play-wrapper {
         position: absolute;
-        top: 50px;
-        left: -0.5%;
+        top: 30%;
+        left: 25%;
         z-index: 99;
     }
     .play-wrapper h1 {
         font-size: 16px;
+        top: -80px;
     }
 }
 
 @media screen and (min-width: 401px) {
     .eos, .tron {
          font-size: 1.2rem;
-         top: 30%;
+         top: 0;
          position: relative;
          /*right: -30%;*/
          font-weight: bolder;
     }
 
+    .eos {
+        right: 20%;
+    }
+    .tron {
+        left: 20%;
+    }
     .play3-btn {
         width: 100%;
         /*left: 20%;*/
@@ -1307,38 +1320,50 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     }
     .play-wrapper {
         position: absolute;
-        top: 70px;
-        left: -0.5%;z-index: 99;
+        top: 30%;
+        left: 25%;
+        z-index: 99;
     }
     .play-wrapper h1 {
-        top: -46%;
-        /* left: 20%; */
+        font-size: 16px;
+        top: -85px;
     }
 }
 
 @media screen and (min-width: 500px) {
+
+    .eos, .tron {
+        font-size: 2.0rem;
+    }
     .play-wrapper {
         position: absolute;
-        top: 120px;
-        left: -0.5%;z-index: 99;
+        top: 28%;
+        left: 20%;
+        z-index: 99;
     }
     .play-wrapper h1 {
-        top: -48%;
-        /*left: 20%;*/
-        font-size: 30px;
-    }
-    .eos, .tron {
-        font-size: 1.8rem;
+        font-size: 24px;
+        top: -120px;
     }
 
 }
 
 @media screen and (min-width: 700px) {
+
+    .eos, .tron {
+        font-size: 3rem;
+        top:  -60%;
+    }
+
     .play-wrapper {
         position: absolute;
-        top: 150px;
-        left: -0.5%;
+        top: 28%;
+        left: 25%;
         z-index: 99;
+    }
+    .play-wrapper h1 {
+        font-size: 30px;
+        top: -160px;
     }
 
 }
@@ -1369,13 +1394,26 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
         /*left: 20%;*/
         position: relative;
     }
+    .play-wrapper {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        z-index: 99;
+    }
+    .play-wrapper h1 {
+        font-size: 30px;
+        top: -165px;
+    }
 
     .eos, .tron {
-         font-size: 2.2rem;
-         top: 30%;
-         position: relative;
-         /*right: -70%;*/
-         font-weight: bolder;
+        font-size: 3rem;
+        top:  -80%;
+    }
+    .eos {
+        right: 20%;
+    }
+    .tron {
+        left: 20%;
     }
     
 }

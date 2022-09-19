@@ -40,42 +40,41 @@ include('header.php');
 </div>
 <div class="card">
   <div class="card-body">
+
+    <!--content-->
+<div class="row home-play-card">
+    <div class="col-6 text-center green-active-bg">
+       <a href="game.php">
+        <span class="eos">EOS</span>
+       </a>
+      
+    </div>
+
+     <div class="col-6 text-center yellow-active-bg">
+        <a href="game.php">
+           <span class="tron">TRON</span>
+        </a>
+        
+    </div>
+   
+</div>
+
   <div class="row" >
-    <div class="col-12 play-wrapper">
+    <div class="col-6 play-wrapper">
       <div id="outer-div">
         <div id="inner-div">
           
-
-           <div class="row">
-            
-             <div class="col-3 text-right">
-              <a href="game.php">
-              <span class="eos">EOS</span> 
-               </a>        
-             </div>
-          
-             <div class="col-6">
               <a href="hashies.php">
                 <img src="app-assets/images/home/play-btn.png" class="play3-btn">
                 <h1 class="play3-btn-text">PLAY <br/>NOW</h1>
               </a>
-             </div>
-            
-
-             <div class="col-3 text-left">
-              <a href="game.php">
-               <span class="tron">TRON</span>
-               </a>
-             </div>
-           </div>
-         
 
        </div>
       </div>
     </div>
   </div>
 <!--content-->
-<div class="row">
+<!-- <div class="row">
 
     <div class="col-6 text-center">
        <a href="game.php">
@@ -96,7 +95,7 @@ include('header.php');
       height: auto;">
     </a>
     </div>
-</div>
+</div> -->
 
 </div>
 </div>
