@@ -278,7 +278,11 @@ html .navbar-static .app-content .content-wrapper {
     padding: 0 !important;
 }
 
-.header-navbar.fixed-top {
+/*.header-navbar.fixed-top {
+    background-color: #000 !important;
+}*/
+
+.card {
     background-color: transparent !important;
 }
 /******FOOTER************************************************/
