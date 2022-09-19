@@ -68,7 +68,7 @@
             <div class="content-body">
                  <div class="row">
                     <div class="col-12" style="z-index: 1000;">
-                        
+                            
                     
                    <?php 
                    if (isset($title)) {
@@ -79,7 +79,8 @@
 
                    }
                    ?>
-                   </div>
+              
+                        </div>
 
 
                 </div>

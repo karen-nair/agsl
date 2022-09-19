@@ -1,10 +1,8 @@
      <!-- BEGIN: Header-->
     <div class="header-navbar-shadow"></div>
-    <nav class="header-navbar main-header-navbar navbar-expand-lg navbar navbar-with-menu fixed-top ">
-        <div class="navbar-wrapper">
-            <div class="navbar-container content">
-                <div class="navbar-collapse">
-                  <div class="row" style="margin:0 auto;">
+    <div class="fixed-top header-navbar main-header-navbar">
+        <div class="app-container">
+                  <div class="row" style="margin: 0 auto;">
                     <div class="col-4">
                        <ul class="nav">
                           <li class="nav-item">
@@ -32,8 +30,6 @@
                     </div>
                   </div>
 
-                </div>
-            </div>
-        </div>
-    </nav>
+         </div>
+</div>
     <!-- END: Header-->
