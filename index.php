@@ -96,14 +96,11 @@ include('header.php');
 </div>
 </div>
 
-<div class="card">
-  <div class="card-body">
+
   <div class="row">
       <div class="col-12 last-wrapper" data-aos="fade-left" data-aos-delay="100">
         <img src="app-assets/images/home/strategic.png">
       </div>
   </div>
-  </div>
-</div>
 
 <?php include('footer.php');?>
