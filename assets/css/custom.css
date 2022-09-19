@@ -810,6 +810,17 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     position: relative;
     top: 50px;
 }
+@media screen and (max-width: 400px) {
+    .hashies-wrapper .tab-submit-yellow {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .hashies-wrapper .tab-submit-yellow {
+        padding: 1.6em;
+    }
+}
 
 /********NEWS**********************************************/
 

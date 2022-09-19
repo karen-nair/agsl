@@ -7,7 +7,7 @@ include('header.php');
    <div class="card-body">
 <div class="row">
     <div class="col-12 hashies-wrapper">
-        <div class="col-xl-12 col-md-6 col-12 user-profile-card">
+        <div class="col-xl-12 col-12 user-profile-card">
            
                
                 <div class="text-center">
@@ -59,18 +59,21 @@ include('header.php');
                     <p style="text-align: center;"><span style="color: #bacede;">Hashies Block</span> <span style="color:#fff;font-size: 24px;">434217</span></p>
 
                      <div class="row">
-                        <div class="col-8">
-                             <span class="text-white"><input class="trans-input" type="text" name="" value="ksmdk"></span>
+                        <div class="col-7">
+                             
+                              <div class="wrapper"> 
+                                   <input class="trans-input" type="text">
+                                </div>
                         </div>
                         
-                          <div class="col-3 text-right">
+                          <div class="col-5 text-right green-yellow-btn-wrapper">
                             <a href="myplay.php">
                                 <div class="tab-submit-yellow">
-                                    
-                                        <span class="unskewed">PLAY</span><br/>
-                                    
-                                <img src="app-assets/images/home/next.png" width="12"></div>
-                            
+                                    <span class="unskewed">PLAY</span>
+                                    <img src="app-assets/images/home/next.png" width="12">
+                                   
+                                </div>
+
                            </a>
                          </div>
                        
