@@ -74,9 +74,8 @@ include('header.php');
               </div>
             </div>
 
-            <div class="row">
+            <div class="row py-1">
               <div class="col-12">
-                
                 
                   <p class="inner-line">My Downline</p>
                 
@@ -92,7 +91,7 @@ include('header.php');
                 </div>
               </div>
 
-              <div class="row">
+              <div class="row py-1">
                 <div class="col-12">
 
                     <p class="inner-line">My Play</p>
@@ -109,7 +108,7 @@ include('header.php');
                 </div>
               </div>
 
-              <div class="row">
+              <div class="row py-1">
                 <div class="col-12">
 
                     <p class="inner-line">Edit Profile</p>
@@ -126,7 +125,7 @@ include('header.php');
                 </div>
               </div>
 
-              <div class="row">
+              <div class="row py-1">
                 <div class="col-12">
                     <p class="inner-line">Resend Verification</p>
                 </div>
@@ -142,7 +141,7 @@ include('header.php');
                 </div>
               </div>
 
-              <div class="row">
+              <div class="row py-1">
                 <div class="col-12">
                   
                     <p class="inner-line">Change Password</p>
@@ -159,7 +158,7 @@ include('header.php');
                 </div>
               </div>
 
-              <div class="row">
+              <div class="row py-1">
                 <div class="col-12">
 
                     <p class="inner-line">My Play</p>
@@ -176,7 +175,7 @@ include('header.php');
                 </div>
               </div>
 
-              <div class="row">
+              <div class="row py-1">
                 <div class="col-12">
                     <p class="inner-line">Edit Profile</p>
                 </div>
@@ -191,7 +190,7 @@ include('header.php');
                 </div>
               </div>
 
-              <div class="row">
+              <div class="row py-1">
                 <div class="col-12">
                     <p class="inner-line">Resend Verification</p>
                 </div>

@@ -554,7 +554,7 @@ h2#swal2-title {
 .outer-line {
 
         background-image: url(../../app-assets/images/home/account/account-bg.png);
-        background-size: cover;
+        background-size: 100% 100%;
 }
 
 @media screen and (max-width: 539px) {
@@ -619,12 +619,12 @@ h2#swal2-title {
     }
 
     .acc-ico {
-      height: 100%;
+      width: 50%;
     }
     .inner-line {
         color:#4a4a4b;
         text-align: center;
-        font-size: 10px;
+        font-size: 0.8rem;
         line-height: 1.2;
     }
     .wallet-text {
@@ -657,13 +657,13 @@ h2#swal2-title {
       height: 60px;
       position: relative;
     }
-.acc-ico {
-      height: 100%;
+    .acc-ico {
+      width: 50%;
     }
     .inner-line {
         color:#4a4a4b;
         text-align: center;
-        font-size: 16px;
+        font-size: 1rem;
         /*padding:30px 0;*/
     }
     .wallet-text {
