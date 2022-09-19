@@ -64,7 +64,7 @@ include('header.php');
 
 
     <div class="row">
-     <div class="col-12 py-2">
+     <div class="col-12 account-wrapper">
         <div class="row">
           <div class="col-3 outer-line text-center py-2">
             <a href="mydownline.php">

@@ -126,6 +126,7 @@
 
 
 /*******GENERAL***********************************************/
+
 @media screen and (min-width: 1200px) {
 
     #navbar-mobile.navbar-collapse .navbar-nav .dropdown-menu
@@ -232,6 +233,9 @@ span.unskewed {
         margin: 0 auto;
     }
 
+.nav-link{
+    /*padding: 0.567rem 0 !important;*/
+}
 input.trans-input {
     color: white !important;
     border: none !important;
@@ -953,19 +957,24 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 
 
 .last-wrapper,.left-wrapper,  .right-wrapper {
-    position: relative;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+
 }
 
 .last-wrapper img,.left-wrapper img,.right-wrapper img {
-    position: absolute;
+/*    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: auto;
+    height: auto;*/
 }
 .last-wrapper img {
     top: -30%;
+    width: 600px;
+    position: relative;
+}
+.account-wrapper {
+    padding-bottom: 30%;
+    position: relative;
 }
 
 #outer-div {

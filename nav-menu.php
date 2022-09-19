@@ -2,8 +2,8 @@
     <div class="header-navbar-shadow"></div>
     <div class="fixed-top header-navbar main-header-navbar">
         <div class="app-container">
-                  <div class="row" style="margin: 0 auto;">
-                    <div class="col-4">
+                  <div class="row">
+                    <div class="col-4 text-left">
                        <ul class="nav">
                           <li class="nav-item">
                             <a class="nav-link" href="#"><img class="img-fluid hppc" src="app-assets/images/home/hppc.png"></a>
