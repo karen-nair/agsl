@@ -76,20 +76,25 @@ include('header.php');
   </div>
 <!--content-->
 <div class="row">
+
     <div class="col-6 text-center">
+       <a href="game.php">
      <img src="app-assets/images/home/green-game-zone.png" style="object-fit:contain;
       left: -8%;
       top: -50px;
       width: 140%;
       height: auto;position: relative;">
+    </a>
     </div>
 
     <div class="col-6 text-center">
+       <a href="game.php">
      <img src="app-assets/images/home/yellow-game-zone.png" style="object-fit:contain;position: relative;
       left: -30%;
       top: -40px;
       width: 140%;
       height: auto;">
+    </a>
     </div>
 </div>
 
