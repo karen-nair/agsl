@@ -5,7 +5,7 @@ include('header.php');
 
 <div class="card">
   <div class="card-body">
-    <div class="row">
+    <div class="row py-2">
       <div class="col-4">
         <div class="tab-success">
           <span class="unskewed">Inspiration</span><br/><br/>

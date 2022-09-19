@@ -2,7 +2,9 @@
 $title = 'My Play';
 include('header.php');
 ?>
-    <table class="table zero-configuration py-2">
+    <div class="row card">
+        <div class="col-12 card-body">
+            <table class="table zero-configuration py-2">
         <thead>
             <tr>
                 <th>Name</th>
@@ -574,5 +576,7 @@ include('header.php');
                 </tr>
             </tfoot>
         </table>
+        </div>
+    </div>
 
 <?php include('footer.php');?>

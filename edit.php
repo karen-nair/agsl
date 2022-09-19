@@ -2,7 +2,8 @@
 $title = "Edit Profile";
 include('header.php');
 ?>
-
+<div class="card">
+   <div class="card-body">
      <div class="row">
          <div class="col-12 py-1">
             
@@ -30,7 +31,8 @@ include('header.php');
                 <span class="unskewed" style="position: relative;top: -2px;">Update</span>
           </div>
       </div>
-
+</div>
+</div>
 
 
 <?php include('footer.php');?>

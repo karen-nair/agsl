@@ -1,5 +1,6 @@
 <?php include('header.php');?>
-   
+   <div class="card">
+   <div class="card-body">
     <div class="row">
          <div class="col-12 login-wrapper">
             <h1 class="white-font">Hello!</h1>
@@ -57,7 +58,8 @@
                 <span class="unskewed" style="position: relative;top: -2px;">Register Account</span>
           </div>
       </div>
-
+</div>
+</div>
 
 
 <?php include('footer.php');?>

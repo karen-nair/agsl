@@ -1,6 +1,8 @@
 <?php 
 include('header.php');
 ?>
+<div class="card">
+   <div class="card-body">
 <div class="row">
     <div class="col-12">
         <div class="col-xl-12 col-md-6 col-12 user-profile-card">
@@ -153,6 +155,7 @@ include('header.php');
     </div>
 </div>
 
-
+</div>
+</div>
 
 <?php include('footer.php');?>

@@ -2,7 +2,8 @@
 $title = "My Downline";
 include('header.php');
 ?>
-
+<div class="card">
+   <div class="card-body">
      <div class="row">
          <div class="col-12 py-1">
            <img class="img-fluid" src="app-assets/images/home/account/downline-bg.png">
@@ -31,7 +32,8 @@ include('header.php');
       </div>
 
       
-
+</div>
+</div>
   
 
 
