@@ -73,7 +73,7 @@ include('header.php');
     <div class="col-6 text-center">
      <img src="app-assets/images/home/green-game-zone.png" style="object-fit:contain;
       left: -8%;
-      top: 0;
+      top: -50px;
       width: 140%;
       height: auto;position: relative;">
     </div>
@@ -81,7 +81,7 @@ include('header.php');
     <div class="col-6 text-center">
      <img src="app-assets/images/home/yellow-game-zone.png" style="object-fit:contain;position: relative;
       left: -30%;
-      top: 0;
+      top: -40px;
       width: 140%;
       height: auto;">
     </div>

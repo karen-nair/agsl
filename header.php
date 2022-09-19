@@ -85,4 +85,4 @@
                 </div>
 
 
-<div class="app-container body-wrapper">
+<div class="app-container">
