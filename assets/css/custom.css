@@ -980,7 +980,7 @@ button#dropdownMenuButton3 {
 
 
 .green-inactive-bg {
-    background-image: url(../../app-assets/images/home/game-grey-1.png);
+    background-image: url(../../app-assets/images/home/game-grey.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 10em;
@@ -988,7 +988,7 @@ button#dropdownMenuButton3 {
 }
 
 .yellow-inactive-bg {
-    background-image: url(../../app-assets/images/home/game-grey.png);
+    background-image: url(../../app-assets/images/home/game-grey-1.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 10em;
@@ -1059,13 +1059,13 @@ button#dropdownMenuButton3 {
         background-size: contain;
     }
         .green-inactive-bg {
-        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-image: url(../../app-assets/images/home/game-grey.png);
         background-size: contain;
 
     }
 
     .yellow-inactive-bg {
-        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
         background-size: contain;
 
     }
@@ -1097,13 +1097,13 @@ button#dropdownMenuButton3 {
         background-size: contain;
     }
     .green-inactive-bg {
-        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-image: url(../../app-assets/images/home/game-grey.png);
         background-size: contain;
 
     }
 
     .yellow-inactive-bg {
-        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
         background-size: contain;
 
     }
@@ -1179,14 +1179,14 @@ button#dropdownMenuButton3 {
     }
 
     .green-inactive-bg {
-        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-image: url(../../app-assets/images/home/game-grey.png);
         background-size: contain;
         padding-top: 20em;
         padding-bottom: 20em;
     }
 
     .yellow-inactive-bg {
-        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
         background-size: contain;
         padding-top: 20em;
         padding-bottom: 20em;
