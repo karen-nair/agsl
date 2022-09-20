@@ -117,7 +117,7 @@
 
 
 .header-title {
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     font-style: italic;
     text-transform: uppercase;
@@ -461,7 +461,7 @@ html .navbar-static .app-content .content-wrapper {
 }
 
 .tab-submit-yellow {
-    width: 100%;
+    width: 80%;
     /*transform: skew(-10deg);*/
     color: white;
     /* border-radius: 10px; */
@@ -493,7 +493,7 @@ html .navbar-static .app-content .content-wrapper {
 }
 
 .tab-submit-green {
-    width: 100%;
+    width: 80%;
     /*transform: skew(-10deg);*/
     color: white;
     /* border-radius: 10px; */
@@ -507,7 +507,9 @@ html .navbar-static .app-content .content-wrapper {
     background-repeat: no-repeat;
 
 }
-
+.tab-submit-green.btn-center-align, .tab-submit-yellow.btn-center-align {
+    margin: 0 auto;
+}
 .important {
     box-shadow: inset 0px 0px 40px 5px rgb(233 141 32 / 39%);
     border-radius: 15px;
@@ -945,14 +947,22 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
     .hashies-wrapper .tab-submit-yellow {
         padding: 1em;
     }
+    .wrapper {
+        padding: 1rem;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .hashies-wrapper .tab-submit-yellow {
         padding: 1.6em;
     }
 }
 
+.content-guard {
+    margin-top: 10%;
+    position: relative;
+    margin-bottom: 20%;
+}
 /********NEWS**********************************************/
 
 /*mobile*/

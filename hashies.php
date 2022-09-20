@@ -7,12 +7,8 @@ include('header.php');
    <div class="card-body">
 <div class="row">
     <div class="col-12 hashies-wrapper">
-        <div class="col-xl-12 col-12 user-profile-card">
-           
-               
                 <div class="text-center">
-                    
-                    
+
                     <div class="row">
                         <div class="col-12 text-center hashies-timer-top">
                             <h3><img class="img-fluid" src="app-assets/images/home/gp.png" height="24" width="24">7928.00  <span style="color:#4a4a4b;text-align: center;font-size: 10px;">test 9</span></h3>
@@ -54,6 +50,7 @@ include('header.php');
                     </div>
                    
 
+                   
                    <h3 style="color:#bacede;text-align: center;"><i>GAME ID #634217</i></h3>
 
                     <p style="text-align: center;"><span style="color: #bacede;">Hashies Block</span> <span style="color:#fff;font-size: 24px;">434217</span></p>
@@ -78,11 +75,9 @@ include('header.php');
                          </div>
                        
                      </div>
+                 
 
                 </div>
-           
-        </div>
-
 
     </div>
 

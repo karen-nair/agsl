@@ -1,6 +1,5 @@
 <?php include('header.php');?>
-   <div class="card">
-   <div class="card-body">
+<div class="content-guard">
     <div class="row">
          <div class="col-12 login-wrapper">
             <h1 class="white-font">Hello!</h1>
@@ -59,7 +58,7 @@
 
       <div class="row py-2">
          <div class="col-md-10 text-center green-yellow-btn-wrapper">
-            <div class="tab-submit-green">
+            <div class="tab-submit-green btn-center-align">
                 <span class="unskewed">Login</span>
                
             </div>
@@ -68,14 +67,12 @@
 
       <div class="row py-2">
          <div class="col-md-10 text-center green-yellow-btn-wrapper">
-            <div class="tab-submit-yellow">
+            <div class="tab-submit-yellow btn-center-align">
                 <span class="unskewed">Register Account</span>
                
             </div>
           </div>
       </div>
-
-   </div>
 </div>
 
 
