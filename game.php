@@ -31,7 +31,7 @@ include('header.php');
        </a>
       <a href="hashies.php">
         
-        <div class="row py-2">
+        <div class="row">
                  <div class="col-md-10 text-center green-yellow-btn-wrapper">
                     <div class="tab-submit-green">
                         <span class="unskewed">PLAY</span><br/><br/>
@@ -47,7 +47,7 @@ include('header.php');
            <span class="tron">TRON</span>
         </a>
         <a href="hashies.php">
-             <div class="row py-2">
+             <div class="row">
                  <div class="col-md-10 text-center green-yellow-btn-wrapper">
                     <div class="tab-submit-yellow">
                         <span class="unskewed">PLAY</span><br/><br/>
@@ -69,7 +69,7 @@ include('header.php');
       <a href="hashies.php">
         
 
-          <div class="row py-2">
+          <div class="row">
              <div class="col-md-10 text-center green-yellow-btn-wrapper">
                 <div class="tab-submit-green">
                     <span class="unskewed">PLAY</span><br/><br/>
@@ -86,7 +86,7 @@ include('header.php');
         </a>
         <a href="hashies.php">
 
-              <div class="row py-2">
+              <div class="row">
                  <div class="col-md-10 text-center green-yellow-btn-wrapper">
                     <div class="tab-submit-yellow">
                         <span class="unskewed">PLAY</span><br/><br/>
