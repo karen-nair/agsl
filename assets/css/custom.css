@@ -1,4 +1,10 @@
-
+@font-face {
+  font-family: Source Han Sans CN;
+  src: url(Source-Han-Sans-CN-Regular.otf)  format("opentype");
+}
+body {
+    font-family: 'Source Han Sans CN';
+}
 @media screen and (max-width: 1199px) {
 /*  .horizontal-menu .header-navbar.navbar-brand-center .navbar-header .navbar-brand .brand-logo .logo
   {
@@ -157,6 +163,7 @@
         color: #fff;
         font-style: italic;
         text-transform: uppercase;
+        font-family: Source Han Sans CN;
     }
 
     .line {
@@ -191,6 +198,7 @@
         font-style: italic;
         text-transform: uppercase;
         letter-spacing: 0.1em;
+        font-family: Source Han Sans CN;
     }
 
     .line {
