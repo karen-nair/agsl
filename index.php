@@ -8,7 +8,7 @@ include('header.php');
     <div class="tab-submit-green">
         
           <span class="unskewed">Inspiration</span><br/>
-          <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -20px;">
+          <img src="app-assets/images/home/next.png" width="12" class="tagline">
       
     </div>
     </a>
@@ -17,8 +17,8 @@ include('header.php');
     <a class="nav-link8" href="#">
     <div class="tab-submit-blue">
         
-          <span class="unskewed">Inspiration</span><br/>
-          <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -20px;">
+          <span class="unskewed">Excellent</span><br/>
+          <img src="app-assets/images/home/next.png" width="12" class="tagline">
       
     </div>
     </a>
@@ -27,8 +27,8 @@ include('header.php');
     <a class="nav-link8" href="#">
     <div class="tab-submit-yellow">
         
-          <span class="unskewed">Inspiration</span><br/>
-          <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -20px;">
+          <span class="unskewed">FAQ</span><br/>
+          <img src="app-assets/images/home/next.png" width="12" class="tagline">
       
     </div>
     </a>
@@ -77,35 +77,12 @@ include('header.php');
       </div>
     </div>
   </div>
-<!--content-->
-<!-- <div class="row">
-
-    <div class="col-6 text-center">
-       <a href="game.php">
-     <img src="app-assets/images/home/green-game-zone.png" style="object-fit:contain;
-      left: -8%;
-      top: -50px;
-      width: 140%;
-      height: auto;position: relative;">
-    </a>
-    </div>
-
-    <div class="col-6 text-center">
-       <a href="game.php">
-     <img src="app-assets/images/home/yellow-game-zone.png" style="object-fit:contain;position: relative;
-      left: -30%;
-      top: -40px;
-      width: 140%;
-      height: auto;">
-    </a>
-    </div>
-</div> -->
 
 </div>
 </div>
 
 
-  <div class="row">
+  <div class="row py-4">
       <div class="col-12 last-wrapper" data-aos="fade-left" data-aos-delay="100">
         <img src="app-assets/images/home/strategic.png">
       </div>

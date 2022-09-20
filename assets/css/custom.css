@@ -1161,6 +1161,10 @@ button#dropdownMenuButton3 {
         padding: 0.3em;
             top: -30%;
     }
+    .tagline {
+        position: relative;
+        top: -20px;
+    }
 }
 
 @media screen and (min-width: 401px) {
@@ -1198,6 +1202,11 @@ button#dropdownMenuButton3 {
         position: relative;
         font-weight: bold;
         
+    }
+
+    .tagline {
+        position: relative;
+        top: -20px;
     }
 }
 
@@ -1254,6 +1263,10 @@ button#dropdownMenuButton3 {
         top: -90%;
 
     }
+    .tagline {
+        position: relative;
+        top: -30px;
+    }
 
 }
 
@@ -1275,6 +1288,10 @@ button#dropdownMenuButton3 {
     .play-card .tab-submit-yellow, .play-card .tab-submit-green {
         padding: 1em;
         top: 20%;
+    }
+    .tagline {
+        position: relative;
+        top: -30px;
     }
 }
 
@@ -1319,6 +1336,10 @@ button#dropdownMenuButton3 {
         top: -130px;
         position: relative;
         font-weight: bold;
+    }
+    .tagline {
+        position: relative;
+        top: -30px;
     }
 
 }
