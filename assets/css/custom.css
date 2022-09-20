@@ -627,20 +627,18 @@ h2#swal2-title {
 
 
 /*mobile*/
-@media screen and (max-width: 1199px) {
-
+@media screen and (max-width: 400px) {
     .acc-ico-wrapper {
-      height: 40px;
+      height: 15px;
       position: relative;
     }
-
     .acc-ico {
       width: 50%;
     }
-    .inner-line {
+     .inner-line {
         color:#4a4a4b;
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         line-height: 1.2;
     }
     .wallet-text {
@@ -652,17 +650,140 @@ h2#swal2-title {
      .dollar-text {
         font-size: 16px;
     }
+}
+
+@media screen and (min-width: 401px) {
+    .acc-ico-wrapper {
+      height: 15px;
+      position: relative;
+    }
+    .acc-ico {
+      width: 50%;
+    }
+     .inner-line {
+        color:#4a4a4b;
+        text-align: center;
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+
+     .wallet-text {
+        color:#4a4a4b;
+        text-align: center;
+        font-size: 10px;
+        line-height: 1.2;
+    }
+     .dollar-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .acc-ico-wrapper {
+      height: 50px;
+      position: relative;
+    }
+    .acc-ico {
+      width: 50%;
+    }
+     .inner-line {
+        color:#4a4a4b;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .acc-ico-wrapper {
+      height: 30px;
+      position: relative;
+    }
+    .acc-ico {
+      width: 50%;
+    }
+     .inner-line {
+        color:#4a4a4b;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1;
+    }
+    .wallet-text {
+        color:#4a4a4b;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+     .dollar-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .acc-ico-wrapper {
+      height: 40px;
+      position: relative;
+    }
+    .acc-ico {
+      width: 50%;
+    }
+     .inner-line {
+        color:#4a4a4b;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1;
+    }
+    .wallet-text {
+        color:#4a4a4b;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+     .dollar-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .acc-ico-wrapper {
+      height: 50px;
+      position: relative;
+    }
+    .acc-ico {
+      width: 50%;
+    }
+     .inner-line {
+        color:#4a4a4b;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+     .wallet-text {
+        color:#4a4a4b;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+     .dollar-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
     .icon-gp {
         width: 24px;
         height: 24px;
     }
-
-    .tab-submit-yellow {
-       /*padding: 0 10px;*/
-       /*min-height: 40px;*/
-
+    .wallet-text {
+        color:#4a4a4b;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.2;
     }
-
+     .dollar-text {
+        font-size: 24px;
+    }
 }
 
 
@@ -685,7 +806,7 @@ h2#swal2-title {
     .wallet-text {
         color:#4a4a4b;
         text-align: center;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 1.2;
     }
     .dollar-text {
@@ -696,12 +817,6 @@ h2#swal2-title {
         height: 36px;
     }
 
-    .tab-submit-yellow {
-    /*   padding: 6px 15px;
-       min-height: 50px;*/
-
-
-    }
 
 }
 
