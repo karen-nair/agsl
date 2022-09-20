@@ -82,7 +82,7 @@ include('header.php');
 </div>
 
 
-  <div class="row py-4">
+  <div class="row">
       <div class="col-12 last-wrapper" data-aos="fade-left" data-aos-delay="100">
         <img src="app-assets/images/home/strategic.png">
       </div>

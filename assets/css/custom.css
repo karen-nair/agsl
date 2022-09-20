@@ -1165,6 +1165,13 @@ button#dropdownMenuButton3 {
         position: relative;
         top: -20px;
     }
+
+    .last-wrapper, .left-wrapper, .right-wrapper {
+        position: absolute;
+        bottom: 10%;
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (min-width: 401px) {
@@ -1208,6 +1215,12 @@ button#dropdownMenuButton3 {
         position: relative;
         top: -20px;
     }
+
+/*     .last-wrapper, .left-wrapper, .right-wrapper {
+        position: absolute;
+        bottom: -1%;
+        width: 90%;
+    }*/
 }
 
 @media screen and (min-width: 500px) {
@@ -1293,6 +1306,11 @@ button#dropdownMenuButton3 {
         position: relative;
         top: -30px;
     }
+    .last-wrapper, .left-wrapper, .right-wrapper {
+        top: 100px;
+        position: relative;
+        margin-bottom: 150px;
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -1340,6 +1358,12 @@ button#dropdownMenuButton3 {
     .tagline {
         position: relative;
         top: -30px;
+    }
+
+    .last-wrapper, .left-wrapper, .right-wrapper {
+        bottom: -100px;
+        position: relative;
+        margin-bottom: 150px;
     }
 
 }
@@ -1475,7 +1499,7 @@ button#dropdownMenuButton3 {
     height: auto;*/
 }
 .last-wrapper img {
-    top: -30%;
+    /*top: -30%;*/
     width: 100%;
     position: relative;
 }
@@ -1727,6 +1751,12 @@ button#dropdownMenuButton3 {
         font-size: 1em;
     }
 
+    .last-wrapper img {
+        top: -30%;
+        width: 100%;
+        position: relative;
+    }
+
 }
 
 @media screen and (min-width: 700px) {
@@ -1761,6 +1791,11 @@ button#dropdownMenuButton3 {
 
     .home-yellow-active-bg {
         background-size: contain;
+    }
+    .last-wrapper img {
+        top: -30%;
+        width: 100%;
+        position: relative;
     }
 
 }
