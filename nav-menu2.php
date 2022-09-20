@@ -10,11 +10,11 @@
                       
                             
                       <div class="row">
-                        <div class="col-10 text-left">
+                        <div class="col-11 text-left">
                            <ul class="nav">
                               <li class="">
                                 <a class="" onclick="history.back()">
-                                    <img width="20" src="app-assets/images/home/line.png">&nbsp;<span class="header-title"><?php echo (isset($title)? $title:'');?></span>
+                                    <img class="line" src="app-assets/images/home/line.png">&nbsp;<span class="header-title"><?php echo (isset($title)? $title:'');?></span>
                                 </a>
                               </li>
                               <?php
@@ -40,7 +40,7 @@
                         </div>
                         
                         
-                        <div class="col-2">
+                        <div class="col-1">
                           <ul class="nav justify-content-end">
                             <li class="">
                               <a class="dropdown-toggle" id="dropdown-flag" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-us"></i><span class="selected-language"></span></a>

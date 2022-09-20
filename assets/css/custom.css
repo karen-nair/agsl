@@ -98,9 +98,6 @@
     background-image: linear-gradient(to right, #2a3d56 , #000);
 }
 
-
-
-
 .collapse-title{
     color: #c2d7e8;
 }
@@ -113,16 +110,6 @@
 .horizontal-menu .header-navbar{
     border-bottom: none !important;
 }
-
-
-
-.header-title {
-    font-size: 18px;
-    color: #fff;
-    font-style: italic;
-    text-transform: uppercase;
-}
-
 
 
 /*******GENERAL***********************************************/
@@ -165,6 +152,17 @@
         position: relative;
     }
 
+    .header-title {
+        font-size: 24px;
+        color: #fff;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+
+    .line {
+        width: 24px;
+    }
+
 }
 
 @media screen and (max-width: 1199px) {
@@ -186,6 +184,17 @@
         width: 25%;
         top: 30%;
         position: relative;
+    }
+    .header-title {
+        font-size: 16px;
+        color: #fff;
+        font-style: italic;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+    .line {
+        width: 16px;
     }
 }
 
@@ -326,6 +335,9 @@ html .navbar-static .app-content .content-wrapper {
 .header-navbar.fixed-top {
     background-color: transparent !important;
     margin: 0 auto;
+    background-image: url(../../app-assets/images/home/header-bg2.png);
+    background-size: cover;
+
 }
 .header-navbar.fixed-top.scrolled {
   background-color: #0b0c10 !important;
@@ -500,7 +512,7 @@ html .navbar-static .app-content .content-wrapper {
     position: relative;
     line-height: 12px;
     text-align: center;
-    padding: 2em;
+    padding: 1.5em;
     /* min-height: 40px; */
     background-image: url(../../app-assets/images/home/green-btn.png);
     background-size: 100% 100%;
@@ -959,7 +971,7 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 }
 
 .content-guard {
-    margin-top: 10%;
+    margin-top: 20%;
     position: relative;
     margin-bottom: 20%;
 }
