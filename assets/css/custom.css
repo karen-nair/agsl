@@ -962,9 +962,8 @@ button#dropdownMenuButton3 {
 }
 
 /*****GAME***************************/
-
 .green-active-bg {
-    background-image: url(app-assets/images/home/green-game-zone.png);
+    background-image: url(../../app-assets/images/home/green-game-zone.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 10em;
@@ -972,15 +971,16 @@ button#dropdownMenuButton3 {
 }
 
 .yellow-active-bg {
-    background-image: url(app-assets/images/home/yellow-game-zone.png);
+    background-image: url(../../app-assets/images/home/yellow-game-zone.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 10em;
     padding-bottom: 10em;
 }
 
+
 .green-inactive-bg {
-    background-image: url(app-assets/images/home/game-grey-1.png);
+    background-image: url(../../app-assets/images/home/game-grey-1.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 10em;
@@ -988,7 +988,7 @@ button#dropdownMenuButton3 {
 }
 
 .yellow-inactive-bg {
-    background-image: url(app-assets/images/home/game-grey.png);
+    background-image: url(../../app-assets/images/home/game-grey.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 10em;
@@ -1264,7 +1264,9 @@ button#dropdownMenuButton3 {
 }
 
 
-
+.home.card-body {
+    padding: 0 !important;
+}
 .last-wrapper,.left-wrapper,  .right-wrapper {
 
 }
@@ -1314,6 +1316,23 @@ button#dropdownMenuButton3 {
   -webkit-text-fill-color: transparent;
 }
 
+.home-green-active-bg {
+    background-image: url(../../app-assets/images/home/green-bg2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+
+.home-yellow-active-bg {
+    background-image: url(../../app-assets/images/home/yellow-bg2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+
+
 /*mobile*/
 @media screen and (max-width: 1199px) {
 
@@ -1346,7 +1365,7 @@ button#dropdownMenuButton3 {
 @media screen and (max-width: 400px) {
     .eos, .tron {
          font-size: 1.8rem;
-         top: -80%;
+         top: -300%;
          position: relative;
          /*right: -30%;*/
          font-weight: bolder;
@@ -1366,13 +1385,13 @@ button#dropdownMenuButton3 {
     }
     .play-wrapper {
         position: absolute;
-        top: 30%;
+        top: 20%;
         left: 25%;
         z-index: 99;
     }
     .play-wrapper h1 {
         font-size: 16px;
-        top: -80px;
+        top: -75px;
     }
     .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
         padding: 1.5em !important;
@@ -1382,12 +1401,20 @@ button#dropdownMenuButton3 {
         top: -15px !important;
         font-size: 0.5em;
     }
+
+    .home-green-active-bg {
+        background-size: contain;
+    }
+
+    .home-yellow-active-bg {
+        background-size: contain;
+    }
 }
 
 @media screen and (min-width: 401px) {
     .eos, .tron {
           font-size: 2.4rem;
-            top: -60%;
+        top: -200%;
          position: relative;
          /*right: -30%;*/
          font-weight: bolder;
@@ -1407,13 +1434,13 @@ button#dropdownMenuButton3 {
     }
     .play-wrapper {
         position: absolute;
-        top: 30%;
+        top: 20%;
         left: 25%;
         z-index: 99;
     }
     .play-wrapper h1 {
-        font-size: 16px;
-        top: -85px;
+        font-size: 20px;
+        top: -90px;
     }
     .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
         padding: 1.5em !important;
@@ -1422,6 +1449,13 @@ button#dropdownMenuButton3 {
         position: relative;
         top: -15px !important;
         font-size: 0.5em;
+    }
+    .home-green-active-bg {
+        background-size: contain;
+    }
+
+    .home-yellow-active-bg {
+        background-size: contain;
     }
 }
 
@@ -1467,8 +1501,8 @@ button#dropdownMenuButton3 {
 @media screen and (min-width: 540px) {
 
     .eos, .tron {
-       font-size: 3.4rem;
-        top: -170%;
+       font-size: 3.0rem;
+        top: -70%;
     }
     .play-wrapper {
         position: absolute;
@@ -1478,7 +1512,7 @@ button#dropdownMenuButton3 {
     }
     .play-wrapper h1 {
         font-size: 30px;
-        top: -140px;
+        top: -135px;
     }
     .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
         padding: 1.5em !important;
@@ -1503,7 +1537,7 @@ button#dropdownMenuButton3 {
 
     .eos, .tron {
         font-size: 3.5rem;
-        top: -75%;
+        top: 5%;
     }
 
     .play-wrapper {
@@ -1513,8 +1547,8 @@ button#dropdownMenuButton3 {
         z-index: 99;
     }
     .play-wrapper h1 {
-        font-size: 30px;
-        top: -160px;
+        font-size: 40px;
+        top: -170px;
     }
 
    .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
@@ -1525,14 +1559,64 @@ button#dropdownMenuButton3 {
         top: -25px !important;
         font-size: 1.2em;
     }
+    .home-green-active-bg {
+        background-size: contain;
+    }
+
+    .home-yellow-active-bg {
+        background-size: contain;
+    }
 
 }
 
+
+@media screen and (min-width: 700px) {
+
+    .eos, .tron {
+        font-size: 3.5rem;
+        top: 5%;
+    }
+
+    .play-wrapper {
+        position: absolute;
+        top: 28%;
+        left: 25%;
+        z-index: 99;
+    }
+    .play-wrapper h1 {
+        font-size: 40px;
+        top: -170px;
+    }
+
+   .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
+        padding: 3.0em !important;
+    }
+    .home .unskewed {
+        position: relative;
+        top: -25px !important;
+        font-size: 1.2em;
+    }
+    .home-green-active-bg {
+        background-size: contain;
+    }
+
+    .home-yellow-active-bg {
+        background-size: contain;
+    }
+
+}
 @media screen and (max-width: 280px) {
     .play-wrapper {
         position: absolute;
         top: 80px;
         left: -0.5%;z-index: 99;
+    }
+    .home-green-active-bg {
+        background-size: contain;
+    }
+
+    .home-yellow-active-bg {
+        background-size: contain;
     }
 
 }
@@ -1554,20 +1638,20 @@ button#dropdownMenuButton3 {
         /*left: 20%;*/
         position: relative;
     }
+    .eos, .tron {
+        font-size: 3.5rem;
+        top: 5%;
+    }
+
     .play-wrapper {
         position: absolute;
-        top: 25%;
+        top: 28%;
         left: 25%;
         z-index: 99;
     }
     .play-wrapper h1 {
-        font-size: 30px;
-        top: -165px;
-    }
-
-    .eos, .tron {
-        font-size: 3rem;
-        top:  -80%;
+        font-size: 40px;
+        top: -170px;
     }
     .eos {
         right: 20%;
@@ -1593,7 +1677,7 @@ button#dropdownMenuButton3 {
     position: relative;
     line-height: 12px;
     text-align: center;
-    padding: 2em;
+    padding: 0.5em;
     background-repeat: no-repeat;
 }
 .home .tab-submit-yellow {

@@ -2,29 +2,38 @@
 $active = 'home';
 include('header.php');
 ?>
-
-<div class="card">
-  <div class="card-body home">
-
-        <div class="row">
-            <div class="col-4 tab-submit-green">
-                <span class="unskewed">Inspiration</span>
-               
-            </div>
-
-            <div class="col-4 tab-submit-blue">
-                <span class="unskewed">Excellent</span>
-               
-            </div>
-
-   
-           <div class="col-4 tab-submit-yellow">
-                  <span class="unskewed">FAQ</span>  
-            </div>
-        </div>
+<ul class="nav justify-content-center home py-2">
+   <li class="nav-item">
+    <a class="nav-link8" href="#">
+    <div class="tab-submit-green">
         
+          <span class="unskewed">Inspiration</span><br/>
+          <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -20px;">
+      
     </div>
-  </div>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link8" href="#">
+    <div class="tab-submit-blue">
+        
+          <span class="unskewed">Inspiration</span><br/>
+          <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -20px;">
+      
+    </div>
+    </a>
+  </li>
+     <li class="nav-item">
+    <a class="nav-link8" href="#">
+    <div class="tab-submit-yellow">
+        
+          <span class="unskewed">Inspiration</span><br/>
+          <img src="app-assets/images/home/next.png" width="12" style="position: relative;top: -20px;">
+      
+    </div>
+    </a>
+  </li>
+</ul>
 
 
 <div class="row">
@@ -38,14 +47,14 @@ include('header.php');
 
     <!--content-->
 <div class="row home-play-card">
-    <div class="col-6 text-center green-active-bg">
+    <div class="col-6 text-center home-green-active-bg">
        <a href="game.php">
         <span class="eos">EOS</span>
        </a>
       
     </div>
 
-     <div class="col-6 text-center yellow-active-bg">
+     <div class="col-6 text-center home-yellow-active-bg">
         <a href="game.php">
            <span class="tron">TRON</span>
         </a>
@@ -54,7 +63,7 @@ include('header.php');
    
 </div>
 
-  <div class="row" >
+  <div class="row">
     <div class="col-6 play-wrapper">
       <div id="outer-div">
         <div id="inner-div">
