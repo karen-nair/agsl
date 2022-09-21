@@ -88,6 +88,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 .line {
     position: relative;
     top: -3px;
+    cursor: pointer;
 }
 
 .header-title {
@@ -95,6 +96,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     font-style: italic;
     text-transform: uppercase;
     font-family: Source Han Sans CN;
+    cursor: pointer;
 }
 
 .tab-submit-yellow {

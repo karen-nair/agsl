@@ -10,7 +10,7 @@
             
         </div>
         <div class="col-4 text-center">
-           <a class="nav-link2" href="#">
+           <a class="nav-link2" href="index.php">
                <img class="img-fluid agsl-logo" src="app-assets/images/home/logo.png">
             </a>
         </div>
