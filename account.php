@@ -22,10 +22,10 @@ include('header.php');
                     <div class="d-flex justify-content-around mb-1">
                         <div class="card-icons d-flex flex-column">
                             <div class="row">
-                              <div class="col-6">
+                              <div class="col-5">
                                 <img class="img-fluid icon-gp" src="app-assets/images/home/gp.png">
                               </div>
-                              <div class="col-6" style="left: -30px;">
+                              <div class="col-7" style="left: -30px;">
                                 <span class="dollar-text" style="color:#e8c661;">7533.00</span>
                               </div>
                             </div>
@@ -39,10 +39,10 @@ include('header.php');
                        
                         <div class="card-icons d-flex flex-column">
                            <div class="row">
-                              <div class="col-6">
+                              <div class="col-5">
                                 <img class="img-fluid icon-gp" src="app-assets/images/home/gp.png">
                               </div>
-                              <div class="col-6" style="left: -30px;">
+                              <div class="col-7" style="left: -30px;">
                                 <span class="dollar-text" style="color:#fff;">1285.00</span>
                               </div>
                             </div>

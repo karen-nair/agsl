@@ -1,0 +1,199 @@
+/*********ACCOUNT*********************************************/
+.swal2-popup.swal2-modal.swal2-show {
+    background-color: black;
+    box-shadow: 0px 0px 10px #fdac41;
+}
+.tab-blue, .tab-red, .tab-green, .tab-orange {
+    width: 100px;
+    min-height: 40px;
+    transform: skew(-10deg);
+    color: white;
+    border-radius: 10px;
+    padding: 0 10px;
+    position: relative;
+    line-height: 12px;
+    text-align: center;
+    border: 2px solid transparent;
+}
+.tab-blue {
+   background-color: #4d75a7;
+}
+
+.tab-green {
+   background-color: #8ee327;
+}
+.tab-blue:hover {
+    color: #fff;
+}
+.tab-red {
+  background-color: #FF5B5C;
+}
+.tab-orange {
+    background-color: #d8910e;
+}
+.account-info-icon {
+    color: #fdac41;
+    
+}
+.account-info-icon .bxs-error {
+    font-size: 40px;
+}
+
+h2#swal2-title {
+    color: #fff;
+    font-size: 16px;
+}
+
+.swal2-styled.swal2-confirm {
+   background-color: #8ee327 !important;
+
+}
+
+.avatar {
+    background-color: transparent !important;
+    box-shadow: 0px 0px 10px #1c1e28;
+}
+
+.outer-line {
+    background-image: url(../../app-assets/images/home/account/account-bg.png);
+    background-size: 100% 100%;
+}
+.inner-line {
+    color:#4a4a4b;
+    text-align: center;
+    word-break: break-word;
+}
+.acc-ico-wrapper {
+  height: 40px;
+  position: relative;
+  top: 10px;
+}
+
+.wallet-text {
+    color:#4a4a4b;
+    text-align: center;
+}
+/**galaxy fold dimension**/
+@media screen and (min-width: 280px) {
+    .acc-ico-wrapper {
+      height: 25px;
+    }
+    .acc-ico {
+      width: 30px;
+    }
+    .inner-line {
+        font-size: 10px;
+        line-height: 1.2;
+        word-break: inherit;
+    }
+    .wallet-text {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    .dollar-text {
+        font-size: 16px;
+    }
+    .icon-gp {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/**galaxy s8 dimension**/
+@media screen and (min-width: 360px) {
+
+}
+
+/**iphone SE dimension**/
+@media screen and (min-width: 375px) {
+   .acc-ico-wrapper {
+      height: 40px;
+    }
+    .acc-ico {
+      width: 40px;
+    }
+    .inner-line {
+       word-break: inherit;
+       font-size: 12px;
+       padding-bottom: 15px;
+    }
+    
+}
+
+/**surface duo**/
+@media screen and (min-width: 540px) {
+    .acc-ico-wrapper {
+      height: 45px;
+      top: 20px;
+    }
+    .acc-ico {
+      width: 40px;
+    }
+    .inner-line {
+        font-size: 12px;
+        line-height: 1.2;
+        padding-bottom: 30px;
+        word-break: inherit;
+    }
+    .wallet-text {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    .dollar-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .acc-ico-wrapper {
+      height: 60px;
+      top: 20px;
+    }
+    .acc-ico {
+      width: 60px;
+    }
+    .inner-line {
+        font-size: 16px;
+        line-height: 1.2;
+        padding-bottom: 30px;
+        word-break: inherit;
+    }
+    .wallet-text {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .dollar-text {
+        font-size: 20px;
+    }
+    .icon-gp {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .acc-ico-wrapper {
+      height: 60px;
+      top: 20px;
+    }
+    .acc-ico {
+      width: 60px;
+    }
+    .inner-line {
+        font-size: 16px;
+        line-height: 1.2;
+        padding-bottom: 30px;
+        word-break: inherit;
+    }
+    .wallet-text {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .dollar-text {
+        font-size: 20px;
+    }
+    .icon-gp {
+        width: 35px;
+        height: 35px;
+    }
+}
