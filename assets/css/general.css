@@ -43,17 +43,12 @@ a, a:hover {
     padding-left: 0.4rem;
 }
 /**datatable**/
-.table.dataTable {
-    top: 50px;
-    position: relative;
-}
-
 tfoot, thead {
     display: none;
 }
 div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate{
+    padding-bottom: 15%;
     margin-bottom: 15%;
-    margin-top: 15%;
 }
 .pagination .page-item.previous {
     left: 0;
@@ -144,7 +139,11 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show > .btn-outline-light.dropdown-toggle{
     background: none;
 }
-
+.content-guard {
+/*    padding-top: 10%;
+    position: relative;*/
+ /*   margin-bottom: 20%;*/
+}
 .dropdown-menu {
     width: 100px !important;
     min-width:  20px !important;

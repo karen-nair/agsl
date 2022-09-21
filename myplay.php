@@ -2,9 +2,7 @@
 $title = 'My Play';
 include('header.php');
 ?>
-<div class="card">
-   <div class="card-body">
-     <table class="table zero-configuration py-2 play">
+        <table class="table zero-configuration py-2 play">
         <thead>
             <tr>
                 <th>Name</th>
@@ -1033,7 +1031,5 @@ include('header.php');
                 </tr>
             </tfoot>
      </table>
-    </div>
-</div>
 
 <?php include('footer.php');?>
