@@ -2,102 +2,98 @@
   font-family: Source Han Sans CN;
   src: url(Source-Han-Sans-CN-Regular.otf)  format("opentype");
 }
+
+/*******GENERAL***********************************************/
 body {
     font-family: 'Source Han Sans CN';
 }
-@media screen and (max-width: 1199px) {
-/*  .horizontal-menu .header-navbar.navbar-brand-center .navbar-header .navbar-brand .brand-logo .logo
-  {
-    height: 24px;
-    position: relative;
-    left: -480%;
-    top: -60%;
-    }*/
 
-     #navbar-mobile.navbar-collapse .navbar-nav .dropdown-menu
+.xx-wrapper {
+    min-width: 300px;
+    max-width: 400px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1199px) {
+
+    #navbar-mobile.navbar-collapse .navbar-nav .dropdown-menu
     {
-        /*left: 260px !important;*/
-        
+    /*left: 260px !important;*/
+
     }
 
 
     .tab-info, .tab-success, .tab-warning {
-        width: 100% !important;
-       font-size: 10px;
-       /*left: -10px;*/
+    width: 100% !important;
+    font-size: 10px;
+    /*left: -10px;*/
 
 
     }
     .play-wrapper {
-        /*height: 400px;*/
-        background-position-y:center;
-        background-size: cover;
-        top:50px;
+    /*height: 400px;*/
+    background-position-y:center;
+    background-size: cover;
+    top:50px;
     }
 
 
 }
 
-  .horizontal-menu .header-navbar
-    {
-      background-color: transparent !important;
-    }
+.horizontal-menu .header-navbar
+{
+    background-color: transparent !important;
+}
 
-    .horizontal-layout .header-navbar .navbar-container
-    {
-        padding:  0;
-    }
-    .dropdown-menu {
-     /*   left: 0;
-        right: 10px;*/
-        width: 100px !important;
-        min-width:  20px !important;
-    }
+.horizontal-layout .header-navbar .navbar-container
+{
+    padding:  0;
+}
+.dropdown-menu {
+    width: 100px !important;
+    min-width:  20px !important;
+}
 
 
- 
-    .tab-success {
-        box-shadow: 0px 0px 10px #39DA8A; 
-        background-color: #7bba2d;
-    }
-    .tab-info {
-        box-shadow: 0px 0px 10px #00cfdd;
-        background-color: #5cc3cf;
-    }
-    .tab-blue {
-        background-color: #4d75a7;
-    }
-    .tab-warning {
-        box-shadow: 0px 0px 10px #FDAC41;
-        background-color: #d8910f;
-    }
-    .tab-info, .tab-success, .tab-warning, .tab-blue, .tab-blue-gradient {
-       min-height: 40px;
-       transform: skew(-10deg);
-       color: white;
-       border-radius: 10px;
-       /*padding: 0 10px;*/
-       position: relative;
-      line-height: 12px;
-      text-align: center;
-      border: 2px solid transparent;
-    }
+
+.tab-success {
+    box-shadow: 0px 0px 10px #39DA8A; 
+    background-color: #7bba2d;
+}
+.tab-info {
+    box-shadow: 0px 0px 10px #00cfdd;
+    background-color: #5cc3cf;
+}
+.tab-blue {
+    background-color: #4d75a7;
+}
+.tab-warning {
+    box-shadow: 0px 0px 10px #FDAC41;
+    background-color: #d8910f;
+}
+.tab-info, .tab-success, .tab-warning, .tab-blue, .tab-blue-gradient {
+    min-height: 40px;
+    transform: skew(-10deg);
+    color: white;
+    border-radius: 10px;
+    /*padding: 0 10px;*/
+    position: relative;
+    line-height: 12px;
+    text-align: center;
+    border: 2px solid transparent;
+}
 
 
 .play-wrapper {
-
-  text-align: center;
+    text-align: center;
 }
 .play-wrapper h1 {
-     display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
     position: relative;
     color: white;
     font-size: 20px;
-
-
-
 }
 
 .tab-blue-gradient {
@@ -116,10 +112,6 @@ body {
 .horizontal-menu .header-navbar{
     border-bottom: none !important;
 }
-
-
-/*******GENERAL***********************************************/
-
 @media screen and (min-width: 1200px) {
 
     #navbar-mobile.navbar-collapse .navbar-nav .dropdown-menu
@@ -192,18 +184,8 @@ body {
         top: 30%;
         position: relative;
     }
-    .header-title {
-        font-size: 16px;
-        color: #fff;
-        font-style: italic;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        font-family: Source Han Sans CN;
-    }
 
-    .line {
-        width: 16px;
-    }
+
 }
 
 
@@ -300,12 +282,74 @@ body {
     font-size: 1rem;
     line-height: 1;
 }
-@media screen and (min-width: 700px) {
+
+@media screen and (min-width: 200px) {
 
     .wrapper
     {
         padding: 2rem 3rem;
         padding-left: 1.5rem;
+    }
+    .header-title {
+        font-size: 16px;
+        color: #fff;
+        font-style: italic;
+        text-transform: uppercase;
+        /*letter-spacing: 0.1em;*/
+        font-family: Source Han Sans CN;
+    }
+
+    .line {
+        width: 16px;
+    }
+       .horizontal-menu .header-navbar .navbar-container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .header-title {
+        font-size: 20px;
+        color: #fff;
+        font-style: italic;
+        text-transform: uppercase;
+        /*letter-spacing: 0.1em;*/
+        font-family: Source Han Sans CN;
+    }
+
+    .line {
+        width: 20px;
+    }
+       .horizontal-menu .header-navbar .navbar-container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+}
+@media screen and (min-width: 700px) {
+    .horizontal-menu .header-navbar .navbar-container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+    .wrapper
+    {
+        padding: 2rem 3rem;
+        padding-left: 1.5rem;
+    }
+    .header-title {
+        font-size: 24px;
+        color: #fff;
+        font-style: italic;
+        text-transform: uppercase;
+        /*letter-spacing: 0.1em;*/
+        font-family: Source Han Sans CN;
+    }
+
+    .line {
+        width: 24px;
     }
 }
 .table.dataTable {
@@ -340,12 +384,19 @@ html .navbar-static .app-content .content-wrapper {
     /*padding: 0 !important;*/
 }
 
-.header-navbar.fixed-top {
+.header-nav{
     background-color: transparent !important;
     margin: 0 auto;
     background-image: url(../../app-assets/images/home/header-bg2.png);
     background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 5px;
 
+}
+
+.line {
+    top: -3px;
+    position: relative;
 }
 .header-navbar.fixed-top.scrolled {
   background-color: #0b0c10 !important;
@@ -979,9 +1030,9 @@ li.paginate_button.page-item, .pagination .page-item .page-link {
 }
 
 .content-guard {
-    margin-top: 20%;
+    padding-top: 10%;
     position: relative;
-    margin-bottom: 20%;
+ /*   margin-bottom: 20%;*/
 }
 /********NEWS**********************************************/
 

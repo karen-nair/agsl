@@ -45,7 +45,11 @@
 
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/custom.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/general.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+
+
 
     <!-- END: Custom CSS-->
 
@@ -62,28 +66,21 @@
 
     <!-- BEGIN: Content-->
 
-    <div class="app-content content">
-        <div class="content-overlay"></div>
-        <div class="content-wrapper">
-            <div class="content-body">
-                 <div class="row">
-                    <div class="col-12" style="z-index: 1000;">
-                            
-                    
-                   <?php 
-                   if (isset($title)) {
-                    include('nav-menu2.php');
+<div class="row">
+<div class="col-12 xx-wrapper" style="z-index: 1000;">
+        
 
-                   } else {
-                    include('nav-menu.php');
+<?php 
+if (isset($title)) {
+include('nav-menu2.php');
 
-                   }
-                   ?>
-              
-                        </div>
+} else {
+include('nav-menu.php');
+
+}
+?>
+<div class="content-guard">
 
 
-                </div>
 
 
-<div class="app-container">
