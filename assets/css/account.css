@@ -73,6 +73,7 @@ h2#swal2-title {
     color:#4a4a4b;
     text-align: center;
 }
+
 /**galaxy fold dimension**/
 @media screen and (min-width: 280px) {
     .acc-ico-wrapper {

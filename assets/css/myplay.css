@@ -1,0 +1,137 @@
+/*****MY PLAY*************************************************/
+
+.play-time {
+    top: 9px;
+    position: relative;
+    color: #575758;
+    line-height: 1;
+}
+.page-item.active .page-link {
+    background-color: transparent; !important;
+    color: #fff !important;
+
+}
+.page-link {
+    color: #4f5861 !important;
+}
+.pagination .page-item.active .page-link, .pagination .page-item.active .page-link:hover{
+    background-color: transparent !important;
+
+}
+.zero-configuration td {
+    border-bottom: none;
+    padding: 10px 0;
+}
+
+li.paginate_button.page-item, .pagination .page-item .page-link {
+    border: none !important;
+}
+.pagination .page-item.previous.disabled .page-link, .pagination .page-item.next.disabled .page-link, .pagination .page-item.first.disabled .page-link, .pagination .page-item.last.disabled .page-link {
+  background-color: transparent !important;
+  color: #646467 !important;
+}
+.play .playing {
+    color: #575758;
+    position: relative;
+}
+.play .figure {
+    color: #fff;
+    position: relative;
+}
+
+.button_x_bg {
+
+    background-image: url(../../app-assets/images/home/yellow-trans-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 10px;
+    padding-top: 5px;
+
+
+}
+
+.button_right_bg {
+    
+    background-image: url(../../app-assets/images/home/green-trans-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 10px;
+    padding-top: 5px;
+
+}
+
+.button_right_bg h3, .button_x_bg h3 {
+    top: 10px;
+    position: relative;
+}
+
+/**galaxy fold dimension**/
+@media screen and (min-width: 280px) {
+    .dollar {
+        font-size: 24px;
+    }
+    .icon-gp {
+        width: 16px;
+        height: 16px;
+    }
+    .cent {
+        font-size: 12px;
+    }
+    .play .playing, .play .figure, .play-time {
+        font-size: 9px;
+    }
+}
+
+/**galaxy s8 dimension**/
+@media screen and (min-width: 360px) {
+    .dollar {
+        font-size: 36px;
+    }
+    .icon-gp {
+        width: 24px;
+        height: 24px;
+    }
+    .cent {
+        font-size: 20px;
+    }
+    .play .playing, .play .figure, .play-time {
+        font-size: 10px;
+    }
+}
+
+/**iphone SE dimension**/
+@media screen and (min-width: 375px) {
+
+}
+
+/**surface duo**/
+@media screen and (min-width: 540px) {
+
+}
+
+@media screen and (min-width: 600px) {
+    .dollar {
+        font-size: 36px;
+    }
+    .cent {
+        font-size: 20px;
+    }
+    .play .playing, .play .figure {
+       font-size: 12px;
+    }
+    .play-time {
+        font-size: 12px;
+    }
+    .play .icon-gp {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+
+}

@@ -22,6 +22,10 @@
     background-repeat: no-repeat;
     background-position-x: right;
 }
+.forgot-password {
+  background: none;
+}
+
 .captcha-wrapper
 {
     background-image: url(../../app-assets/images/home/captcha2.png);

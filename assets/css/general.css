@@ -42,9 +42,30 @@ a, a:hover {
     padding: 1.2rem 3rem;
     padding-left: 0.4rem;
 }
+/**datatable**/
+.table.dataTable {
+    top: 50px;
+    position: relative;
+}
 
-.forgot-password {
-  background: none;
+tfoot, thead {
+    display: none;
+}
+div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate{
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+.pagination .page-item.previous {
+    left: 0;
+    position: absolute;
+}
+
+.pagination .page-item.next {
+   right: 0;
+    position: absolute;
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    justify-content:  center !important;
 }
 
 .wrapper input.trans-input
@@ -247,6 +268,12 @@ a, a:hover {
         left: -23px;
         position: relative;
     }
+    div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate{
+      margin-bottom: 15%;
+      margin-top: 15%;
+      left: -50%;
+      position: relative;
+  }
 }
 
 /**surface duo**/
