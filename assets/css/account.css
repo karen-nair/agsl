@@ -98,6 +98,10 @@ h2#swal2-title {
         width: 20px;
         height: 20px;
     }
+    .acc-avatar {
+        width: 94px;
+        height: 94px;
+    }
 }
 
 /**galaxy s8 dimension**/
@@ -142,6 +146,10 @@ h2#swal2-title {
     }
     .dollar-text {
         font-size: 16px;
+    }
+    .acc-avatar {
+        width: 134px;
+        height: 134px;
     }
 }
 

@@ -1,0 +1,111 @@
+/********ASSET******************************************/
+
+.asset-info {
+    color:#454e58;
+    text-align: center;
+}
+.asset-money {
+    color: #c2d7e8;
+}
+.asset-collapse .card-body , .asset-collapse .card-header{
+    /*padding: 0 1.7rem;*/
+}
+.asset-status {
+    color: #c2d7e8;
+}
+.important-notice {
+    list-style-type: none;
+    left: -20px;
+    position: relative;
+}
+.asset .collapse-header {
+    background-image: url(../../app-assets/images/home/asset-bg.png);
+    background-color: transparent;
+    border: none;
+    outline: unset;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding:20px;
+    margin-bottom: 5px;
+}
+.asset .card-header, .asset .card-body {
+    padding: 0 5px;
+}
+button#dropdownMenuButton3 {
+    border: none;
+}
+.nav.nav-tabs {
+    border-bottom: none;
+}
+.btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show > .btn-outline-light.dropdown-toggle{
+    background: none;
+}
+.asset .time {
+    color: rgba(194, 215, 232, 0.302);
+}
+
+/**galaxy fold dimension**/
+@media screen and (min-width: 280px) {
+    .asset .tab-submit-green, .tab-submit-yellow {
+        padding: 1.2em;
+        width: 100px;
+    }
+    .asset .asset-info {
+        font-size: 16px;
+    }
+    .asset-money {
+        font-size: 16px;
+    }
+    .asset .asset-status, .asset .time {
+        font-size: 10px;
+    }
+
+    .asset .btn {
+        padding-left: 10px !important;
+        font-size: 12px;
+    }
+}
+
+/**galaxy s8 dimension**/
+@media screen and (min-width: 360px) {
+    .asset .tab-submit-green, .tab-submit-yellow {
+        padding: 1.2em;
+        width: 140px;
+    }
+
+}
+
+/**iphone SE dimension**/
+@media screen and (min-width: 375px) {
+ .asset .tab-submit-green, .tab-submit-yellow {
+        padding: 1.2em;
+        width: 150px;
+    }
+}
+/**surface duo**/
+@media screen and (min-width: 540px) {
+
+}
+
+@media screen and (min-width: 600px) {
+    .asset .tab-submit-green, .tab-submit-yellow {
+        padding: 1.5em;
+        width: 255px;
+    }
+    .asset .asset-info {
+        font-size: 20px;
+    }
+    .asset-money {
+        font-size: 24px;
+    }
+    .asset .asset-status, .asset .time {
+        font-size: 16px;
+    }
+
+    .asset .btn {
+        padding-left: 10px !important;
+        font-size: 20px;
+    }
+}
+

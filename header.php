@@ -53,6 +53,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/myplay.css">
     <link rel="stylesheet" type="text/css" href="assets/css/hashies.css">
     <link rel="stylesheet" type="text/css" href="assets/css/game.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/asset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 
 

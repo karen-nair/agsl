@@ -10,7 +10,7 @@ include('header.php');
            
                 <div class="text-center mx-auto pt-3">
                     <div class="avatar bg-rgba-primary p-50">
-                        <img class="img-fluid" src="app-assets/images/home/account/parrot.png" alt="img placeholder" height="134" width="134">
+                        <img class="img-fluid acc-avatar" src="app-assets/images/home/account/parrot.png" alt="img placeholder">
 
 
                     </div>
