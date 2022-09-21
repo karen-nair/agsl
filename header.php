@@ -48,6 +48,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/custom.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/general.css">
     <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/home.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 
 

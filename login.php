@@ -21,9 +21,7 @@
       </div>
 
       <div class="row py-1">
-         <div class="col-12">
-           
-            
+         <div class="col-12">  
             <div class="pwd">
              <div class="wrapper"> 
                   <input class="trans-input" type="text" name="" placeholder="Password">
@@ -32,11 +30,7 @@
                   <img class="img-fluid" src="app-assets/images/home/eye.png" height="24" width="24">
                </span>
             </div>
-
           </div>
-
-         
-
       </div>
 
       
@@ -48,17 +42,18 @@
 
           </div>
           <div class="col-5 text-right">
-            <img class="img-fluid" src="app-assets/images/home/captcha2.png">
+            <div class="captcha-wrapper"> 
+               <input class="trans-input" type="text" name="">
+            </div>
 
           </div>
           <div class="col-12">
-             <p class="grey-font">Forgot Password?</p>
+             <div class="wrapper forgot-password"> 
+               <input class="trans-input" type="text" placeholder="Forgot Password?">
+            </div>
           </div>
       </div>
       
-
-
-
       <div class="row py-1">
          <div class="col-md-12 text-center green-yellow-btn-wrapper">
             <div class="tab-submit-green btn-center-align">

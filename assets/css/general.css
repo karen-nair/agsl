@@ -43,6 +43,10 @@ a, a:hover {
     padding-left: 0.4rem;
 }
 
+.forgot-password {
+  background: none;
+}
+
 .wrapper input.trans-input
 {
     appearance: none;

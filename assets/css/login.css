@@ -16,6 +16,35 @@
     background-repeat: no-repeat;
     background-position-x: right;
 }
+.captcha-wrapper
+{
+    background-image: url(../../app-assets/images/home/captcha2.png);
+    background-color: transparent;
+    border: none;
+    outline: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 1.2rem 3rem;
+    padding-left: 0.4rem;
+}
+
+.captcha-wrapper input.trans-input
+{
+    appearance: none;
+    resize: none;
+    width: 100%;
+    appearance: none;
+    background: transparent;
+    border: none;
+    resize: none;
+    color: white;
+    padding-left: 10px;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    background-color: transparent;
+}
 
 .pwd{
     position: relative;
