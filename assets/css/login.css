@@ -6,6 +6,12 @@
     -webkit-text-fill-color: transparent;
     position: relative;
     top: -13px;
+    font-family: Source Han Sans CN;
+}
+
+.hello {
+    font-family: Source Han Sans CN;
+    font-weight: bold !important;
 }
 .white-font {
     color: #fff;
@@ -46,7 +52,7 @@
     background-color: transparent;
 }
 
-.pwd{
+.pwd {
     position: relative;
 }
 .p-viewer {
@@ -73,6 +79,7 @@
     .hppc {
         width: 40%;
     }
+
 }
 
 /**galaxy s8 dimension**/
@@ -91,5 +98,8 @@
   .hppc {
     width: 25%;
     top: 7px;
+  }
+  .hello, .welcome {
+    font-size: 3.5rem;
   }
 }

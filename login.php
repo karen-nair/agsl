@@ -5,7 +5,7 @@
    <div class="card-body">
     <div class="row">
          <div class="col-12 login-wrapper">
-            <h1 class="white-font">Hello!</h1>
+            <h1 class="white-font hello">Hello!</h1>
             <h3 class="welcome">Welcome</h3>
           </div>
       </div>
