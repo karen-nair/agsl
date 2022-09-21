@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-12 header-nav">
+    <div class="col-12 header-nav nav-2">
 
     <div class="row">
         <div class="col-10">

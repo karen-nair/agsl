@@ -7,7 +7,7 @@
 body {
     font-family: 'Source Han Sans CN';
 }
-a {
+a, a:hover {
   color: #555555;
 }
 .header-nav{
@@ -16,7 +16,7 @@ a {
     background-image: url(../../app-assets/images/home/header-bg2.png);
     background-size: cover;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 
 }
 .important {
@@ -74,14 +74,11 @@ a {
 
 .tab-submit-yellow {
     width: 250px;
-    /*transform: skew(-10deg);*/
     color: white;
-    /* border-radius: 10px; */
     position: relative;
     line-height: 12px;
     text-align: center;
-    padding: 2em;
-    /* min-height: 40px; */
+    padding: 1.5em;
     background-image: url(../../app-assets/images/home/yellow-btn.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -89,15 +86,12 @@ a {
 }
 
 .tab-submit-blue {
-   width: 250px;
-    /*transform: skew(-10deg);*/
+    width: 250px;
     color: white;
-    /* border-radius: 10px; */
     position: relative;
     line-height: 12px;
     text-align: center;
-    padding: 2em;
-    /* min-height: 40px; */
+    padding: 1.5em;
     background-image: url(../../app-assets/images/home/blue-btn.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -106,14 +100,11 @@ a {
 
 .tab-submit-green {
     width: 250px;
-    /*transform: skew(-10deg);*/
     color: white;
-    /* border-radius: 10px; */
     position: relative;
     line-height: 12px;
     text-align: center;
     padding: 1.5em;
-    /* min-height: 40px; */
     background-image: url(../../app-assets/images/home/green-btn.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -126,14 +117,16 @@ a {
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show > .btn-outline-light.dropdown-toggle{
     background: none;
 }
+
 .dropdown-menu {
     width: 100px !important;
     min-width:  20px !important;
-}
-.dropdown-menu {
     background-color: transparent !important;
     border: none !important;
     z-index: 900;
+}
+.dropdown-item {
+  background-color: transparent !important;
 }
 
 .card {
@@ -157,7 +150,7 @@ a {
     width: 12px;
     top: -1px;
   }
-  .tab-submit-green {
+  .tab-submit-green, .tab-submit-yellow {
     padding: 1.2em;
     width: 150px;
   }
@@ -171,7 +164,13 @@ a {
   .wrapper {
     padding: 1.0rem;
   }
-  .dropdown-item {
+
+  .nav-1 .dropdown-item {
+      position: relative;
+      left: 30px;
+  }
+ 
+  .nav-2 .dropdown-item {
       left: 5px;
       position: relative;
   }
@@ -198,7 +197,7 @@ a {
   .wrapper input.trans-input {
      font-size: 14px;
   }
-  .tab-submit-green {
+  .tab-submit-green, .tab-submit-yellow {
     padding: 1.5em;
     width: 250px;
   }
@@ -222,7 +221,7 @@ a {
     }
     .header-title {
       font-size: 24px;
-     }
+    }
     .line {
       width: 24px;
       top: -5px;
@@ -235,16 +234,20 @@ a {
       width: 2.5em;
       line-height: 1.5em;
       top: 5px;
-  }
-  .dropdown-item {
-      left: -23px;
-      position: relative;
-  }
+    }
+    .nav-1 .dropdown-item {
+        position: relative;
+        left: -20px;
+    }
+    .nav-2 .dropdown-item {
+        left: -23px;
+        position: relative;
+    }
 }
 
 /**surface duo**/
 @media screen and (min-width: 540px) {
-  .dropdown-item {
+   .nav-2 .dropdown-item {
         left: -23px;
         position: relative;
     }

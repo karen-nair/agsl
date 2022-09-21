@@ -1,0 +1,66 @@
+/***LOGIN***/
+.welcome{
+    color: #315c23;
+    font-size: 34px;
+    -webkit-text-stroke: 1px #315c23;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: -13px;
+}
+.white-font {
+    color: #fff;
+}
+.login-wrapper {
+    background-image: url(../../app-assets/images/home/login-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.pwd{
+    position: relative;
+}
+.p-viewer {
+    z-index: 9999;
+    position: absolute;
+    top: 30%;
+    right: 10px;
+}
+
+.fa-eye {
+    color: #000;
+}
+
+.agsl-logo, .hppc {
+    position: relative;
+}
+
+/**galaxy fold dimension**/
+@media screen and (min-width: 280px) {
+    .agsl-logo {
+        width: 80% !important;
+        position: relative;
+    }
+    .hppc {
+        width: 40%;
+    }
+}
+
+/**galaxy s8 dimension**/
+@media screen and (min-width: 360px) {
+
+    .agsl-logo {
+        width: 50% !important;
+        position: relative;
+    }
+    .hppc {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+  .hppc {
+    width: 25%;
+    top: 7px;
+  }
+}
