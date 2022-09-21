@@ -1032,8 +1032,8 @@ include('header.php');
                     <th>Name</th>
                 </tr>
             </tfoot>
-        </table>
-        </div>
+     </table>
     </div>
+</div>
 
 <?php include('footer.php');?>

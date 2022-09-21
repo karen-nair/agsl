@@ -1,0 +1,388 @@
+/*****GAME***************************/
+.green-active-bg {
+    background-image: url(../../app-assets/images/home/green-game-zone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.yellow-active-bg {
+    background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+
+.green-inactive-bg {
+    background-image: url(../../app-assets/images/home/game-grey.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.yellow-inactive-bg {
+    background-image: url(../../app-assets/images/home/game-grey-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+@media screen and (max-width: 400px) {
+   .green-active-bg {
+        background-image: url(../../app-assets/images/home/green-game-zone.png);
+        background-size: contain;
+    }
+
+    .yellow-active-bg {
+        background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+        background-size: contain;
+    }
+
+    .green-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-size: contain;
+    }
+
+    .yellow-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-size: contain;
+    }
+
+    .play-card .eos, .play-card .tron {
+        font-size: 2.0rem;
+        top: -40%;
+    }
+     .play-card .more {
+        font-size: 1.2rem;
+        top: -80px;
+        position: relative;
+        font-weight: bold;
+
+    }
+
+
+    .play-card .play-button-yellow {
+        top: 5px;
+        width: 80% !important;
+        margin: 0 auto;
+        left: 5%;
+    }
+
+    .play-card .play-button-green {
+        top: 5px;
+        width: 80% !important;
+        margin: 0 auto;
+        right: 5%;
+    }
+    .play-card .tab-submit-yellow, .play-card .tab-submit-green {
+        padding: 0.3em;
+            top: -30%;
+    }
+    .tagline {
+        position: relative;
+        top: -20px;
+    }
+
+    .last-wrapper, .left-wrapper, .right-wrapper {
+        position: absolute;
+        bottom: 10%;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 401px) {
+  .green-active-bg {
+        background-image: url(../../app-assets/images/home/green-game-zone.png);
+        background-size: contain;
+    }
+
+    .yellow-active-bg {
+        background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+        background-size: contain;
+    }
+        .green-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-size: contain;
+
+    }
+
+    .yellow-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-size: contain;
+
+    }
+    .play-card .eos, .play-card .tron {
+        font-size: 2.4rem;
+        top: -20%;
+    }
+    .play-card .tab-submit-yellow, .play-card .tab-submit-green {
+        padding: 0.3em;
+            top: -30%;
+    }
+    .play-card .more {
+        font-size: 2rem;
+        top: -70px;
+        position: relative;
+        font-weight: bold;
+        
+    }
+
+    .tagline {
+        position: relative;
+        top: -20px;
+    }
+
+/*     .last-wrapper, .left-wrapper, .right-wrapper {
+        position: absolute;
+        bottom: -1%;
+        width: 90%;
+    }*/
+}
+
+@media screen and (min-width: 500px) {
+    .green-active-bg {
+        background-image: url(../../app-assets/images/home/green-game-zone.png);
+        background-size: contain;
+    }
+
+    .yellow-active-bg {
+        background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+        background-size: contain;
+    }
+    .green-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-size: contain;
+
+    }
+
+    .yellow-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-size: contain;
+
+    }
+    .play-card .eos, .play-card .tron {
+        font-size: 3rem;
+        top: -100%;
+    }
+
+    .play-card .play-button-yellow {
+        top: 75px;
+        width: 80% !important;
+        margin: 0 auto;
+        left: 0;
+    }
+
+    .play-card .play-button-green {
+        top: 75px;
+        width: 80% !important;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .play-card .more {
+        font-size: 2.4rem;
+        top: -170px;
+        position: relative;
+        font-weight: bold;
+    }
+
+    .play-card .tab-submit-yellow, .play-card .tab-submit-green {
+       
+        padding: 1em;
+        top: -90%;
+
+    }
+    .tagline {
+        position: relative;
+        top: -30px;
+    }
+
+}
+
+@media screen and (min-width: 540px) {
+    .play-card .more {
+        font-size: 3rem;
+        top: -180px;
+        position: relative;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 667px) {
+
+    .play-card .eos, .play-card .tron {
+        font-size: 3.4rem;
+        top: -50%;
+    }
+    .play-card .tab-submit-yellow, .play-card .tab-submit-green {
+        padding: 1em;
+        top: 20%;
+    }
+    .tagline {
+        position: relative;
+        top: -30px;
+    }
+    .last-wrapper, .left-wrapper, .right-wrapper {
+        top: 100px;
+        position: relative;
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+   .green-active-bg {
+        background-image: url(../../app-assets/images/home/green-game-zone.png);
+        background-size: contain;
+        padding-top: 20em;
+        padding-bottom: 20em;
+    }
+
+    .yellow-active-bg {
+        background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+        background-size: contain;
+        padding-top: 20em;
+        padding-bottom: 20em;
+    }
+
+    .green-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey.png);
+        background-size: contain;
+        padding-top: 20em;
+        padding-bottom: 20em;
+    }
+
+    .yellow-inactive-bg {
+        background-image: url(../../app-assets/images/home/game-grey-1.png);
+        background-size: contain;
+        padding-top: 20em;
+        padding-bottom: 20em;
+    }
+    .play-card .eos, .play-card .tron {
+        font-size: 3.4rem;
+        top: -50%;
+    }
+    .play-card .tab-submit-yellow, .play-card .tab-submit-green {
+        padding: 1em;
+        top: 5%;
+    }
+    .play-card .more {
+        font-size: 3rem;
+        top: -130px;
+        position: relative;
+        font-weight: bold;
+    }
+    .tagline {
+        position: relative;
+        top: -30px;
+    }
+
+    .last-wrapper, .left-wrapper, .right-wrapper {
+        bottom: -100px;
+        position: relative;
+        margin-bottom: 150px;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+ .green-active-bg {
+        background-image: url(../../app-assets/images/home/green-game-zone.png);
+        background-size: contain;
+    }
+
+    .yellow-active-bg {
+        background-image: url(../../app-assets/images/home/yellow-game-zone.png);
+        background-size: contain;
+    }
+    .play-card .eos, .play-card .tron {
+        font-size: 2.4rem;
+        top: 20%;
+    }
+
+}
+
+
+/*mobile*/
+@media screen and (max-width: 1199px) {
+    .game-menu {
+        width: 200px !important;
+    }
+    .my-assets {
+        color: #5d6772;
+        font-size: 16px
+    }
+    .asset-gp {
+        width: 32px;
+    }
+    .game-money {
+        font-size: 20px;
+    }
+
+    .game-bg-green {
+        width: 135px;
+    }
+
+    .game-bg-yellow {
+        width: 150px;
+        right: 10px;
+        position: relative;
+    }
+     
+}
+
+/*desktop*/
+@media screen and (min-width: 1200px) {
+    .game-menu {
+        width: 200px !important;
+    }
+    .my-assets {
+        color: #5d6772;
+        font-size: 24px
+    }
+    .asset-gp {
+        width: 36px;
+    }
+
+   .game-bg-green {
+        width: 200px;
+    }
+
+    .game-bg-yellow {
+        width: 220px;
+        right: 10px;
+        position: relative;
+    }
+
+    
+    .play-card .eos, .play-card .tron {
+        font-size: 3.4rem;
+        top: -45%;
+    }
+}
+
+.play-button-green {
+    top: 45px;
+    width: 50% !important;
+    margin: 0 auto;
+    right: 10%;
+
+}
+
+.play-button-yellow {
+    top: 45px;
+    width: 50% !important;
+    margin: 0 auto;
+    left: 10%;
+}
+
+
+.play-card .unskewed {
+    top: 6px;
+    position: relative;
+}
