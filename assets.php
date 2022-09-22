@@ -10,9 +10,13 @@ include('header.php');
                 <div class="text-center">
                     <p class="asset-info"><i>GP -Game Point</i></p>
 
-                    <h1 style="color:#fff;"><img class="img-fluid" src="app-assets/images/home/gp.png" height="24" width="24">7533.00&nbsp;<img class="img-fluid" src="app-assets/images/home/eye.png" height="24" width="24"></h1>
-                   
-                    <!-- <p class="px-1">Jelly beans halvah cake chocolate gummies.</p> -->
+                    <h1 style="color:#fff;"><img class="img-fluid" src="app-assets/images/home/gp.png" height="24" width="24">7533.00&nbsp;
+                        <a href="history.php">
+                            <img class="img-fluid" src="app-assets/images/home/eye.png" height="24" width="24">
+
+                        </a>
+                    </h1>
+
                     <div class="d-flex justify-content-around mb-1">
                         <div class="card-icons d-flex flex-column">
                             <div class="row">

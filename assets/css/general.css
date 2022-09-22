@@ -6,6 +6,11 @@
 /*******GENERAL***********************************************/
 body {
     font-family: 'Source Han Sans CN';
+    z-index: 80 !important;
+    background-image: url('../../app-assets/images/home/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0b0c10;
 }
 a, a:hover {
   color: #555555;
@@ -43,8 +48,17 @@ a, a:hover {
     padding-left: 0.4rem;
 }
 /**datatable**/
-tfoot, thead {
+.play tfoot, .play thead , .asset tfoot, .play thead, .history tfoot {
     display: none;
+    border: none;
+}
+
+
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+  border: none;
+}
+.history thead th {
+  color: #787a7b;
 }
 div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate{
     padding-bottom: 15%;
@@ -155,14 +169,17 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     z-index: 900;
 }
 .dropdown-item {
-  background-color: transparent !important;
+  text-transform: capitalize;
+}
+.dropdown-menu i {
+  color: #c2d7e8;
 }
 
 .card {
   background: transparent;
 }
 
-.dropdown-toggle::after {
+#dropdown-flag::after {
     display: none !important;
 }
 /**galaxy fold dimension**/
@@ -243,6 +260,19 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
   }
 }
 
+/**surface duo**/
+@media screen and (min-width: 540px) {
+   .nav-2 .dropdown-item {
+        left: -23px;
+        position: relative;
+    }
+    .xx-wrapper {
+      min-width: 300px;
+      max-width: 540px;
+      margin: 0 auto;
+    }
+}
+
 @media screen and (min-width: 600px) {
     .xx-wrapper {
       min-width: 300px;
@@ -279,12 +309,4 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
       left: -50%;
       position: relative;
   }
-}
-
-/**surface duo**/
-@media screen and (min-width: 540px) {
-   .nav-2 .dropdown-item {
-        left: -23px;
-        position: relative;
-    }
 }

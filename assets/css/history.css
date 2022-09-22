@@ -1,0 +1,26 @@
+.history .history-col {
+	padding: 10px !important;
+}
+
+/**galaxy fold dimension**/
+@media screen and (min-width: 280px) {
+    .history .history-col {
+		font-size: 10px;
+	}
+
+}
+
+/**galaxy s8 dimension**/
+@media screen and (min-width: 360px) {
+
+    .history .history-col {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+  .history .history-col {
+		font-size: 12px;
+		padding: 20px !important;
+	}
+}

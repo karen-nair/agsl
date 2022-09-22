@@ -54,6 +54,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/hashies.css">
     <link rel="stylesheet" type="text/css" href="assets/css/game.css">
     <link rel="stylesheet" type="text/css" href="assets/css/asset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/history.css">
+
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 
 
@@ -66,7 +68,7 @@
 
 <!-- BEGIN: Body-->
 
-<body style="background-image: url('app-assets/images/home/bg.png');background-size: cover;background-repeat: no-repeat;background-color: #0b0c10;" class="horizontal-layout horizontal-menu navbar-static 2-columns   footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="2-columns">
+<body class="horizontal-layout horizontal-menu navbar-static 2-columns   footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="2-columns">
    
 
 
