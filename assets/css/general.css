@@ -132,6 +132,9 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     background-repeat: no-repeat;
 
 }
+.form-wrapper .tab-submit-green, .form-wrapper .tab-submit-blue, .form-wrapper .tab-submit-yellow {
+  margin: 0 auto;
+}
 .home .home .tab-submit-green.btn-center-align, .home .home .tab-submit-yellow.btn-center-align {
     margin: 0 auto;
 }
@@ -176,9 +179,9 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     width: 12px;
     top: -1px;
   }
-  .home .tab-submit-green, .home .tab-submit-yellow {
+  .home .tab-submit-green, .home .tab-submit-yellow, .form-wrapper .tab-submit-green, .form-wrapper .tab-submit-yellow {
     padding: 1.2em;
-    width: 150px;
+    width: 200px;
   }
   .unskewed {
       font-size: 12px;
@@ -200,6 +203,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
       left: 5px;
       position: relative;
   }
+
 }
 
 /**galaxy s8 dimension**/
@@ -223,7 +227,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
   .wrapper input.trans-input {
      font-size: 14px;
   }
-  .home .tab-submit-green, .home .tab-submit-yellow {
+  .home .tab-submit-green, .home .tab-submit-yellow, .form-wrapper .tab-submit-green, .form-wrapper .tab-submit-yellow {
     padding: 1.5em;
     width: 250px;
   }

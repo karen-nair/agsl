@@ -2,7 +2,7 @@
 $title = "My Downline";
 include('header.php');
 ?>
-<div class="card">
+<div class="card form-wrapper">
    <div class="card-body">
 
      <div class="row">
