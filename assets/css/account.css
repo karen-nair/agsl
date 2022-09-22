@@ -177,7 +177,7 @@ h2#swal2-title {
     .acc-avatar-ico {
         position: relative;
         top: -100px;
-        left: -10px;
+        left: -100px;
     }
     .acc-avatar-ico img {
         cursor: pointer;
@@ -249,7 +249,7 @@ h2#swal2-title {
     .acc-avatar-ico {
         position: relative;
         top: -100px;
-        left: 30px;
+        left: -130px;
     }
 }
 
