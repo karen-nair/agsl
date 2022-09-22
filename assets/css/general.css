@@ -161,24 +161,34 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     position: relative;*/
  /*   margin-bottom: 20%;*/
 }
-.dropdown-menu {
-    width: 100px !important;
+.deposit .dropdown-menu, .dropdown-menu.flag-dropdown {
+    /*width: 100px !important;*/
     min-width:  20px !important;
     background-color: transparent !important;
     border: none !important;
     z-index: 900;
 }
-.dropdown-item {
-  text-transform: capitalize;
+.deposit .dropdown-item {
+  background-color: #0e0f12;
 }
-.dropdown-menu i {
+
+.btn-outline-light ~ .dropdown-menu .dropdown-item.active {
+   background-color: #232629 !important;
+  color: #c2d7e8 !important;
+}
+.deposit .dropdown-menu i {
   color: #c2d7e8;
 }
+
 
 .card {
   background: transparent;
 }
 
+.dropdown-menu.flag-dropdown {
+  width: 100px;
+  background-color: transparent !important;
+}
 #dropdown-flag::after {
     display: none !important;
 }
