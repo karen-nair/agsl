@@ -16,11 +16,12 @@ include('header.php');
                     <div class="d-flex justify-content-around mb-1">
                         <div class="card-icons d-flex flex-column">
                             <div class="row">
+                                <a href="deposit.php">
                                  <div class="col-12 text-center tab-submit-green">
                                     
-                                    <a href="deposit.php"><span class="unskewed" style="top:-2px;color: #fff;">Deposit</span></a>
+                                    <span class="unskewed" style="top:-2px;color: #fff;">Deposit</span>
                                  </div>
-
+                             </a>
 
                             </div>
                             
@@ -29,12 +30,12 @@ include('header.php');
                         <div class="card-icons d-flex flex-column">
                            <div class="row">
                 
-
+                            <a href="withdrawal.php">
                                   <div class="col-12 text-center tab-submit-yellow">
                                     
-                                    <a href="withdrawal.php"><span class="unskewed" style="top:-2px;color: #fff;">Withdrawal</span></a>
+                                    <span class="unskewed" style="top:-2px;color: #fff;">Withdrawal</span>
                                  </div>
-
+                             </a>
                             </div>
                            
                         </div>
@@ -49,15 +50,15 @@ include('header.php');
 
 </div>
 
- <section id="basic-tabs-components">
+ <section class="asset">
                            
-    <div class="btn-group asset">
+    <div class="btn-group">
         <div class="dropdown nav nav-tabs">
 
 
             <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                              <i>Deposit List</i>
-                                            </button>
+              <i>Deposit List</i>
+            </button>
                                             
             <div class="dropdown-menu nav-item" aria-labelledby="dropdownMenuButton3">
                 <a class="dropdown-item nav-item" id="home-tab" data-toggle="tab" href="#home" aria-controls="home" role="tab" aria-selected="true"><i>Deposit List</i></a>
@@ -67,7 +68,7 @@ include('header.php');
     </div>
 
    
-    <div class="tab-content asset">
+    <div class="tab-content">
         <div class="tab-pane active" id="home" aria-labelledby="home-tab" role="tabpanel">
              <div class="row">
                 <div class="col-12 asset-collapse">

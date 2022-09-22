@@ -1,38 +1,249 @@
 /*****GAME***************************/
-.green-active-bg {
+.game .green-active-bg {
     background-image: url(../../app-assets/images/home/green-game-zone.png);
-    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 10em;
-    padding-bottom: 10em;
+
 }
 
-.yellow-active-bg {
+.game .yellow-active-bg {
     background-image: url(../../app-assets/images/home/yellow-game-zone.png);
-    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 10em;
-    padding-bottom: 10em;
 }
 
 
-.green-inactive-bg {
+.game .green-inactive-bg {
     background-image: url(../../app-assets/images/home/game-grey.png);
-    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 10em;
-    padding-bottom: 10em;
+
 }
 
-.yellow-inactive-bg {
+.game .yellow-inactive-bg {
     background-image: url(../../app-assets/images/home/game-grey-1.png);
-    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 10em;
-    padding-bottom: 10em;
+
+}
+.game .play-button-green {
+    top: 45px;
+    width: 50% !important;
+    margin: 0 auto;
+    right: 10%;
+
 }
 
-@media screen and (max-width: 400px) {
+.game .play-button-yellow {
+    top: 45px;
+    width: 50% !important;
+    margin: 0 auto;
+    left: 10%;
+}
+
+
+.play-card .unskewed {
+    top: 6px;
+    position: relative;
+}
+
+/**galaxy fold dimension**/
+@media screen and (min-width: 280px) {
+    .game-menu {
+        width: 120px !important;
+    }
+    .my-assets {
+        color: #5d6772;
+        font-size: 12px
+    }
+    .asset-gp {
+        width: 20px;
+        top: 3px;
+        position: relative;
+        left: -5px;
+    }
+    .game-money {
+        font-size: 16px;
+    }
+    .game .wrapper {
+        padding: 0 !important;
+    }
+    .game .wrapper-text {
+        position: relative;
+        top: -10px;
+        color: #fff;
+    }
+    .game .tab-submit-green, .game .tab-submit-yellow {
+        padding: 5px;
+        width: 100px;
+        top: -80%;
+        left: 10%;
+        background-size: 80% 90%;
+    }
+    .game .green-active-bg, .game .yellow-active-bg,.game .green-inactive-bg, .game .yellow-inactive-bg {
+        background-size: contain;
+
+    }
+    .game .green-yellow-btn-wrapper, .game .grey-btn-wrapper {
+        padding-top: 10em;
+
+    }
+    .game .grey-btn-wrapper {
+        top: -80px;
+        position: relative;
+    }
+    .game .inactive {
+        padding: 0 !important;
+    }
+    
+    .game .more {
+        font-size: 1.2rem;
+    }
+    .game .eos, .game .tron {
+        top:  100px;
+        left: 0;
+        right: 0;
+        font-size: 1.2rem;
+    }
+
+    .play-card .unskewed {
+        left: -10px;
+    }
+    .game .next {
+        top: -10px;
+        position: relative;
+        left: -10px;
+    }
+
+}
+/**galaxy s8 dimension**/
+@media screen and (min-width: 360px) {
+
+    .game .green-active-bg, .game .yellow-active-bg, .game .green-inactive-bg, .game .yellow-inactive-bg {
+        background-size: cover;
+    }
+    .game .green-yellow-btn-wrapper, .game .grey-btn-wrapper {
+        padding-top: 15em;
+    }
+    .game .eos, .game .tron {
+        top: 140px;
+        left: 0;
+        right: 0;
+        font-size: 2rem;
+    }
+    .game .tab-submit-green, .game .tab-submit-yellow {
+        padding: 5px;
+        width: 150px;
+        top: -80%;
+        left: 10%;
+        background-size: 80% 90%;
+    }
+    .play-card .unskewed {
+        left: -15px;
+    }
+    .game .next {
+        left: -15px;
+    }
+    .game .more {
+        font-size: 2rem;
+    }
+    .game .grey-btn-wrapper {
+        top: -120px;
+        position: relative;
+    }
+}
+
+/**iphone SE dimension**/
+@media screen and (min-width: 375px) {
+
+}
+
+/**galaxy 8**/
+@media screen and (min-width: 540px) {
+    .game .green-active-bg, .game .yellow-active-bg, .game .green-inactive-bg, .game .yellow-inactive-bg {
+        background-size: contain;
+    }
+    .game .grey-btn-wrapper {
+        top: -140px;
+        position: relative;
+    }
+    .game .yellow-inactive-bg, .game .green-inactive-bg {
+        padding-top: 1.5em;
+        padding-bottom: 0em;
+    }
+    .game .tab-submit-green, .game .tab-submit-yellow {
+        padding: 5px;
+        width: 150px;
+        top: -100%;
+        left: 10%;
+        background-size: 80% 90%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .game .green-active-bg, .game .yellow-active-bg, .game .green-inactive-bg, .game .yellow-inactive-bg {
+        background-size: contain;
+        padding-top: 10em;
+        padding-bottom: 5em;
+    }
+
+    .game .tab-submit-green, .game .tab-submit-yellow {
+        padding: 20px;
+        width: 200px;
+        top: -20px;
+        left: 10%;
+        background-size: 100% 100%;
+        height: 100%;
+    }
+    .game .eos, .game .tron {
+        top: 80px;
+        left: 0;
+        right: 0;
+        font-size: 3rem;
+    }
+    .game .grey-btn-wrapper {
+        top: -140px;
+        position: relative;
+    }
+    .game .more {
+        font-size: 3rem;
+    }
+    .play-card .unskewed {
+        left: 0px;
+        font-size: 20px;
+    }
+    .game .next {
+        left: 0px;
+        width: 20px;
+    }
+
+}
+/**galaxy 8**/
+@media screen and (min-width: 653px) {
+    .game .green-yellow-btn-wrapper, .game .grey-btn-wrapper {
+        padding-top: 10em;
+    }
+    .game-money {
+        font-size: 24px;
+    }
+    .my-assets {
+        font-size: 16px;
+    }
+    .asset-gp {
+        width: 24px;
+    }
+    .game .wrapper-text {
+        top: -5px;
+    }
+    .game-menu {
+        width: 200px !important;
+    }
+}
+
+/**galaxy 8**/
+@media screen and (min-width: 740px) {
+    .game .green-yellow-btn-wrapper, .game .grey-btn-wrapper {
+        padding-top: 10em;
+    }
+}
+/******old***/
+/*@media screen and (max-width: 400px) {
    .green-active-bg {
         background-image: url(../../app-assets/images/home/green-game-zone.png);
         background-size: contain;
@@ -63,9 +274,9 @@
         position: relative;
         font-weight: bold;
 
-    }
+    }*/
 
-
+/*
     .play-card .play-button-yellow {
         top: 5px;
         width: 80% !important;
@@ -82,8 +293,8 @@
     .play-card .tab-submit-yellow, .play-card .tab-submit-green {
         padding: 0.3em;
             top: -30%;
-    }
-    .tagline {
+    }*/
+/*    .tagline {
         position: relative;
         top: -20px;
     }
@@ -94,9 +305,9 @@
         width: 90%;
         margin-bottom: 20px;
     }
-}
+}*/
 
-@media screen and (min-width: 401px) {
+/*@media screen and (min-width: 401px) {
   .green-active-bg {
         background-image: url(../../app-assets/images/home/green-game-zone.png);
         background-size: contain;
@@ -138,14 +349,9 @@
         top: -20px;
     }
 
-/*     .last-wrapper, .left-wrapper, .right-wrapper {
-        position: absolute;
-        bottom: -1%;
-        width: 90%;
-    }*/
-}
+}*/
 
-@media screen and (min-width: 500px) {
+/*@media screen and (min-width: 500px) {
     .green-active-bg {
         background-image: url(../../app-assets/images/home/green-game-zone.png);
         background-size: contain;
@@ -212,9 +418,9 @@
         position: relative;
         font-weight: bold;
     }
-}
+}*/
 
-@media screen and (min-width: 667px) {
+/*@media screen and (min-width: 667px) {
 
     .play-card .eos, .play-card .tron {
         font-size: 3.4rem;
@@ -288,9 +494,9 @@
         margin-bottom: 150px;
     }
 
-}
+}*/
 
-@media screen and (max-width: 280px) {
+/*@media screen and (max-width: 280px) {
  .green-active-bg {
         background-image: url(../../app-assets/images/home/green-game-zone.png);
         background-size: contain;
@@ -305,24 +511,15 @@
         top: 20%;
     }
 
-}
+}*/
 
 
 /*mobile*/
-@media screen and (max-width: 1199px) {
+/*@media screen and (max-width: 1199px) {
     .game-menu {
         width: 200px !important;
     }
-    .my-assets {
-        color: #5d6772;
-        font-size: 16px
-    }
-    .asset-gp {
-        width: 32px;
-    }
-    .game-money {
-        font-size: 20px;
-    }
+    
 
     .game-bg-green {
         width: 135px;
@@ -334,10 +531,10 @@
         position: relative;
     }
      
-}
+}*/
 
 /*desktop*/
-@media screen and (min-width: 1200px) {
+/*@media screen and (min-width: 1200px) {
     .game-menu {
         width: 200px !important;
     }
@@ -364,25 +561,5 @@
         font-size: 3.4rem;
         top: -45%;
     }
-}
+}*/
 
-.play-button-green {
-    top: 45px;
-    width: 50% !important;
-    margin: 0 auto;
-    right: 10%;
-
-}
-
-.play-button-yellow {
-    top: 45px;
-    width: 50% !important;
-    margin: 0 auto;
-    left: 10%;
-}
-
-
-.play-card .unskewed {
-    top: 6px;
-    position: relative;
-}

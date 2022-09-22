@@ -132,7 +132,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     background-repeat: no-repeat;
 
 }
-.tab-submit-green.btn-center-align, .tab-submit-yellow.btn-center-align {
+.home .home .tab-submit-green.btn-center-align, .home .home .tab-submit-yellow.btn-center-align {
     margin: 0 auto;
 }
 
@@ -176,7 +176,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     width: 12px;
     top: -1px;
   }
-  .tab-submit-green, .tab-submit-yellow {
+  .home .tab-submit-green, .home .tab-submit-yellow {
     padding: 1.2em;
     width: 150px;
   }
@@ -223,7 +223,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
   .wrapper input.trans-input {
      font-size: 14px;
   }
-  .tab-submit-green, .tab-submit-yellow {
+  .home .tab-submit-green, .home .tab-submit-yellow {
     padding: 1.5em;
     width: 250px;
   }
