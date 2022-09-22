@@ -145,3 +145,9 @@ button#dropdownMenuButton3 {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .form-wrapper .tab-submit-yellow.hash-copy {
+        width: 150px !important;
+    }
+}
+
