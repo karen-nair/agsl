@@ -52,6 +52,13 @@ button#dropdownMenuButton3 {
 @media screen and (min-width: 280px) {
     .asset .tab-submit-green, .tab-submit-yellow {
         padding: 1.2em;
+        width: 110px;
+    }
+    .asset .hash-copy {
+        margin: 0 auto;
+        padding: 0.9rem;
+    }
+    .asset .qr {
         width: 100px;
     }
     .asset .asset-info {
@@ -63,10 +70,17 @@ button#dropdownMenuButton3 {
     .asset .asset-status, .asset .time {
         font-size: 10px;
     }
+    .asset .wrapper {
+        padding: 0.6rem;
+    }
 
     .asset .btn {
         padding-left: 10px !important;
         font-size: 12px;
+    }
+    .asset .deposit-wrapper .asset-status {
+        top: -20px;
+        position: relative;
     }
 }
 
@@ -88,7 +102,19 @@ button#dropdownMenuButton3 {
 }
 /**surface duo**/
 @media screen and (min-width: 540px) {
-
+    .asset .qr {
+        width: 200px;
+    }
+    .asset .hash-copy {
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
+    .asset .wrapper {
+        padding: 1.2rem;
+    }
+    .asset .deposit-wrapper .asset-status {
+        top: -10px;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -109,6 +135,13 @@ button#dropdownMenuButton3 {
     .asset .btn {
         padding-left: 10px !important;
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .asset .hash-copy {
+        padding: 1.8em;
+        width: 200px;
     }
 }
 
