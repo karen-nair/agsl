@@ -120,11 +120,18 @@ h2#swal2-title {
         width: 94px;
         height: 94px;
     }
+    .acc-avatar-ico {
+        left: -20px;
+    }
 }
 
 /**galaxy s8 dimension**/
 @media screen and (min-width: 360px) {
-
+    .acc-avatar-ico {
+        position: relative;
+        top: -70px;
+        left: -70px;
+    }
 }
 
 /**iphone SE dimension**/
