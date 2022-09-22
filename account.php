@@ -8,16 +8,30 @@ include('header.php');
 
         <div class="col-xl-12 col-md-6 col-12 user-profile-card">
            
-                <div class="text-center mx-auto pt-3">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="text-center mx-auto pt-3">
                     <div class="avatar bg-rgba-primary p-50">
                         <img class="img-fluid acc-avatar" src="app-assets/images/home/account/parrot.png" alt="img placeholder">
 
 
                     </div>
-                    <img class="img-fluid" style="cursor: pointer;" src="app-assets/images/home/account/info.png" height="24" width="24" id="confirm-text">
+                    
+                </div>
+                
+                  </div>
+                 
+                </div>
+
+                <div class="row acc-avatar-ico">
+                  <div class="col-12 text-right">
+              
+                        <img class="img-fluid" src="app-assets/images/home/account/info.png" id="confirm-text">
+                    
+                  </div>
                 </div>
                 <div class="text-center">
-                    <h4 style="color:#fff;">test9</h4>
+                    <h4 class="profile-text">test9</h4>
                    
                     <div class="d-flex justify-content-around mb-1">
                         <div class="card-icons d-flex flex-column">

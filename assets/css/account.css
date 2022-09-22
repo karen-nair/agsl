@@ -74,6 +74,24 @@ h2#swal2-title {
     text-align: center;
 }
 
+.acc-avatar-ico {
+    position: relative;
+    top: -70px;
+    left: -50px;
+}
+
+.acc-avatar-ico img {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.profile-text {
+    color: #fff;
+    top: -20px;
+    position: relative;
+}
+
 /**galaxy fold dimension**/
 @media screen and (min-width: 280px) {
     .acc-ico-wrapper {
@@ -122,6 +140,11 @@ h2#swal2-title {
        font-size: 12px;
        padding-bottom: 15px;
     }
+    .acc-avatar-ico {
+        position: relative;
+        top: -70px;
+        left: -70px;
+    }
     
 }
 
@@ -148,8 +171,18 @@ h2#swal2-title {
         font-size: 16px;
     }
     .acc-avatar {
-        width: 134px;
-        height: 134px;
+        width: 160px;
+        height: 160px;
+    }
+    .acc-avatar-ico {
+        position: relative;
+        top: -100px;
+        left: -10px;
+    }
+    .acc-avatar-ico img {
+        cursor: pointer;
+        width: 34px;
+        height: 34px;
     }
 }
 
@@ -178,6 +211,14 @@ h2#swal2-title {
         width: 30px;
         height: 30px;
     }
+    .acc-avatar-ico {
+        position: relative;
+        top: -120px;
+        left: -120px;
+    }
+    .profile-text {
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width: 720px) {
@@ -204,5 +245,28 @@ h2#swal2-title {
     .icon-gp {
         width: 35px;
         height: 35px;
+    }
+    .acc-avatar-ico {
+        position: relative;
+        top: -100px;
+        left: 30px;
+    }
+}
+
+@media screen and (min-width: 844px) {
+
+    .acc-avatar-ico {
+        position: relative;
+        top: -100px;
+        left: 20px;
+    }
+}
+
+@media screen and (min-width: 1328px) {
+
+    .acc-avatar-ico {
+        position: relative;
+        top: -100px;
+        left: -120px;
     }
 }
