@@ -57,23 +57,19 @@ include('header.php');
  <section class="asset">
                            
     <div class="btn-group">
-        <div class="dropdown nav nav-tabs deposit">
+        <div class="switch_box_wrapper">
+                <select id="switch_box">
+                    <option value="Deposit-List">Deposit List</option>
+                    <option value="Withdrawal-List">Withdrawal List</option>
 
-
-            <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i>Deposit List</i>
-            </button>
-                                            
-            <div class="dropdown-menu nav-item" aria-labelledby="dropdownMenuButton3">
-                <a class="dropdown-item nav-item" id="home-tab" data-toggle="tab" href="#home" aria-controls="home" role="tab" aria-selected="true"><i>Deposit List</i></a>
-                <a class="dropdown-item nav-item" id="profile-tab" data-toggle="tab" href="#profile" aria-controls="profile" role="tab" aria-selected="false"><i>Withdrawal List</i></a>
+                </select>
             </div>
-        </div>
     </div>
+    <br/><br/>
 
    
     <div class="tab-content">
-        <div class="tab-pane active" id="home" aria-labelledby="home-tab" role="tabpanel">
+        <div data-tabbed-content id="Deposit-List" >
              <div class="row">
                 <div class="col-12 asset-collapse">
                 <div class="collapsible">
@@ -456,7 +452,7 @@ include('header.php');
 
             </div>
         </div>
-        <div class="tab-pane" id="profile" aria-labelledby="profile-tab" role="tabpanel">
+        <div data-tabbed-content class="hidden" id="Withdrawal-List">
            
              <div class="row">
                 <div class="col-12 asset-collapse">

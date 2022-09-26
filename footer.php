@@ -91,7 +91,15 @@
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
           });
         });
+
+        $('#switch_box').on('change', function() {
+            var selectedItem = $(this).val();
+            $('#'+selectedItem).toggleClass('hidden');
+            $("[data-tabbed-content]:not(#"+selectedItem+")").toggleClass('hidden');
+
+        });
     </script>
+
 </body>
 <!-- END: Body-->
 

@@ -1,0 +1,42 @@
+/********NEWS**********************************************/
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    .news-title {
+        color: #fff;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .news-wrapper {
+        background-image: url(../../app-assets/images/home/news-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*min-height: 200px;*/
+        padding: 20px;
+    }
+}
+
+/*desktop*/
+@media screen and (min-width: 601px) {
+    .news-title {
+        color: #fff;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .news-wrapper {
+        background-image: url(../../app-assets/images/home/news-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*min-height: 200px;*/
+        padding: 10% 3%;
+    }
+}
+
+.news-info {
+    color: #616d78;
+    font-size: 12px;
+}
+.news-body {
+    line-height: 1.8;
+    color: rgb(194, 215, 232);
+}
