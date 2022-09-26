@@ -74,7 +74,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 15em;
-    padding-bottom: 15em;
+    /*padding-bottom: 15em;*/
 }
 
 .home-yellow-active-bg {
@@ -82,7 +82,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 15em;
-    padding-bottom: 15em;
+    /*padding-bottom: 15em;*/
 }
 
 
@@ -113,56 +113,59 @@
 }
 
 
-
-
-@media screen and (max-width: 400px) {
-    .eos, .tron {
-         font-size: 1.8rem;
-         top: -300%;
-         position: relative;
-         /*right: -30%;*/
-         font-weight: bolder;
+@media screen and (min-width: 280px) {
+    .home .tagline {
+        position: relative;
+        top: -20px;
+        width: 10px;
     }
-    .eos {
+    .play-wrapper h1 {
+        font-size: 12px;
+        top: -55px;
+        position: relative;
+        color: white;
+    }
+    .play-wrapper {
+        position: absolute;
+        top: 120px;
+        left: 25%;
+        z-index: 99;
+    }
+    .eos, .tron {
+        font-size: 1.2rem;
+        top: -110px;
+        position: relative;
+        /* right: -30%; */
+        font-weight: bolder;
+    }
+     .eos {
         right: 20%;
     }
     .tron {
         left: 20%;
     }
-
     .play3-btn {
         width: 100%;
         /*left: 20%;*/
         position: relative;
         top: 10%;
     }
-    .play-wrapper {
-        position: absolute;
-        top: 20%;
-        left: 25%;
-        z-index: 99;
+}
+
+@media screen and (min-width: 360px) {
+    .home .tagline {
+        position: relative;
+        top: -20px;
+        width: 12px;
     }
     .play-wrapper h1 {
         font-size: 16px;
-        top: -75px;
-    }
-    .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
-        padding: 1.5em !important;
-    }
-    .home .unskewed {
+        top: -80px;
         position: relative;
-        top: -15px !important;
-        font-size: 0.5em;
-    }
-
-    .home-green-active-bg {
-        background-size: contain;
-    }
-
-    .home-yellow-active-bg {
-        background-size: contain;
+        color: white;
     }
 }
+
 
 @media screen and (min-width: 401px) {
     .eos, .tron {
@@ -174,12 +177,7 @@
 
     }
 
-    .eos {
-        right: 20%;
-    }
-    .tron {
-        left: 20%;
-    }
+   
     .play3-btn {
         width: 100%;
         /*left: 20%;*/
@@ -192,8 +190,10 @@
         z-index: 99;
     }
     .play-wrapper h1 {
-        font-size: 20px;
-        top: -90px;
+        font-size: 16px;
+        top: -80px;
+        position: relative;
+        color: white;
     }
     .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
         padding: 1.5em !important;
@@ -230,12 +230,12 @@
     }
     .home-green-active-bg {
         padding-top: 20em;
-        padding-bottom: 20em;
+        /*padding-bottom: 20em;*/
     }
 
     .home-yellow-active-bg {
         padding-top: 20em;
-        padding-bottom: 20em;
+        /*padding-bottom: 20em;*/
     }
 
     .green-inactive-bg {
@@ -246,6 +246,11 @@
     .yellow-inactive-bg {
         padding-top: 20em;
         padding-bottom: 20em;
+    }
+    .home .tagline {
+        position: relative;
+        top: -30px;
+        width: 19px;
     }
 
 
@@ -292,22 +297,38 @@
 
 }
 
+@media screen and (min-width: 653px) {
+    .home-green-active-bg,.home-yellow-active-bg {
+        padding-bottom: 20em;
+    }
+    .eos, .tron {
+        font-size: 3.0rem;
+        top: -70px;
+        position: relative;
+    }
+    .play-wrapper h1 {
+        font-size: 40px;
+        top: -170px;
+    }
+}
 @media screen and (min-width: 700px) {
 
     .eos, .tron {
         font-size: 3.5rem;
-        top: 5%;
+        top: -80px;
     }
 
     .play-wrapper {
         position: absolute;
-        top: 28%;
+        top: 22%;
         left: 25%;
         z-index: 99;
     }
     .play-wrapper h1 {
         font-size: 40px;
         top: -170px;
+        position: relative;
+        color: white;
     }
 
    .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
@@ -334,11 +355,11 @@
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 740px) {
 
     .eos, .tron {
         font-size: 3.5rem;
-        top: 5%;
+        top: -80px;
     }
 
     .play-wrapper {
@@ -369,21 +390,7 @@
     }
 
 }
-@media screen and (max-width: 280px) {
-    .play-wrapper {
-        position: absolute;
-        top: 80px;
-        left: -0.5%;z-index: 99;
-    }
-    .home-green-active-bg {
-        background-size: contain;
-    }
 
-    .home-yellow-active-bg {
-        background-size: contain;
-    }
-
-}
 /*desktop*/
 @media screen and (min-width: 1200px) {
 

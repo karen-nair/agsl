@@ -32,9 +32,7 @@
 .asset .card-header, .asset .card-body {
     padding: 0 5px;
 }
-.asset .tab-content {
-    overflow-y: scroll;
-}
+
 button#dropdownMenuButton3 {
     border: none;
 }

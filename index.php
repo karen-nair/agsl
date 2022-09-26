@@ -8,7 +8,7 @@ include('header.php');
     <div class="tab-submit-green">
         
           <span class="unskewed">Inspiration</span><br/>
-          <img src="app-assets/images/home/next.png" width="12" class="tagline">
+          <img src="app-assets/images/home/next.png" class="tagline">
       
     </div>
     </a>
@@ -18,7 +18,7 @@ include('header.php');
     <div class="tab-submit-blue">
         
           <span class="unskewed">Excellent</span><br/>
-          <img src="app-assets/images/home/next.png" width="12" class="tagline">
+          <img src="app-assets/images/home/next.png"  class="tagline">
       
     </div>
     </a>
@@ -28,7 +28,7 @@ include('header.php');
     <div class="tab-submit-yellow">
         
           <span class="unskewed">FAQ</span><br/>
-          <img src="app-assets/images/home/next.png" width="12" class="tagline">
+          <img src="app-assets/images/home/next.png" class="tagline">
       
     </div>
     </a>
