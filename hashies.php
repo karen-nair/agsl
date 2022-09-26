@@ -24,7 +24,7 @@ include('header.php');
                         <h1 class="game-code" style="color:#fff;">43210974</h1>
 
                         <p style="text-align: center;"><span class="prev-block">Previous Block</span></p>
-                        <p style="text-align: left;"><span class="prev-block">00000000029358deee026eedle21f1erdgrdgfrttg</span></p>
+                        <p style="text-align: center;"><span class="prev-block">00000000029358deee026eedle21f1erdgrdgfrttg</span></p>
 
                        
                         <div class="d-flex justify-content-around mb-1 hashies-timer">
@@ -1138,7 +1138,7 @@ include('header.php');
                         <h1 style="color:#fff;">43210975</h1>
 
                         <p style="text-align: center;"><span class="prev-block">Previous Block</span></p>
-                        <p style="text-align: left;"><span class="prev-block">00000000029358deee026eedle21f1erdgrdgfrttg</span></p>
+                        <p style="text-align: center;"><span class="prev-block">00000000029358deee026eedle21f1erdgrdgfrttg</span></p>
 
                        
                         <div class="d-flex justify-content-around mb-1 hashies-timer">
