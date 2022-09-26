@@ -137,9 +137,62 @@
     }
 }
 
-@media screen and (min-width: 360px) {
-  .hashies-wrapper .tab-submit-yellow {
-        padding: 1.6em;
+@media screen and (min-width: 653px) {
+    .hashies-wrapper .tab-submit-green, .hashies-wrapper .tab-submit-yellow {
+        padding: 1.2em;
+        width: 100px;
+        left: -20px;
+    }
+    .wrapper {
+        padding: 0.7rem;
+    }
+    #switch_box {
+        font-size: 12px;
+    }
+    .hashies-timer-top h3 {
+        font-size: 24px;
+    }
+    .hashies-time {
+        font-size: 20px;
+    }
+    .game-type {
+        font-size:16px;
+    }
+    .eos-img {
+        width: 22px;
+    }
+    .game-code {
+        font-size: 24px;
+    }
+    .test-9 {
+        color:#5e6770;
+        text-align: center;
+        font-size: 14px;
+    }
+    .prev-block {
+        color: #5e6770;
+        font-size: 12px;
+    }
+    .hashies-text {
+        color: #464448;
+        font-size: 10px;
+    }
+    .hashies-timer .card-icons {
+        position: relative;
+        top: 10px;
+    }
+    .gameid {
+        color: #bacede;
+        text-align: center;
+        font-size: 16px;
+    }
+    .hashies-block {
+        color: #bacede;
+        font-size: 10px;
+    }
+    .hashies-block-text {
+        color: #fff;
+        font-size: 16px;
     }
 }
 
