@@ -149,7 +149,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     cursor: pointer;
-    
+
 
 }
 .form-wrapper .tab-submit-green, .form-wrapper .tab-submit-blue, .form-wrapper .tab-submit-yellow {
@@ -163,8 +163,8 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     background: none;
 }
 .content-guard {
-/*    padding-top: 10%;
-    position: relative;*/
+    padding-top: 50px;
+    position: relative;
  /*   margin-bottom: 20%;*/
 }
 .deposit .dropdown-menu, .dropdown-menu.flag-dropdown {
@@ -198,12 +198,23 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 #dropdown-flag::after {
     display: none !important;
 }
+.sticky-header-bar {
+    position: fixed;
+    z-index: 9999;
+}
+.sticky-header-bar.scrolled {
+  background-color: #0b0c10 !important;
+  transition: background-color 200ms linear;
+}
 /**galaxy fold dimension**/
 @media screen and (min-width: 280px) {
   .xx-wrapper {
     min-width: 200px;
     max-width: 280px;
     margin: 0 auto;
+  }
+  .sticky-header-bar {
+    width: 280px;
   }
   .header-title {
     font-size: 12px;
@@ -246,6 +257,9 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     max-width: 360px;
     margin: 0 auto;
   }
+  .sticky-header-bar {
+    width: 360px;
+  }
   .header-title {
     font-size: 16px;
    }
@@ -274,6 +288,9 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     max-width: 375px;
     margin: 0 auto;
   }
+  .sticky-header-bar {
+    width: 375px;
+  }
 }
 
 /**surface duo**/
@@ -287,6 +304,9 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
       max-width: 540px;
       margin: 0 auto;
     }
+    .sticky-header-bar {
+        width: 540px;
+      }
 }
 
 @media screen and (min-width: 600px) {
@@ -295,6 +315,9 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
       max-width: 600px;
       margin: 0 auto;
     }
+    .sticky-header-bar {
+        width: 600px;
+      }
     .header-title {
       font-size: 24px;
     }

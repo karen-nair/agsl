@@ -87,7 +87,7 @@
     <script type="text/javascript">
         $(function () {
           $(document).scroll(function () {
-            var $nav = $(".header-navbar.fixed-top");
+            var $nav = $(".sticky-header-bar");
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
           });
         });

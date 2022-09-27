@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row sticky-header-bar">
     <div class="col-12 header-nav nav-2">
 
     <div class="row">
