@@ -453,12 +453,12 @@
     }
     .eos, .tron {
         font-size: 3.5rem;
-        top: 5%;
+        top: -60px;
     }
 
     .play-wrapper {
         position: absolute;
-        top: 28%;
+        top: 25%;
         left: 25%;
         z-index: 99;
     }
