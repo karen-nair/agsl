@@ -36,7 +36,7 @@ include('header.php');
 
 
       <div class="row py-1">
-         <div class="col-md-12 text-center green-yellow-btn-wrapper">
+         <div class="col-md-12 text-center green-yellow-btn-wrapper" id="confirm-text">
             <div class="tab-submit-green btn-center-align">
                 <span class="unskewed">Submit</span>
                
