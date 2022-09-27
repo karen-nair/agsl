@@ -52,6 +52,14 @@ button#dropdownMenuButton3 {
         padding: 1.2em;
         width: 110px;
     }
+    .swal2-container .tab-submit-green, .swal2-container .tab-submit-yellow {
+        padding: 1em;
+        width: 80px;
+        color: white;
+    }
+    .swal2-content p {
+        font-size: 12px;
+    }
     .asset .hash-copy {
         margin: 0 auto;
         padding: 0.9rem;
