@@ -119,6 +119,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     background-image: url(../../app-assets/images/home/yellow-btn.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    cursor: pointer;
 
 }
 
@@ -132,6 +133,8 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     background-image: url(../../app-assets/images/home/blue-btn.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    cursor: pointer;
+
 
 }
 
@@ -145,6 +148,8 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     background-image: url(../../app-assets/images/home/green-btn.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    cursor: pointer;
+    
 
 }
 .form-wrapper .tab-submit-green, .form-wrapper .tab-submit-blue, .form-wrapper .tab-submit-yellow {
