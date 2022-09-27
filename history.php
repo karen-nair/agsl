@@ -3,7 +3,7 @@ $title = 'Transaction History';
 include('header.php');
 ?>
 
-  <table class="table zero-configuration py-2 history">
+  <table class="table zero-configuration py-2 history table-responsive-sm">
         <thead>
             <tr>
                 <th>Amount</th>
