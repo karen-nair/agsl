@@ -55,6 +55,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/game.css">
     <link rel="stylesheet" type="text/css" href="assets/css/asset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/history.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/news.css">
+
 
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 
