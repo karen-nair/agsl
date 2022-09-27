@@ -1,5 +1,29 @@
 /*****HOME******************************************/
+.home-nav {
+    top: 30px;
+    position: relative;
+    padding-bottom: 30px;
+}
 
+
+.home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
+    background-size: 100% 50%;
+    width: 100%;
+}
+.home .tab-submit-yellow {
+    background-image: url(../../app-assets/images/home/home-yellow-btn.png);
+
+}
+
+.home .tab-submit-blue {
+    background-image: url(../../app-assets/images/home/home-blue-btn.png);
+
+}
+
+.home .tab-submit-green {
+    background-image: url(../../app-assets/images/home/home-green-btn.png);
+
+}
 .play-btn {
     width: 150px;
     left: -50px;
@@ -116,7 +140,7 @@
 @media screen and (min-width: 280px) {
     .home .tagline {
         position: relative;
-        top: -20px;
+        top: -10px;
         width: 10px;
     }
     .play-wrapper h1 {
@@ -150,12 +174,23 @@
         position: relative;
         top: 10%;
     }
+    .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
+        height: 100px;
+        width: 80px;
+        padding: 1.2em !important;
+    }
+    .home .unskewed {
+        font-size: 10px;
+        line-height: 1;
+        top: -5px;
+        position: relative;
+    }
 }
 
 @media screen and (min-width: 360px) {
     .home .tagline {
         position: relative;
-        top: -20px;
+        top: -10px;
         width: 12px;
     }
     .play-wrapper h1 {
@@ -210,6 +245,7 @@
     .home-yellow-active-bg {
         background-size: contain;
     }
+
 }
 
 @media screen and (min-width: 500px) {
@@ -251,6 +287,9 @@
         position: relative;
         top: -30px;
         width: 19px;
+    }
+    .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
+        width: 100%;
     }
 
 
@@ -355,7 +394,7 @@
 }
 
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 720px) {
 
     .eos, .tron {
         font-size: 3.5rem;
@@ -387,6 +426,9 @@
 
     .home-yellow-active-bg {
         background-size: contain;
+    }
+    .home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
+        height: 150px;
     }
 
 }
@@ -433,35 +475,3 @@
     
 }
 
-.home-nav {
-    top: 30px;
-    position: relative;
-    padding-bottom: 30px;
-}
-
-
-.home .tab-submit-yellow, .home .tab-submit-blue, .home .tab-submit-green {
-    background-size: 100% 50%;
-    /*padding: 2.5em !important;*/
-    width: 100%;
-    color: white;
-    position: relative;
-    line-height: 12px;
-    text-align: center;
-    padding: 0.5em;
-    background-repeat: no-repeat;
-}
-.home .tab-submit-yellow {
-    background-image: url(../../app-assets/images/home/home-yellow-btn.png);
-
-}
-
-.home .tab-submit-blue {
-    background-image: url(../../app-assets/images/home/home-blue-btn.png);
-
-}
-
-.home .tab-submit-green {
-    background-image: url(../../app-assets/images/home/home-green-btn.png);
-
-}
